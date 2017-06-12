@@ -135,7 +135,7 @@ public class GUI {
 				legato.setPropList(propList);
 				if (!alignmentField.getText().isEmpty()) legato.setRefAlign(new File(alignmentField.getText()));
 					try {
-						ConceptFinder.loadVocabularies();
+					//	ConceptFinder.loadVocabularies();
 						PropertyHandler.clean(sourceField.getText(), targetField.getText());
 						legato.buildDocuments();
 					} catch (Exception e1) {

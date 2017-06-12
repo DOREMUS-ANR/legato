@@ -25,8 +25,10 @@ public class LEGATO {
 	private static LEGATO legato = new LEGATO();
 	private List<String> classResources;
 	private HashMap<String, String> srcDocs;
+	private HashMap<String, String> srcURIs;
 	private HashMap<String, String> tgtDocs;
-	private double threshold = 0.2;
+	private HashMap<String, String> tgtURIs; 
+	private double threshold = 0.1;
 	private PropList propList; //List of new properties with their path (path = set of existing properties)
 	private File dir;
 	public String DIR_TO_INDEX;
@@ -44,13 +46,16 @@ public class LEGATO {
 			dir = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath());
 			dir = dir.getParentFile();
 			classResources = new ArrayList<String>();
-		//	classResources.add("http://www.southgreen.fr/agrold/vocabulary/Gene");
+		 //   classResources.add("http://www.tomtom.com/ontologies/traces#Trace");	
+		//	classResources.add("http://data.doremus.org/ontology/Self_Contained_Expression");
 			classResources.add("http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression");
 		//	classResources.add("http://www.bbc.co.uk/ontologies/creativework/Programme");
 		//	classResources.add("http://www.bbc.co.uk/ontologies/creativework/NewsItem");
 		//	classResources.add("http://www.bbc.co.uk/ontologies/creativework/BlogPost");
+		    srcURIs = new HashMap<String, String>();
+		    tgtURIs = new HashMap<String, String>();
 		}
-		catch(Exception e) { }
+		catch(Exception e) {}
 	}
 	
 	public static LEGATO getInstance()
@@ -143,9 +148,29 @@ public class LEGATO {
 		return srcDocs;
 	}
 	
+	public void setSrcUri(String docName, String srcUri)
+	{
+		srcURIs.put(docName, srcUri);
+	}
+	
+	public HashMap<String, String> getSrcURIs()
+	{
+		return srcURIs;
+	}
+	
 	public HashMap<String, String> getTGTdocs()
 	{
 		return tgtDocs;
+	}
+	
+	public void setTgtUri (String docName, String tgtUri)
+	{
+		tgtURIs.put(docName, tgtUri);
+	}
+	
+	public HashMap<String, String> getTgtURIs()
+	{
+		return tgtURIs;
 	}
 	
 	public void indexConfig() throws Exception

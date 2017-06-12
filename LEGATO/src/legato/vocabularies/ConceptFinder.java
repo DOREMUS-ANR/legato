@@ -29,7 +29,7 @@ public class ConceptFinder {
 	    vocabularies = new ArrayList<>();
 
 	    GitHubClient gitHubClient = new GitHubClient();
-		String authenticationToken = "41c0a00ce8c8e06e47b9e8d5f03452911f3f0347";
+		String authenticationToken = "fc4fd38d8b570057cf275884af0a77cfa3c0fcae";
 		gitHubClient.setOAuth2Token( authenticationToken );
 		RepositoryService repositoryService = new RepositoryService( gitHubClient );
 		

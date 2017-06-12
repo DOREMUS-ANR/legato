@@ -2,13 +2,17 @@ package legato.document;
 
 import java.io.File;
 import java.io.IOException;
+import java.security.MessageDigest;
 import java.util.HashMap;
 import java.util.List;
+import java.util.UUID;
+
+import javax.xml.bind.DatatypeConverter;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 
-import legato.gui.GUI;
+import legato.LEGATO;
 import legato.rdf.ModelManager;
 import legato.utils.StopWords;
 
@@ -18,6 +22,7 @@ public class DocumentBuilder {
 	 * Build documents for resources in an RDF model 
 	 ***********************************************/
 	public static HashMap<String, String> getDocuments (String pathFile, List<String> classResources, String dataset){
+		LEGATO legato = LEGATO.getInstance();
 		/****
 		 * Load RDF model from the dataset 
 		 ****/
@@ -31,20 +36,19 @@ public class DocumentBuilder {
 			model = CBDBuilder.getCBD(modelSource, resource);
 			Model modelCBD = ModelFactory.createDefaultModel();
 			modelCBD.add(model);
-			/********
-			 ** Options = CBD of direct Predecessors and/or Successors
-			 ********/
-		//	modelCBD.add(CBDBuilder.getCBDDirectPredecessors(modelSource, resource));
-		//	modelCBD.add(CBDBuilder.getCBDDirectSuccessors(modelSource, resource));
-			try {
-			//	modelCBD.add(ModelManager.parseCBD(model));
-				String docName= resource.toString().substring(resource.toString().lastIndexOf("/")+1, resource.toString().length()); //Last fragment of an URI
+			try {			
+				//String docName= resource.toString().substring(resource.toString().lastIndexOf("/")+1, resource.toString().length()); //Last fragment of an URI
+				String docName = generateUUID(resource.getURI());
 				/*****
 				 * Preprocessing before documents creation
 				 *****/
 				String docContent = StopWords.clean(CBDBuilder.getLiterals(modelCBD));
 				if (!docContent.equals("")&&!docContent.equals(null)&&!docContent.equals("\n")&&!docContent.equals(" "))
 				{
+					if (dataset.equals("source"))
+						legato.setSrcUri(docName, resource.getURI());
+					else if (dataset.equals("target"))
+						legato.setTgtUri(docName, resource.getURI());
 					documents.put(docName, docContent); //Construct a document for each resource
 					FileManager.create(docName, docContent, dataset);
 				}
@@ -63,4 +67,15 @@ public class DocumentBuilder {
 		}
 		return docs;
 	}
+	
+	private static String generateUUID(String seed) {
+	    try {
+	      String hash = DatatypeConverter.printHexBinary(MessageDigest.getInstance("SHA-1").digest(seed.getBytes("UTF-8")));
+	      UUID uuid = UUID.nameUUIDFromBytes(hash.getBytes());
+	      return uuid.toString();
+	    } catch (Exception e) {
+	      System.err.println("[ConstructURI.java]" + e.getLocalizedMessage());
+	      return "";
+	    }
+	  }
 }

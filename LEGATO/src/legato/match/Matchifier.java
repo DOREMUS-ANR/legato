@@ -95,7 +95,8 @@ public class Matchifier {
 	    				 String[] resources = clust1.getIDs().split("\n");
 	    				 for (String rsrce : resources) 
 	    				 {
-	    					 Resource resource = ResourceFactory.createResource("http://data.doremus.org/expression/"+rsrce);
+	    					 String uri = legato.getSrcURIs().get(rsrce);
+	    					 Resource resource = ResourceFactory.createResource(uri);
 	    					 model1.add(CBDBuilder.getCBD(srcModel, resource));
 	    				 }
 	    				 Model tgtModel = ModelManager.loadModel(legato.tgt.toString());
@@ -103,7 +104,8 @@ public class Matchifier {
 	    				 resources = clust2.getIDs().split("\n");
 	    				 for (String rsrce : resources) 
 	    				 {
-	    					 Resource resource = ResourceFactory.createResource("http://data.doremus.org/expression/"+rsrce);
+	    					 String uri = legato.getTgtURIs().get(rsrce);
+	    					 Resource resource = ResourceFactory.createResource(uri);
 	    					 model2.add(CBDBuilder.getCBD(tgtModel, resource));
 	    				 }
 	    				 
@@ -158,7 +160,7 @@ public class Matchifier {
 	    	}
 	    	if ((tgtDoc != null) && simVal >=legato.getThreshold())
 	    	{
-	    		mapList1.add("http://data.doremus.org/expression/"+srcDoc.docName, "http://data.doremus.org/expression/"+tgtDoc, simVal);
+	    		mapList1.add(legato.getSrcURIs().get(srcDoc.docName), legato.getTgtURIs().get(tgtDoc), simVal);
 	    	}
 	     }
 	    

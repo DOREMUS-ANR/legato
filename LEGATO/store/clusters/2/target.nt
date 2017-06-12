@@ -1,0 +1,22 @@
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property18> "Op. 51, no 2" .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property19> "51" .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property20> "2" .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property7> "Resumption and conversion of the MARC record of the BnF"@en .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property0> "Quatuors"@fr .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property9> "2017-05-29T21:10:21.551Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property1> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property7> "Reprise et conversion de la notice MARC de la BnF"@fr .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://model.org/property11> "Cordes" .
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property7> "Reprise et conversion de la notice MARC de la BnF"@fr .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property20> "1" .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property7> "Resumption and conversion of the MARC record of the BnF"@en .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property1> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property19> "51" .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property18> "Op. 51, no 1" .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property0> "Quatuors"@fr .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property11> "Cordes" .
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0> <http://model.org/property9> "2017-05-29T21:10:21.565Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

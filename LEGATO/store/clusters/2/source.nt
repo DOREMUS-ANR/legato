@@ -1,0 +1,44 @@
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property4> "Streichquartett" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property2> "1873" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property1> "1"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property0> "Quatuors" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property18> "Op. 51 no 1" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property20> "1" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property4> "Quatuor à cordes no 1 en ut mineur" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property11> "2 violons, alto, violoncelle" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property2> "Créé à Vienne, le 11 décembre 1873, par le quatuor Hellmesberger." .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property25> "Créé à Vienne, le 11 décembre 1873, par le quatuor Hellmesberger" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property7> "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property15> "Vienne" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property9> "2017-05-29T21:08:18.059Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property4> "String Quartet" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property0> "Quatuor à cordes no 1" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property19> "51" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property7> "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property13> "le quatuor Hellmesberger" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property2> "La composition des deux quatuors de l'opus 51 s'est étendue sur vingt ans, aux dires du compositeur ; impressionné par le modéle beethovenien, Brahms cherchera longtemps à s'en soustraire. Ce n'est qu'en pleine maturité compositionnelle qu'il finalise ces quatuors. Ce quatuor no 1 est dédié à Théodor Billroth. Il existe une ranscription pour piano à 4 mains réalisée par le compositeur. Comprend : 1- allegro. 2- romanze (poco adagio). 3- allegro molto moderato. 4- allegro, alla breve.Durée d'exécution : 32 minutes environ" .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://model.org/property9> "2017-05-29T21:08:18.058Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property2> "1873" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property7> "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property11> "2 violons, alto, violoncelle" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property18> "Op. 51 no 2" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property25> "Créé à Vienne, le 3 décembre 1875, par le quatuor Hellmesberger" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property0> "Quatuors" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property7> "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property9> "2017-05-29T21:08:14.302Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property0> "Quatuor à cordes en la mineur" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property2> "La composition des deux quatuors de l'opus 51 s'est étendue sur vingt ans, aux dires du compositeur ; impressionné par le modéle beethovenien, Brahms cherchera longtemps à s'en soustraire. Ce n'est qu'en pleine maturité compositionnelle qu'il finalise ces quatuors. Le quatuor no 2 comme le no 1 est dédié à Theodor Billroth. Comprend : 1- allegro non troppo. 2- andante moderato. 3- quasi menuetto, moderato - allegretto vivace. 4- finale : allegro non assai. Durée d'exécution : 33 minutes environ" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property4> "Quatuor à cordes no 2" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property1> "2"^^<http://www.w3.org/2001/XMLSchema#int> .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property0> "String Quartet" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property15> "Vienne" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property2> "Créé à Vienne, le 3 décembre 1875, par le quatuor Hellmesberger." .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property9> "2017-05-29T21:08:14.303Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property19> "51" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property20> "2" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property13> "le quatuor Hellmesberger" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://model.org/property4> "Streichquartett" .
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .

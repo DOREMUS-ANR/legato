@@ -1,0 +1,945 @@
+<http://data.doremus.org/expression/6d16439e-a187-33b2-91c2-4fb4b1360ee6>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuor à cordes no 1" ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property13>  "le quatuor Rosé" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property18>  "Op. 7" ;
+        <http://model.org/property19>  "7" ;
+        <http://model.org/property2>   "1904-1905" , "Le premier quatuor de Schoenberg est représentatif des efforts du compositeur qui, dans sa première période, cherche à intégrer les techniques compositionnelles du passé (notamment concilier les influences de Wagner et Brahms) et dépasser ses propres influences. Dans les oeuvres de la même période (par exemple le poème symphonique \"Pelleas et Mélisande\", Opus 5, et la \"Symphonie de chambre\", Opus 9) Schoenberg travaille sur une forme en un seul tenant, fondant les mouvements traditionnels (allegro, adagio, scherzo, finale) en un long mouvement à la fois très diversifié dans ses parties successives et très unifié du point de vue thématique. Cette attention particulière donnée au \"motif\" se traduit surtout par une polyphonie complexe, où toutes les parties deviennent thématiques. Quant à l'univers harmonique, il devient, de part cette polyphonie, de plus en plus chromatique, conduisant Schoenberg vers la musique atonale qui apparaitra dans son quatuor suivant, trois ans plus tard." , "Création : 5 février 1907 à Vienne par le quatuor Rosé" ;
+        <http://model.org/property4>   "Quatuor no 1" , "Quatuors" , "Streichquartett" , "String quartet" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:11.040Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:11.041Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/fd8cf241-f9d5-3a24-93e7-10c54c6839c7>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza X pour trompette" , "Dixième Sequenza" , "Sequenza X" ;
+        <http://model.org/property11>  "Trompette et résonnance de piano" ;
+        <http://model.org/property15>  "Los Angeles Par David Stevens" ;
+        <http://model.org/property2>   "1984" , "Note de l'auteur : \"Le processus d'assimilation, de transformation et de dépassement des aspects instrumentaux (ou vocaux) traditionnels fait parfois partie intégrante du développement musical des \"Sequenze\" précédentes. En revanche, dans la \"Sequenza X\", pour trompette et résonance de piano, ce processus est pratiquement absent (si l'on excepte un passage fugace où il est fait référence à l'hymne israélien, l' \"Ha Tiqwa\", l' \"Espérance\"). Il n'y a pas non plus ici de transformations du timbre ni d' \" embellissements\". La trompette est utilisée de maniére naturelle et directe, et c'est peut-être précisément cette nudité qui fait de la \"Sequenza X\" la plus difficile de toutes les \"Sequenze\". Dédiée à Thomas Stevens." , "Créée en 1984 à Los Angeles Par David Stevens." ;
+        <http://model.org/property21>  "1984" ;
+        <http://model.org/property23>  "1984" ;
+        <http://model.org/property24>  "1984" ;
+        <http://model.org/property25>  "Créée en 1984 à Los Angeles Par David Stevens" ;
+        <http://model.org/property27>  "1984" ;
+        <http://model.org/property4>   "Sequenza 10" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:12.075Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:12.077Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/cdf510dc-8613-3c86-9442-a06c2535f373>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Mazurka" , "Trois mazurkas no 33, no 34 et no 35" ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> , "2"^^<http://www.w3.org/2001/XMLSchema#int> , "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "CT 8-85" , "CT 83-84-85" , "CT 83-85" ;
+        <http://model.org/property18>  "Op.56" ;
+        <http://model.org/property19>  "56" ;
+        <http://model.org/property2>   "1843-1844" , "Dédicace à Catherine Maberly" , "Première publication : Leipzig et Paris, 1844 ; Londres, 1845" ;
+        <http://model.org/property4>   "3 Mazurkas" , "Trois sonates" , "Drei mazurken" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property6>   "no 1 en si majeur. no 2 en do majeur. no 3 en do mineur"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "11"^^<http://www.w3.org/2001/XMLSchema#int> , "10"^^<http://www.w3.org/2001/XMLSchema#int> , "66"^^<http://www.w3.org/2001/XMLSchema#int> , "25"^^<http://www.w3.org/2001/XMLSchema#int> , "78"^^<http://www.w3.org/2001/XMLSchema#int> , "71"^^<http://www.w3.org/2001/XMLSchema#int> , "16"^^<http://www.w3.org/2001/XMLSchema#int> , "47"^^<http://www.w3.org/2001/XMLSchema#int> , "46"^^<http://www.w3.org/2001/XMLSchema#int> , "35"^^<http://www.w3.org/2001/XMLSchema#int> , "34"^^<http://www.w3.org/2001/XMLSchema#int> , "31"^^<http://www.w3.org/2001/XMLSchema#int> , "30"^^<http://www.w3.org/2001/XMLSchema#int> , "19"^^<http://www.w3.org/2001/XMLSchema#int> , "18"^^<http://www.w3.org/2001/XMLSchema#int> , "41"^^<http://www.w3.org/2001/XMLSchema#int> , "40"^^<http://www.w3.org/2001/XMLSchema#int> , "79"^^<http://www.w3.org/2001/XMLSchema#int> , "24"^^<http://www.w3.org/2001/XMLSchema#int> , "55"^^<http://www.w3.org/2001/XMLSchema#int> , "54"^^<http://www.w3.org/2001/XMLSchema#int> , "67"^^<http://www.w3.org/2001/XMLSchema#int> , "12"^^<http://www.w3.org/2001/XMLSchema#int> , "43"^^<http://www.w3.org/2001/XMLSchema#int> , "42"^^<http://www.w3.org/2001/XMLSchema#int> , "27"^^<http://www.w3.org/2001/XMLSchema#int> , "26"^^<http://www.w3.org/2001/XMLSchema#int> , "73"^^<http://www.w3.org/2001/XMLSchema#int> , "72"^^<http://www.w3.org/2001/XMLSchema#int> , "49"^^<http://www.w3.org/2001/XMLSchema#int> , "48"^^<http://www.w3.org/2001/XMLSchema#int> , "37"^^<http://www.w3.org/2001/XMLSchema#int> , "36"^^<http://www.w3.org/2001/XMLSchema#int> , "33"^^<http://www.w3.org/2001/XMLSchema#int> , "32"^^<http://www.w3.org/2001/XMLSchema#int> , "63"^^<http://www.w3.org/2001/XMLSchema#int> , "62"^^<http://www.w3.org/2001/XMLSchema#int> , "51"^^<http://www.w3.org/2001/XMLSchema#int> , "75"^^<http://www.w3.org/2001/XMLSchema#int> , "20"^^<http://www.w3.org/2001/XMLSchema#int> , "13"^^<http://www.w3.org/2001/XMLSchema#int> , "50"^^<http://www.w3.org/2001/XMLSchema#int> , "81"^^<http://www.w3.org/2001/XMLSchema#int> , "57"^^<http://www.w3.org/2001/XMLSchema#int> , "80"^^<http://www.w3.org/2001/XMLSchema#int> , "56"^^<http://www.w3.org/2001/XMLSchema#int> , "69"^^<http://www.w3.org/2001/XMLSchema#int> , "68"^^<http://www.w3.org/2001/XMLSchema#int> , "45"^^<http://www.w3.org/2001/XMLSchema#int> , "44"^^<http://www.w3.org/2001/XMLSchema#int> , "83"^^<http://www.w3.org/2001/XMLSchema#int> , "21"^^<http://www.w3.org/2001/XMLSchema#int> , "28"^^<http://www.w3.org/2001/XMLSchema#int> , "59"^^<http://www.w3.org/2001/XMLSchema#int> , "58"^^<http://www.w3.org/2001/XMLSchema#int> , "74"^^<http://www.w3.org/2001/XMLSchema#int> , "9"^^<http://www.w3.org/2001/XMLSchema#int> , "65"^^<http://www.w3.org/2001/XMLSchema#int> , "64"^^<http://www.w3.org/2001/XMLSchema#int> , "53"^^<http://www.w3.org/2001/XMLSchema#int> , "77"^^<http://www.w3.org/2001/XMLSchema#int> , "76"^^<http://www.w3.org/2001/XMLSchema#int> , "15"^^<http://www.w3.org/2001/XMLSchema#int> , "52"^^<http://www.w3.org/2001/XMLSchema#int> , "14"^^<http://www.w3.org/2001/XMLSchema#int> , "29"^^<http://www.w3.org/2001/XMLSchema#int> , "82"^^<http://www.w3.org/2001/XMLSchema#int> , "17"^^<http://www.w3.org/2001/XMLSchema#int> , "70"^^<http://www.w3.org/2001/XMLSchema#int> , "8"^^<http://www.w3.org/2001/XMLSchema#int> , "39"^^<http://www.w3.org/2001/XMLSchema#int> , "38"^^<http://www.w3.org/2001/XMLSchema#int> , "84"^^<http://www.w3.org/2001/XMLSchema#int> , "85"^^<http://www.w3.org/2001/XMLSchema#int> , "23"^^<http://www.w3.org/2001/XMLSchema#int> , "61"^^<http://www.w3.org/2001/XMLSchema#int> , "22"^^<http://www.w3.org/2001/XMLSchema#int> , "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:10.823Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:11.982Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/6abaa561-fdab-3e17-a96f-ed7a10259138>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate pour piano no 2" , "Sonates" ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property13>  "Yvette Grimaud" ;
+        <http://model.org/property14>  "Créée à Paris, Ecole normale de musique, concert des éditeurs, par Yvette Grimaud, le 29 avril 1950" ;
+        <http://model.org/property15>  "Paris" ;
+        <http://model.org/property2>   "Sonate en quatre mouvements : 1- Extrêmement rapide. 2- Lent. 3- Modéré, presque vif. 4- Très librement. Durée d'exécution : 30 minutes environ" , "Créée à Paris, Ecole normale de musique, concert des éditeurs, par Yvette Grimaud, le 29 avril 1950. Première édition : 1950" , "1948" ;
+        <http://model.org/property4>   "Deuxième sonate pour piano" , "Sonata" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:13.736Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c928385c-b311-3477-b657-b2864467480c>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate no 12 en do majeur" , "Sonates" , "Sonate in C für Klavier" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 612" , "D 613" ;
+        <http://model.org/property2>   "Avril 1818" , "Schubert a laissé inachevés les premier et dernier mouvements (D 613). La mouvement central est noté à part,mais complet (D 612)." , "Edition du mouvement D 612 en 1869, et les deux mouvements D 613 en 1897" ;
+        <http://model.org/property4>   "Sonate pour piano" , "Sonata in c major" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "612"^^<http://www.w3.org/2001/XMLSchema#int> , "613"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:19.646Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:19.644Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/23e6481c-84f9-3b71-951a-b2e9cfa95564>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonates" , "Sonate pour piano" , "Sonate no 18 en la mineur" , "Sonate in a" ;
+        <http://model.org/property11>  "piano" ;
+        <http://model.org/property12>  "D 845" ;
+        <http://model.org/property18>  "Op.42" ;
+        <http://model.org/property19>  "42" ;
+        <http://model.org/property2>   "Titre original : \"Première Grande Sonate pour le Piano-Forte dédiée à (...) l'Archiduc d'Autriche. Seizième tentative de Schubert dans ce domaine, la Sonate en la mineur D. 845 est la première à être publiée de son vivant. Elle présente de nombreux points communs avec la contemporaine Sonate en ut majeur D. 840 composée en avril 1825 : allure générale du premier mouvement Moderato, liens thématiques, recherches nouvelles dans le domaine de l'écriture polyphonique, exploitation systématique de toute l'étendue du clavier. Le deuxième mouvement, Andante poco moto, est un thème et variations, le seul de toutes les sonates pour piano de Schubert. Après l'avoir interprété devant une assemblée d'amis au début de l'été 1825, le compositeur écrit à ses parents avec une certaine satisfaction : \"Les variations de ma nouvelle sonate ont beaucoup plu, je les ai jouées seul, non sans succès, et plusieurs personnes m'ont assuré que, sous mes mains, les touches devenaient des voix chantantes, ce qui, si cela est vrai, m'a fait le plus grand plaisir, car je ne puis souffrir ce maudit style haché, propre à certains pianistes notoires, mais qui ne peut contenter ni l'oreille, ni le sentiment\". Cette lettre datée du 25 juillet 1825 constitue l'un des rares témoignages de Schubert sur son propre jeu pianistique. Cette sonate se compose de quatre mouvements : Moderato ; Andante, poco mosso ; Scherzo : allegro vivace ; Rondo : allegro vivace" , "mai 1825" ;
+        <http://model.org/property4>   "Sonata in a minor" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "845"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:14.140Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:14.137Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/a4caedd0-3907-31d3-bd91-b1d77e311447>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza XIV" , "Sequenza 14" ;
+        <http://model.org/property11>  "violoncelle" ;
+        <http://model.org/property14>  "Editeur : Universal Edition" ;
+        <http://model.org/property2>   "La Sequenza XIV fut en partie inspirée à Berio par l'intérêt qu'il portait aux rythmes des percussions de Kandy, l'ancienne capitale de l'actuel Sri Lanka, notamment le tambour de Kandy ayant pour particularité de produire quatre sons différents, deux par face. Dans cette Sequenza Berio utilise, de manière assez libre, un rythme à douze temps, ajoutant ou retranchant un temps selon l'épisode. Les parties rythmiques de la pièce développent leur cadence avec un motif toujours renouvelé au moyen de frappes, en général simultanées, des doigts de la main gauche sur les cordes et de la main droite sur la caisse du violoncelle, sans utilisation de l'archet. Commande du WDR Cologne, Fondation Calouste Gulbenkian Lisbonne, Societa del Quartetto di Milano. Dédiée à Rohan de Saram. Une adaptation pour contrebasse de la Sequenza XIV a été créée par Stefanio Scodanibbio en 2004 sous le nom de Sequenza XIVb. Cette dernière fut jouée pour la première fois le 15 juin 2004 à Stuttgart par Stefanio Scodanibbio. Elle est éditée chez Universal Edition et dure environ 13 minutes." , "2002." , "28 avril 2002 à Witten par le dédicataire, Rohan de Saram. Editeur : Universal Edition." ;
+        <http://model.org/property4>   "Sequenza XIV pour violoncelle" , "Quatorzième Sequenza" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:10.892Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:10.891Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/6f78c5cc-bc37-3aec-8aea-7ca5a3a87e1a>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuors" , "Quatuor à cordes no 3" ;
+        <http://model.org/property1>   "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property10>  "D 36" ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property12>  "D.36" ;
+        <http://model.org/property2>   "Novembre 1812 à février 1813" , "4 Mouvements : 1- Allegro. 2- Andante. 3- Menuet-allegro. 4- Allegretto. Durée d'exécution : environ 31 minutes" ;
+        <http://model.org/property4>   "Streichquartett" , "Quatuor à cordes" , "String Quartet" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "36"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:20.180Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:20.182Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/a896127b-9658-3ee0-a714-44fa8247db64>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza VII" , "Sequenza VII pour hautbois" , "Sequenza 7" ;
+        <http://model.org/property11>  "Hautbois" ;
+        <http://model.org/property13>  "Heinz Holliger" ;
+        <http://model.org/property15>  "Bâle" ;
+        <http://model.org/property2>   "Créée en 1969 à Bâle par Heinz Holliger" , "Note de l'auteur : \"La Sequenza VII est habitée d'une sorte de conflit permanent - à mon avis très expressif et parfois dramatique - entre l'extrême vélocité du phrasé instrumental et la lenteur des procédés musicaux qui déterminent le parcours : on notera par exemple une certaine immobilité des registres, l'absence prolongée de certaines notes et l'envahissement très progressif de certains intervalles (de la quinte juste, notamment, qui se souvient du cor anglais du troisième acte de \"Tristanet Isolde\"). Avec la \"Sequenza VII\" (comme avec les Sequenze pour flûte, trombone, clarinette, trompette et basson), je poursuis la recherche d'une polyphonie virtuelle. Ici, la partie soliste est mise en perspective, elle est pour ainsi dire \"analysée\" à travers la présence constante d'une \"tonique\", un si bécarre qui peut être joué pianissimo par n'importe quel autre instrument en coulisse.\"Dédié à Heinz Holliger." , "1969" ;
+        <http://model.org/property21>  "1969" ;
+        <http://model.org/property23>  "1969" ;
+        <http://model.org/property24>  "1969" ;
+        <http://model.org/property27>  "1969" ;
+        <http://model.org/property4>   "Septième sequenza" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:12.480Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:12.481Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/0759843a-eb24-3294-a1bc-3a31ca26c07b>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Concerto pour violoncelle et orchestre" ;
+        <http://model.org/property11>  "Violoncelle solo, 1 flûte/piccolo, 1 hautbois/cor anglais, 2 clarinette/clarinette basse, basson, cor, trompette en ré/en ut, trombone ténor/basse, harpe, violons I, violon II, alto, violoncelle, contrebasse" ;
+        <http://model.org/property13>  "Siegfried Palm" , "orchestre de la Radio de Berlin" , "Henrick Czyz" ;
+        <http://model.org/property15>  "Berlin" ;
+        <http://model.org/property2>   "19 avril 1967 à Berlin par Siegfried Palm, violoncelle (dédicataire de l'oeuvre), orchestre de la Radio de Berlin sous la direction de Henrick Czyz." , "1966" , "Le Concerto pour violoncelle s+organise en deux volets de durée égale, semblables par leurs dernières mesures, à la façon d+un distique librement rimé. La cadence du soliste qui clôt le second volet « cadence chuchotée », elle se situe au plus loin du pathos des concertos traditionnels [...] (Peter Szendy)" ;
+        <http://model.org/property25>  "19 avril 1967 à Berlin par Siegfried Palm, violoncelle (dédicataire de l'oeuvre), orchestre de la Radio de Berlin sous la direction de Henrick Czyz" ;
+        <http://model.org/property26>  "conducteur"@fr ;
+        <http://model.org/property4>   "Concertos" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:08.070Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:08.069Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/80030f39-08a6-3874-937f-e5b50ecc51fd>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Lamento d'Arianna" , "Madrigaux" , "Lasciatemi morire" ;
+        <http://model.org/property11>  "5 voix" ;
+        <http://model.org/property12>  "SV 107" ;
+        <http://model.org/property16>  "SV" ;
+        <http://model.org/property2>   "Le lamento d'Arianna est un ensemble de 4 madrigaux. Il appartient au sixième livre de madrigaux , publié à Venise où Monteverdi vient de s'installer en 1613. Il a été composé à partir de l'opéra Arianna écrit par l'auteur et disparu. Texte d'Ottavio Rinuccini. Une autre version existe, écrite en 1623, pour soprano et basse continue. Comprend : 1- Lasciatemi morire (\"Laissez-moi mourir\"), 2- O Teseo, teseo mio (\"O Thésée, ô mon Thésée\"), 3- Dove, dov'e la fede (\"Où est, où est la foi ?\"), 4- Ahi che non pur risponde (\"Hélas, tu ne réponds pas\")" , "vers 1610" , "Première publication : Venise, 1614" ;
+        <http://model.org/property4>   "Lamento d'Arianna (Madrigal Livre 6)" , "Madrigal" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "107"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T14:26:11.601Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:11.604Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/edcf2bdf-a6c7-3108-a560-7fbaaf95bbba>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonata" ;
+        <http://model.org/property11>  "clavier" ;
+        <http://model.org/property12>  "K 69" , "L 382" ;
+        <http://model.org/property16>  "L" ;
+        <http://model.org/property2>   "Première moitié du 18 ème siècle" , "Domenico Scarlatti a composé 555 sonates. Très peu ont été publiées de son vivant. Il est difficile de les dater et de déterminer à quel (s) instrument (s) elles sont destinées. Cette sonate, dont la deuxième partie utilise dans le même ordre le matériel thématique de la première partie, s'abreuve à la danse espagnole. Moderato. 3/4. L 382" ;
+        <http://model.org/property4>   "Sonates" , "Sonate pour clavecin" , "Sonate pour clavecin ou pianoforte" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "69"^^<http://www.w3.org/2001/XMLSchema#int> , "382"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:14.781Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:14.785Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/25189f7e-ebcb-34fe-a935-91afcd8089bf>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sequenza 12" , "Sequenza XII" , "Sequenza XII pour basson" , "Douzième Sequenza" ;
+        <http://model.org/property11>  "basson" ;
+        <http://model.org/property14>  "Editeur : Universal Edition" ;
+        <http://model.org/property2>   "1995" , "15 juin 1995 au Théâtre du Châtelet, Paris, par Pascal Gallois, le dédicataire de l'oeuvre. Editeur : Universal Edition." , "La Sequenza XII est une exploration des différentes facettes de la personnalité du basson, qu'il s'agisse de ses diverses morphologies, de ses possibilités d'articulation ou encore de ses caractéristiques de timbre et de dynamique. Cette oeuvre a une structure circulaire, navigant glissando entre les registres extrêmes de l'instrument, dans un constant renouvellement des registres et des tempos. Commande de l'Ensemble Intercontemporain. Dédiée à Pascal Gallois." ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:10.804Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:10.805Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/393f054f-6431-3bdd-bf09-a7c482edaa9e>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property11>  "Voix et piano" ;
+        <http://model.org/property13>  "Maria Olszewka" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property18>  "Op. 14" ;
+        <http://model.org/property19>  "14" ;
+        <http://model.org/property2>   "Créé à Vienne le 5 novembre 1920, par Maria Olszewka et le compositeur" , "Ce cycle de Lieder est dédié à Franz Schalk. Il existe une version orchestrée. Comprend : 1- Sterbelied (poème de Christina G. Rossetti traduit par Alfred Kerr). 2- Dies eine kann mein Sehnen nimmer fassen (poème de Edith Ronsperger). 3- Mond, so gehst du wieder auf (poème de Ernst Lothar). 4- Gefasster Abschied (poème de Ernst Lothar). - Dédié à Franz Schalk. -" , "1915" ;
+        <http://model.org/property4>   "Lieder des Abschieds" , "Abschiedslieder" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:16.466Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:16.467Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate no 2 pour clarinette et piano en mi bémol majeur" ;
+        <http://model.org/property11>  "Clarinette, piano" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property18>  "Op.120 no 2" ;
+        <http://model.org/property19>  "120" ;
+        <http://model.org/property2>   "1894" , "Les deux sonates pour clarinette et piano, destinées au virtuose Richard Mühlfeld, comme le trio et le quintette précédents, sont les dernières oeuvres de musique de chambre de Brahms. Elles ont été composées parallèlement, et sont très semblables par leur esthétique : mêmes brieveté et concentration des mouvements, intimité de l'expression, refus de toute virtuosité. La sonate en mi bémol majeur se compose de 3 mouvements : 1- Allegro amabile. 2- Allegro appassionato. 3- Andante con moto. Durée d'exécution : 21 minutes environ" , "Créée à Vienne, les 8 et 11 janvier 1895 avec la sonate no 1 pour clarinette et piano." ;
+        <http://model.org/property20>  "2" ;
+        <http://model.org/property25>  "Créée à Vienne, les 8 et 11 janvier 1895 avec la sonate no 1 pour clarinette et piano" ;
+        <http://model.org/property4>   "Sonate pour clarinette et piano no 2" , "Sonates" , "Clarinet and pianoforte sonata" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:08:24.241Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:24.240Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/98d7bc87-98f7-3351-9b66-0dd681dcea81>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonates" ;
+        <http://model.org/property11>  "piano" ;
+        <http://model.org/property12>  "D 557" , "D. 557" ;
+        <http://model.org/property2>   "mars 1817" , "La Sonate en la mineur D. 537 est la première de la série de sonates composées en 1817. Dans le traitement des thèmes et de leur accompagnement (batteries d'accords répétés), comme dans l'écriture rythmique, cette sonate en trois mouvements (Allegro ma non troppo ; Allegretto quasi andantino ; Allegro vivace) présente de nombreux gestes déjà expérimentés par Schubert dans le domaine du lied. A plusieurs reprises surgissent des mélodies qui auraient pu constituer la matière première de lieder. Cette veine essentiellement lyrique constitue pour Schubert une manière de s'affranchir de l'influence des sonates beethoveniennes." ;
+        <http://model.org/property4>   "Sonata in a flat major" , "Sonate pour piano" , "Sonate in A b für Klavier" , "Sonate en la b majeur no 6" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "557"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:13.903Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:13.908Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/a1e86c44-2227-323f-9a7b-11250b3c408b>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Je me suis embarqué" ;
+        <http://model.org/property18>  "Op. 118 no 2" ;
+        <http://model.org/property19>  "118" ;
+        <http://model.org/property20>  "2" ;
+        <http://model.org/property4>   "L'horizon chimérique" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:14.150Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/9ec30f3f-c70d-3331-b54a-6bd847c343bd>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Treizième Sequenza" ;
+        <http://model.org/property11>  "Accordéon" ;
+        <http://model.org/property13>  "Teodoro Anzellotti" , "à Rotterdam" ;
+        <http://model.org/property2>   "Durée d'exécution : 12 minutes" , "1995" , "Créée par Teodoro Anzellotti, son commanditaire, en novembre 1995 à Rotterdam" ;
+        <http://model.org/property4>   "Sequenza 13" , "Sequenza XIII pour accordéon \"Chanson\"" , "Sequenza XIII" , "Sequenza XIII pour accordéon" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:14.740Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/63550bbe-0aab-3231-baab-9c3b8f11ca5f>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Streichquartett" , "Quatuor à cordes" ;
+        <http://model.org/property1>   "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property10>  "D 46" ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property12>  "D.46" ;
+        <http://model.org/property2>   "4 Mouvements : 1- Adagio. 2- Andante con moto.3- Menuet (Allegro)4- Finale (Allegro). Ecrit en quelques jours dans une période de grande création. Durée d'exécution : 25 minutes environ" , "Mars 1813" ;
+        <http://model.org/property4>   "Quatuors" , "Quatuor à cordes no 4" , "String Quartet" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "46"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:20.449Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:20.447Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/e41ea5f9-b5bb-3ddd-be1f-48056a29d265>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Aventures" ;
+        <http://model.org/property11>  "Soprano, alto, baryton, flûte, cor, percussion, piano/célesta, clavecin, violoncelle, contrebasse" ;
+        <http://model.org/property2>   "Commande du Norddeutschen Rundfunks, Hamburg. Cette pièce renonce à l'utilisation du langage : les chanteurs ne disposent pas de texte mais disent de \"simples\" onomatopées. Elle fut composée au moment où le compositeur faisait partie du mouvement \"Fluxus\" et subissait l'influence de John Cage. Comprend : Agitato ; Presto ; Conversation ; Allegro appassionato ; Sostenuto grandioso ; Action dramatique. Durée : environ 11 minutes" , "1962" , "4 avril 1963, \"Das Neue Werk\", Hambourg, par Gertie Charlent (soprano), Marie-Thérèse Chan (contralto), William Pearson (baryton), et des membres de l'Orchestre de la radio de Hambourg (NDR) dirigés par Friedrich Cerha." ;
+        <http://model.org/property25>  "4 avril 1963, \"Das Neue Werk\", Hambourg, par Gertie Charlent (soprano), Marie-Thérèse Chan (contralto), William Pearson (baryton), et des membres de l'Orchestre de la radio de Hambourg (NDR) dirigés par Friedrich Cerha" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:08:12.654Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:12.653Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/5659d323-e8b2-3490-a763-4585bba2849c>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Esprit rude/Esprit doux, I" ;
+        <http://model.org/property11>  "Flûte et clarinette" ;
+        <http://model.org/property13>  "les solistes de l'Ensemble Intercontemporain" ;
+        <http://model.org/property14>  "Edition : Boosey & Hawkes" ;
+        <http://model.org/property15>  "Baden-Baden" ;
+        <http://model.org/property2>   "Cette oeuvre est dédiée à Pierre Boulez à l'occasion de son soixantième anniversaire. Durée d'exécution : 5 minutes environ" , "1985" , "Créé à Baden-Baden, le 31 mars 1985, par les solistes de l'Ensemble Intercontemporain. Edition : Boosey & Hawkes." ;
+        <http://model.org/property25>  "Créé à Baden-Baden, le 31 mars 1985, par les solistes de l'Ensemble Intercontemporain" ;
+        <http://model.org/property4>   "Esprit rude / Esprit doux, I" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T21:08:24.529Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/31057298-ef52-3645-851f-d7acad02e26b>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonates" ;
+        <http://model.org/property11>  "Clavier" ;
+        <http://model.org/property12>  "K 386" , "L 171" ;
+        <http://model.org/property16>  "L" ;
+        <http://model.org/property2>   "Première moitié du 18 ème siècle" , "Domenico Scarlatti a composé 555 sonates. Très peu ont été publiées de son vivant. Il est difficile de les dater et de déterminer à quel (s) instrument (s) elles sont destinées. Ecrite à deux voix continûment, cette sonate ressemble à une toccata vive avec des arpèges brisés, des montées chromatiques. La trame des croches est quasiment ininterrompue et renforce le sentiment d'un discours musical volubile. Presto. 4/4. L 171" ;
+        <http://model.org/property4>   "Sonata" , "Sonate pour clavecin ou pianoforte" , "Sonate pour clavecin" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "386"^^<http://www.w3.org/2001/XMLSchema#int> , "171"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:14.964Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:14.969Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/3276a718-43f2-3bbb-a756-1a17398107cd>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza III pour voix de femme" ;
+        <http://model.org/property11>  "voix de femme soliste" ;
+        <http://model.org/property14>  "Editeur : Universal Editions, Londres" ;
+        <http://model.org/property17>  "Londres" ;
+        <http://model.org/property2>   "Brême, 1966, par Cathy Berberian. Editeur : Universal Editions, Londres" , "Cette oeuvre a été composée en 1966 pour Cathy Berberian, sur un texte de Markus Kutter. Elle se référe à la voix dans sa manifestation quotidienne la plus importante pour Berio, à savoir le rire. Durée d'exécution : 8 minutes environ" , "1966" ;
+        <http://model.org/property4>   "Sequenza III" , "Troisième Sequenza" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:10.431Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:10.432Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/064022e3-18a4-3c0b-bcfb-e3b6e297e36d>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate pour piano no 3" , "Troisième sonate pour piano" , "Sonata" ;
+        <http://model.org/property1>   "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property15>  "Darmstadt" ;
+        <http://model.org/property2>   "Créée à Darmstadt par le compositeur en 1957" , "Cette sonate est constituée de cinq \"formants\" : Antiphonie, Trope, Constellation, Strophe et Séquence. Seuls les 2e et 3e formants sont publiés. Le Formant 2 (Trope) est composé de quatre sections : Commentaire, Glose , Texte, Parenthèse, qui peuvent être jouées dans différents ordres. Cette oeuvre nécessite un piano à 3 pédales. - Durée d'exécution : 20 minutes environ" , "1955-1957" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:13.401Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:13.400Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/4bae28c6-5456-345f-b674-438744f4cc95>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonata in A major" , "Sonates" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 959" ;
+        <http://model.org/property2>   "1828" , "Deuxième des trois dernières sonates écrites deux mois avant la mort du compositeur, cette oeuvre est la plus développée de Schubert. Comprend 4 mouvements : 1-Allegro ; 2-Andantino ; 3-Scherzo ; 4-Allegretto" ;
+        <http://model.org/property4>   "Sonate in A für Klavier" , "Sonate no 22 en la majeur" , "Sonate no 19 D 959" , "Sonate pour piano" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "959"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:18.644Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:18.645Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/1a9d4c71-691e-39ca-86c1-724f44e20e70>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Suite pour petit orchestre" , "Suite for small orchestra" ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Orchestre" ;
+        <http://model.org/property2>   "\"La Suite no 1 résulte de l'orchestration de quatre des cinq \"Pièces faciles pour piano à quatre mains\" composées en 1916-1917 et dédiées \"à Madame Eugenia Errazuriz - hommage très respectueux\" (Anne Grange). Comprend : 1- Andante. 2- Napolitana. 3- Espanola. 4- Balalaïka" , "1917-1925" ;
+        <http://model.org/property4>   "Suites" , "Suite pour petit orchestre no 1" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:15.230Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:15.229Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/550b9764-3423-3233-a617-2a04d34575a6>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Chant et piano" ;
+        <http://model.org/property14>  "Première édition : Paris, Durand, 1922" ;
+        <http://model.org/property15>  "Paris" ;
+        <http://model.org/property18>  "Op. 118" ;
+        <http://model.org/property19>  "118" ;
+        <http://model.org/property2>   "Créé à Paris, Société nationale de musique, le 13 mai 1922. Première édition : Paris, Durand, 1922" , "1921" , "Cycle de mélodies sur des poèmes de Jean de La Ville de Mirmont, dédicacé à Charles Panzéra. Comprend : 1- La mer est infinie. 2- Je me suis embarqué. 3- Diane Séléné. 4- Vaisseaux, nous vous aurons aimés" ;
+        <http://model.org/property25>  "Créé à Paris, Société nationale de musique, le 13 mai 1922" ;
+        <http://model.org/property4>   "L'horizon chimérique" , "L'horizon chimérique : La mer est infinie. Je me suis embarqué. Diane Séléné. Vaisseaux, nous vous aurons aimés" ;
+        <http://model.org/property5>   "mélodie française"@fr , "cycle de mélodies"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:14.389Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:14.390Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/6041b81b-636b-3ce5-a581-7e85e7a9100e>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "La Castelane" , "Ordre no 11" , "Onzième ordre" ;
+        <http://model.org/property1>   "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Clavecin" ;
+        <http://model.org/property2>   "vers 1717" , "Fait partie du deuxième livre publié en 1716-1717. Couperin publie quatre livres en dix-sept ans (1713, 1717, 1722 et 1730). Deux-cent-trente-trois pièces sont groupées en vingt-sept ordres, . Le 11ème ordre comprend : La Castalane, L'Etincelante ou la Bontemps, Les Grâces naturelles, La Zénobie, Les Fastes de la grande et ancienne Ménestrandise. Les pièces de Couperin portent toujours un titre : le nom d'une danse, un sujet , souvent un nom de femme. Est-ce un portrait? une dédicace? Qui est la \"Castallane\" parmi les nombreux tenants de cette famille apparenté à Mme de Sévigné? Pour la \"Bontemps\"il s'agit de l'épouse de Louis-Alexandre de Bontemps, valet de chambre du roi, chargé d'organiser les concerts privés de sa majesté. Les\" Fastes de la grande et ancienne Ménestrandise\" renvoie à la querelle qui agita le monde musical dans les années 1692-95. La Corporation des Ménestrier dont le chef dirigeait la \"Bande des 24 violons du Roi\", prétendit que tous les musiciens, organistes, clavecinistes inclus, devraient être affiliés et cotiser. Les musiciens indépendants se révoltèrent et eurent gain de cause. Couperin, organiste du Roi et musicien de la \"Chambre\" était l'un d'eux.. Dans cette pièce en cinq parties, il se moque des prétentions des Ménéstriers à asservir tous les artistes." ;
+        <http://model.org/property4>   "L'Etincelante ou la Bontemps" , "La Zénobie" , "Pièces de clavecin. Livre 2 Ordre11" , "Ordres" , "Les grâces-naturelles" , "Les Fastes de la grande et ancienne Ménestrandise." ;
+        <http://model.org/property6>   "Do mineur et majeur"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:07.880Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:07.875Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f5072604-84d3-3bef-854c-3e82c2dbdec7>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate en do majeur" , "Sonate pour piano \"Reliquie\"" , "Sonate in C für Klavier" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D. 840" , "D 840" ;
+        <http://model.org/property2>   "Une des plus vastes et des plus puissantes sonates de Schubert. Pourtant elle est inachevée. Publiée en 1861 sous le nom de \"Reliquie\", car on pensait qu'il s'agissait de la dernière sonate et que l'inachèvement était dû à la mort du compositeur. Plusieurs musiciens, dont Ernst Krenek, ont complété les parties manquantes. Les deux mouvements entièrement de la main de Schubert sont le premier mouvement \"Moderato\" à l'écriture pianistique très orchestrale, et le second \"Andante\" en ut mineur, d'un lyrisme beaucoup plus sombre." , "Avril 1825" , "Première édition : 1861" ;
+        <http://model.org/property4>   "Reliquie" , "Sonates" , "Sonate no 8" , "Sonata in C major" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "840"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:19.138Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:19.135Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f39d0fae-9205-37c2-82ae-60c7557140ae>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonata in f minor" , "Sonate pour piano" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "d 505" , "D 625" ;
+        <http://model.org/property16>  "d" ;
+        <http://model.org/property2>   "Sonate dont les premier et dernier mouvements sont restés à l'état fragmentaire, s'interrompant avant la reprise. Comprend : 1-Allegro moderato (D 571) ; 2-Andante (D 604) ; 3-Scherzo et Allegro (D 570)." , "Juillet 1817" , "Publication : D 570 et D 571 en 1897 ; D 604 en 1888" ;
+        <http://model.org/property4>   "Sonates" , "Sonate in f moll für Klavier" , "Sonate no 13 en fa mineur" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "625"^^<http://www.w3.org/2001/XMLSchema#int> , "505"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:19.412Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:19.409Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/7697d03e-8be3-37da-8dce-056b098cc711>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza XI" , "Sequenza 11" ;
+        <http://model.org/property11>  "Guitare" ;
+        <http://model.org/property14>  "Edité chez Universal" ;
+        <http://model.org/property2>   "Création : le 20 avril 1988 au théâtre Zandonai de Rovereto. Edité chez Universal" , "1988" , "Extrait du commentaire de F.-G. Tual : \"Dans la Sequenza pour guitare, l'instrument de la danse et de la sérénade ne cache rien de son passé, de ce qui fit son succès avant son entrée sur les scènes du concert. D'où un face-à-face opposant la tradition du flamenco (rasgado et effets de tambour) au patrimoine classique, un accord de base à celui naturellement dicté par les différentes cordes de la guitare. [...] L'art de concilier les contraires, échos de luth et de guitare électrique, tout en accentuant la théâtralité des gestes ; en milieu de pièce, le discours se brise avec humour comme si l'interprète devait réaccorder son instrument\". Commande : Associazione Filarmonica de Rovereto. Dédicace : Eliot Fisk, créateur de l'oeuvre. Durée : environ 15 minutes" ;
+        <http://model.org/property25>  "Création : le 20 avril 1988 au théâtre Zandonai de Rovereto" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:13.188Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/cbaa351e-f031-373e-86f4-e8fee02ccdb7>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuor à cordes" , "Streichquartett" , "Quatuors" ;
+        <http://model.org/property1>   "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property10>  "D 68" ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property12>  "D.68" ;
+        <http://model.org/property2>   "Juin-août 1813" , "2 Mouvements : 1- Allegro. 2- Allegro (de forme rondo). Il semblerait que manquent les 2 mouvements du centre, vraisemblablement écrits mais perdus. Durée d'exécution : 20 minutes environ" ;
+        <http://model.org/property4>   "Quatuor à cordes no 5" , "String Quartet" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "68"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:20.718Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:20.716Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/0ca9a5b2-0558-3559-ba98-b8448e6a6dd2>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonates" , "Sonate pour piano no 1" ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property13>  "Yvette Grimaud" ;
+        <http://model.org/property14>  "Première édition : 1951" ;
+        <http://model.org/property15>  "Paris" ;
+        <http://model.org/property2>   "Créée à Paris, RTF, 1946, par Yvette Grimaud. Première édition : 1951" , "Sonate en deux mouvements. Durée d'exécution : 10 minutes environ" , "1946" ;
+        <http://model.org/property21>  "1946" ;
+        <http://model.org/property22>  "1946" ;
+        <http://model.org/property23>  "1946" ;
+        <http://model.org/property24>  "1946" ;
+        <http://model.org/property25>  "Créée à Paris, RTF, 1946, par Yvette Grimaud" ;
+        <http://model.org/property4>   "Première sonate pour piano" , "Sonata" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:14.033Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:14.032Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/94085b38-d5da-3b12-82e4-7a824e2ad2f1>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Première Sequenza" , "Sequenza I pour flûte" ;
+        <http://model.org/property11>  "Flûte traversière" ;
+        <http://model.org/property14>  "Editeur : Universal Edition" ;
+        <http://model.org/property2>   "1958" , "Cette Sequenza reflète l'intérêt que porte Berio à la flûte à cette époque et s'inscrit dans le mouvement de l'\"oeuvre ouverte\" décrit par Umberto Eco. Ce mouvement, qui concerne de nombreux compositeurs dans les années 50, vise à accorder à l'interprète plus de responsabilité. Dans cette optique Berio introduit dans sa partition un degré de flexibilité en ayant recours à une notation proportionnelle : chaque \"barre de mesure\" correspondant à une pulsation métronimique, les valeurs rythmiques sont à jouer plus souplement à l'intérieur de ces subsivisions. D'où une plus grande fluidité du discours. Mais cette partition innove également au niveau instrumental : la Sequenza exploitant les trémolos, premiers exemples de doubles sons franchissant un pas vers une polyphonie plus réelle, bruits de clés en tant qu'approche maximale du bruit. Dédiée à Severino Gazzelloni." , "Septembre 1958 au festival de Darmstadt par Severino Gazzelloni. Editeur : Universal Edition." ;
+        <http://model.org/property4>   "Sequenza 1" , "Sequenza I" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:10.577Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:10.576Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c9e52b81-d42f-3da2-9efc-87e15b2f48a3>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property18>  "Op. 118 no 3" ;
+        <http://model.org/property19>  "118" ;
+        <http://model.org/property20>  "3" ;
+        <http://model.org/property4>   "Diane Séléné" , "L'horizon chimérique" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:14.161Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/94870bb5-ec69-34a7-b390-3122eb82a591>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Concerto pour violon et orchestre" ;
+        <http://model.org/property11>  "Violon soliste et quatuor de bois : 2 flûtes/piccolo/flûte alto/flûte à bec soprano, hautbois/ocarina en ut, clarinette/clarinette en mi bémol" ;
+        <http://model.org/property2>   "1990, révisé en 1992." , "1ère version en 3 mouvements : 29 novembre 1990, Paris. Version définitive en 5 mouvements : 8 octobre 1992, Cologne. Saschko Gawriloff, violon, Ensemble Modern sous la direction de Peter Eötvös." , "Cette oeuvre est une commande du violoniste Saschko Gawriloff, qui en est le dédicataire, et du Westdeutscher (WDR) de Cologne. Comprend : 1- Praeludium : Vivacissimo luminoso ; 2- Aria - Hoquetus - Choral : Andante con moto ; 3- Intermezzo : Presto fluido ; 4- Passacaglia : Lento intenso ; 5- Appassionato : Agitato molto. Durée d'exécution : 25 minutes environ" ;
+        <http://model.org/property4>   "Concertos" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:09.918Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:09.916Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/30668427-4b4c-3f66-9530-02dcc2bb40bb>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuors" , "Quatuor à cordes no 1" ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property13>  "le quatuor Hellmesberger" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property18>  "Op. 51 no 1" ;
+        <http://model.org/property19>  "51" ;
+        <http://model.org/property2>   "1873" , "Créé à Vienne, le 11 décembre 1873, par le quatuor Hellmesberger." , "La composition des deux quatuors de l'opus 51 s'est étendue sur vingt ans, aux dires du compositeur ; impressionné par le modéle beethovenien, Brahms cherchera longtemps à s'en soustraire. Ce n'est qu'en pleine maturité compositionnelle qu'il finalise ces quatuors. Ce quatuor no 1 est dédié à Théodor Billroth. Il existe une ranscription pour piano à 4 mains réalisée par le compositeur. Comprend : 1- allegro. 2- romanze (poco adagio). 3- allegro molto moderato. 4- allegro, alla breve.Durée d'exécution : 32 minutes environ" ;
+        <http://model.org/property20>  "1" ;
+        <http://model.org/property25>  "Créé à Vienne, le 11 décembre 1873, par le quatuor Hellmesberger" ;
+        <http://model.org/property4>   "Streichquartett" , "Quatuor à cordes no 1 en ut mineur" , "String Quartet" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:08:18.059Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:18.058Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/e7f706f8-89f3-3e77-a2d1-fdb54c701aa4>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Duo pour violon et piano" ;
+        <http://model.org/property11>  "Violon et piano" ;
+        <http://model.org/property12>  "D 574" ;
+        <http://model.org/property18>  "Op. post. 162" ;
+        <http://model.org/property19>  "162" ;
+        <http://model.org/property2>   "Première édition : Diabelli, 1851" , "Première parution sous le titre \"Duo pour violon et piano\". Comprend : 1- allegro moderato, 2- scherzo, presto, 3- andantino, 4- allegro vivace. Durée d'exécution : 23 minutes environ" , "août 1817" ;
+        <http://model.org/property4>   "Sonate pour violon et piano en la majeur \"Grand duo\"" , "Sonata in A major" , "Sonate en la majeur pour piano et violon" , "Sonates" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "574"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:23.501Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:23.503Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c042ab46-5a5b-3dd6-9edd-70e28fffe64a>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Suites" , "Suite pour petit orchestre" , "Suite pour petit orchestre no 2" ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Flûte, flûte / flûte piccolo, hautbois, 2 clarinettes en sib / clarinettes en la, 2 bassons, cor, 2 trompettes, trombone, tuba, 2 percussions, piano, 4 violons, 2 altos, 2 violoncelles, contrebasse" ;
+        <http://model.org/property2>   "Edition : Chester" , "Commande d'un music-hall parisien. Stravinski \"réunit dans sa Suite no 2 la dernière des cinq \"Pièces faciles\" pour piano à quatre mains composées en 1916-1917, dédiées \"à Madame Eugenia Errazuriz - hommage très respectueux\", et les trois \"Pièces faciles\" composées pour ses enfants en 1914-1915. Il sélectionne quatre danses de salon formant une suite d'études parodiques et burlesques\"(Anne Grange). Comprend : 1- Marche (version pour piano dédiée à Alfredo Casella). 2- Valse (version pour piano dédiée à Erik Satie). 3- Polka (version pour piano dédiée à Serge Diaghilev). 4- Galop" , "1921" ;
+        <http://model.org/property4>   "Suite for small orchestra" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:15.526Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:15.527Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate pour clarinette et piano no 1" ;
+        <http://model.org/property11>  "Clarinette, piano" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property18>  "Op.120 no 1" ;
+        <http://model.org/property19>  "120" ;
+        <http://model.org/property2>   "1894" , "Créée à Vienne, les 8 et 11 janvier 1895 avec la sonate no 2 pour clarinette et piano." , "Les deux sonates pour clarinette et piano, destinées au virtuose Richard Mühlfeld, comme le trio et le quintette précédents, sont les dernières oeuvres de musique de chambre de Brahms. Elles ont été composées parallèlement, et sont très semblables par leur esthétique : mêmes brieveté et concentration des mouvements, intimité de l'expression, refus de toute virtuosité. La sonate en fa mineur se compose de 4 mouvements : 1- Allegro appassionato. 2- Andante un poco adagio. 3- Allegretto grazioso. 4- Vivace. Durée d'exécution : 23 minutes environ" ;
+        <http://model.org/property20>  "1" ;
+        <http://model.org/property25>  "Créée à Vienne, les 8 et 11 janvier 1895 avec la sonate no 2 pour clarinette et piano" ;
+        <http://model.org/property4>   "Sonate no 1 pour clarinette et piano" , "Clarinet and pianoforte sonata" , "Sonates" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:08:15.459Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:15.458Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/d3b8443c-b193-3a2a-97ae-93de2a895194>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuor à cordes no 4" , "String quartet" ;
+        <http://model.org/property1>   "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property13>  "le quatuor Kolisch" ;
+        <http://model.org/property15>  "Los Angeles" ;
+        <http://model.org/property18>  "Op. 37" ;
+        <http://model.org/property19>  "37" ;
+        <http://model.org/property2>   "1936" , "Création : 9 janvier 1937 à Los Angeles par le quatuor Kolisch" , "Commande d' Elizabeth Sprague-Coolidge. Ce quatuor, d'écriture sérielle, est divisé en quatre mouvements classiques : Allegro molto, energico ; Commodo ; Largo ; Allegro. Chacun de ces mouvements adopte les formes traditionnelles de sonate pour le premier, rondo pour le dernier, structure binaire pour le \"Largo\". Ce classiscisme est d'autant plus accentué que la série choisie favorise une thématique très clairement discernable, au sein d'un écriture particulièrement aérée." ;
+        <http://model.org/property4>   "Quatuor no 4" , "Quatuors" , "Streichquartett" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:11.277Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:11.276Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c04dbd4c-34a9-326d-8dad-aa961195f451>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Lamento d'Arianna" ;
+        <http://model.org/property11>  "voix, basse continue" ;
+        <http://model.org/property12>  "SV 22" ;
+        <http://model.org/property15>  "la cour de Mantoue" ;
+        <http://model.org/property16>  "SV" ;
+        <http://model.org/property2>   "1623" , "Création de l'opéra : 28 mai 1608 à la cour de Mantoue." , "Extrait de la sixième scène de l'opéra \"Arianna\" sur un livret d'Ottavio Rinuccini ( la partition, à part le \"lamento\", a été perdue), le \"Lamento\" a connu dès sa création un immense succès, largement imité par la suite et devenant un genre musical à part entière. Composée suivant les principes du \"nouveau style\", cette oeuvre est une des premières manifestations d'un sentiment subjectif et personnel appliqué à la musique. Pour suivre les inflexions poétiques du texte et exprimer les émotions du personnage, Monteverdi use de nombreux effets vocaux, rythmiques et harmoniques, répertoriés en \"affects\". Il existe deux autres versions : polyphonique en forme de madrigal à cinq voix en quatre parties ( Sesto libro de madrigali, 1614) ; religieuse avec un nouveau texte : \"Lamento della Madonna sopra il lamento dell' Arianna\" (nr.40 de la \"Selva Morale e Spirituale\", Venise, 1641)." ;
+        <http://model.org/property25>  "Création de l'opéra : 28 mai 1608 à la cour de Mantoue" ;
+        <http://model.org/property4>   "Piano della Madona" , "Lamento d'Arianna : Lasciatemi morire" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "22"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T14:26:10.248Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:10.251Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/4708d33c-7d86-3ed9-8b4c-7fd5ff669c99>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Hautbois solo, 2 clarinettes, 2 bassons, 2 cors, 3 trombones, cordes, ténor solo et choeur mixte" ;
+        <http://model.org/property12>  "D 963" ;
+        <http://model.org/property14>  "Première publication : 1890" ;
+        <http://model.org/property2>   "1828" , "Première publication : 1890." , "Ce motet a été composé en octobre 1828 sur un texte extrait du Psaume V : versets 3 et 4. Durée d'exécution : 10 minutes environ" ;
+        <http://model.org/property4>   "Offertorium" , "Intende voci" , "Offertoires" ;
+        <http://model.org/property5>   "musique sacrée"@fr , "musique romantique"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "963"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:25.243Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:25.245Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/9a171321-db98-332c-85ca-566d73e0b03a>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuor à cordes" , "String Quartet" , "Quatuor à cordes no 8" ;
+        <http://model.org/property1>   "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property10>  "D 112" ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property12>  "D.112" ;
+        <http://model.org/property14>  "Publié longtemps après la mort de Schubert" ;
+        <http://model.org/property18>  "op. 168" ;
+        <http://model.org/property19>  "168" ;
+        <http://model.org/property2>   "Publié longtemps après la mort de Schubert. Probablement donné pour la 1ère fois en famille ou au collège en 1814. Première publique par le Quatuor Hellmesberger le 23 février 1862, à Vienne." , "1814" , "Composé extrêmement vite -le premier mouvement comporte l'inscription \"écrit en 4 jeures et demie\", et l'Andante a été achevé dans le seule journée du 6 septembre 1847- ce quatuor de grandes dimensions porte enfin l'empreinte réelle de Schubert. Comprend 4 Mouvements : 1- Allegro ma non troppo. 2- Andante sostenuto. 3- Menuetto. 4- Presto. .Durée d'exécution : 27 minutes environ" ;
+        <http://model.org/property4>   "Quatuors" , "Streichquartett" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "112"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:21.271Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:21.269Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/53534a2b-1034-3380-b891-521328fd619f>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Les Folies françoises, ou les Dominos" , "Ordre no 13" , "Ordres" , "L'Engageante" ;
+        <http://model.org/property1>   "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Clavecin" ;
+        <http://model.org/property2>   "vers 1722" , "Ouvre le troisième livre publié en 1722. Couperin publie quatres livres sur une période de dix-sept ans (1713, 1717, 1722 et 1730) réunissant deux-cent-trente-trois pièces, groupés en vingt-sept \"Ordres\". Le 13ème ordre comprend : Les lis naissants (au précieux XVIIIème siècle, le lis est une fleur mais aussi le teint d'une jeune femme) ; Les rozeaux ; L'engageante ; Les folies françaises ou le dominos, ample comédie en douze parties, ou douze variations (les folies sont une allusion à la Follia, danse d'origine espagnole, dansée autrefois en travesti - d'où les dominos, qui sont des masques - et accompagnée de la guitare en improvisations chantées et mimées -d'où la forme à \"variations\". Elles deviennent avec Couperin bien françaises, sur un thème à trois temps, une série de petits tableaux qui se succèdent. ) ; L'âme en peine" ;
+        <http://model.org/property4>   "Les Lis naissans" , "Treizième ordre" , "Les Rozeaux" , "L'âme en peine" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:07.979Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:07.977Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/07ebd1d5-8570-326b-8162-fc760032b971>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Voix et piano" ;
+        <http://model.org/property18>  "Op. 27" ;
+        <http://model.org/property19>  "27" ;
+        <http://model.org/property2>   "1933" , "Ce cycle de mélodies a été composé en 1933 sur des poèmes de Eleonore van der Straaten. Comprend : 1- Unvergänglichkeit. 2- Das eilende Bächlein. 3- Das schlafende Kind. 4- Stärker als der Tod. 5- Unvergänglichkeit" ;
+        <http://model.org/property4>   "Unvergänglichkeit" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:17.345Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:17.346Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/5ab7a2b3-88ca-3cd6-8b71-bc7d37790f55>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate pour piano" , "Sonates" , "Sonata in a minor" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 784" ;
+        <http://model.org/property18>  "Op. posth. 143" ;
+        <http://model.org/property19>  "143" ;
+        <http://model.org/property2>   "Février 1823" , "Publiée en 1839 par Diabelli avec le numéro d'op. 149" , "Oeuvre isolée qui se rattache par son inspiration à la \"Symphonie inachevée\" et au \"Quatuor en la mineur op. 29\". Diabelli lui donne, pour des raisons commerciales, le surnom de 'Garnde sonate\" et la dédicace à Mendelssohn. En trois mouvements, le premier est aussi développé que les deux autres réunis. Comprend : 1-Allegro giusto ; 2-Andante ; 3-Allegro vivace." ;
+        <http://model.org/property4>   "Sonate no 16 en la mineur" , "Sonate in a für Klavier" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "784"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:18.400Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:18.402Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/b219942f-770a-3fc7-a769-d3f16e922ed2>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonata in c major" , "Sonata in C für Klavier" , "Sonates" , "Sonate no 2" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 346" , "D 279" ;
+        <http://model.org/property2>   "Cette sonate comporte deux mouvements : 1- Allegro moderato ; 2-Andante. Le troisième, Menuetto, existe également comme pièce séparée avec un autre trio. Enfin, un Allegretto (D 347) lui sert souvent de finale." , "1815" ;
+        <http://model.org/property4>   "Sonate pour piano" , "Sonate en do majeur D 279" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "279"^^<http://www.w3.org/2001/XMLSchema#int> , "346"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:18.884Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:18.882Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/535132a0-5d27-3311-b6a9-d85d1fee97b0>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonate pour clavecin" , "Sonates" ;
+        <http://model.org/property11>  "Clavier" ;
+        <http://model.org/property12>  "L 187" , "K 481" ;
+        <http://model.org/property16>  "L" ;
+        <http://model.org/property2>   "Domenico Scarlatti a composé 555 sonates. Très peu ont été publiées de son vivant. Il est difficile de les dater et de déterminer à quel (s) instrument (s) elles sont destinées. Andante cantabile. 4/4. L 187" , "Première moitié du 18 ème siècle" ;
+        <http://model.org/property4>   "Sonata" , "Sonate pour clavecin ou pianoforte" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "481"^^<http://www.w3.org/2001/XMLSchema#int> , "187"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:15.289Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:15.285Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/6c5a05cd-da95-37c0-a8c7-3ef108ef0a24>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Quatuor à cordes no 6" ;
+        <http://model.org/property1>   "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property10>  "D 74" ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property12>  "D.74" ;
+        <http://model.org/property2>   "4 Mouvements : 1- Allegro ma non tropp. 2- Andante. 3- Minuetto. 4- Allegro. Dédié à son père pour son anniversaire. Toujours sous la coupe de Salieri, ce quatuor est encore considéré comme \"scolaire\". Durée d'exécution : 26 minutes environ" , "4 octobre 1813, chez les Schubert." , "Août- septembre 1813" ;
+        <http://model.org/property25>  "4 octobre 1813, chez les Schubert" ;
+        <http://model.org/property4>   "Quatuor à cordes" , "Streichquartett" , "Quatuors" , "String Quartet" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "74"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:21.020Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:21.019Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c6d549f1-eadb-33fb-919e-0359271ceb69>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Trois Lieder" , "Drei Lieder" , "3 Lieder" ;
+        <http://model.org/property11>  "Voix et piano" ;
+        <http://model.org/property18>  "Op. 22" ;
+        <http://model.org/property19>  "22" ;
+        <http://model.org/property2>   "1928-1929" , "Comprend : 1- Was Du mir bist ? (poème de Eleonore van der Straten). 2- Mit Dir zu schweigen (poème de Karl Kobald). 3- Welt ist stille eingeschlafen (poème de Karl Kobald)" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:16.971Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/32ae01e0-3543-3c0c-b20a-703fd4b0e997>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property13>  "Jocy de Corvalho" ;
+        <http://model.org/property15>  "Saint Louis" ;
+        <http://model.org/property2>   "1966" , "Créée en 1966 à Saint Louis, Missouri (Etats-Unis) par Jocy de Corvalho." , "Note de l'auteur : \"La Sequenza IV pour piano peut être considérée comme un voyage d'exploration à travers divers types d'articulation et comme un dialogue entre un développement en accords et un développement linéaire du même matériau. Deux séquences harmoniques indépendantes évoluent simultanément et de temps en temps interfèrent l'une avec l'autre : l'une, réelle, est confiée au clavier, l'autre, pour ainsi dire virtuelle, est confiée à la pédale tonale.\" Dédié à Jocy de Corvalho." ;
+        <http://model.org/property21>  "1966" ;
+        <http://model.org/property23>  "1966" ;
+        <http://model.org/property24>  "1966" ;
+        <http://model.org/property25>  "Créée en 1966 à Saint Louis, Missouri (Etats-Unis) par Jocy de Corvalho" ;
+        <http://model.org/property27>  "1966" ;
+        <http://model.org/property4>   "Sequenza 4" , "Sequenza IV" , "Quatrième sequenza" , "Sequenza IV pour piano" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:12.718Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:17.372Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:12.717Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:17.371Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/a995042b-6d69-3309-b413-8ffd6008cef7>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Symphonie no 1" , "Symphonie no 1 en do mineur" ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Les bois par 2, 4 cors, 2 trompettes, 3 trombones, timbales et cordes" ;
+        <http://model.org/property12>  "WAB 101" ;
+        <http://model.org/property14>  "Première édition : 1868" ;
+        <http://model.org/property2>   "Première édition : 1868. Deuxième édition (version de Vienne) : 1891" , "1865, 1890-1891" , "Existe deux versions. La première version a été composée à Linz en 1865. Une deuxième version révisée a été composée à Vienne en 1890-1891. Elle comporte une nouvelle conclusion du finale et de nombreuses retouches. C'est la première version dite \"de Linz\" qui est le plus souvent jouée. Comprend : 1- allegro molto moderato, 2- adagio, 3- scherzo, 4- allegro con fuoco" ;
+        <http://model.org/property4>   "Symphonies" , "Symphony no 1 in c" , "Sinfonie no 1" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "101"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:16.485Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:16.482Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/812a1f77-0a6a-31d9-bfa4-29ec1cda4c26>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Symphony no 2 in c" , "Symphonie no 2" ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Les bois par 2, 4 cors, 2 trompettes, 3 trombones, timbales et cordes" ;
+        <http://model.org/property12>  "WAB 102" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property2>   "1872" , "Créée à Vienne,le 26 octobre 1873 sous la direction du compositeur" , "Cette symphonie est écrite dans la même tonalité que la no 1. Elle a été surnommée \"Symphonie de la Haute-Autriche\" par August Göllerich, biographe de Bruckner. Elle a été légèrement remaniée en 1875-1876, puis en 1877. En particulier le solo de cor de l'adagio est remplacé par un solo de clarinette. Comprend : 1- moderato, 2- adagio, 3- scherzo, 4- finale." ;
+        <http://model.org/property26>  "conducteur"@fr ;
+        <http://model.org/property4>   "Symphonies" , "Symphonie no 2 en do mineur" , "Sinfonie no 2" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "102"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:16.931Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:16.929Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/2162168e-2083-348b-ba5a-1d0a51e9b67e>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Konzert für Violin und Orchester" ;
+        <http://model.org/property1>   "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Violon, orchestre à cordes" ;
+        <http://model.org/property12>  "Hob VIIa : 4" ;
+        <http://model.org/property16>  "Hob" ;
+        <http://model.org/property2>   "vers 1761-1765" , "L'authenticité de ce concerto n'est pas absolument certaine. De part son style pré-classique, la virtuosité limitée du soliste, le phrasé proche du baroque autrichien, il semblerait qu'il s'agisse d'un oeuvre de jeunesse. Il comporte trois brefs mouvements : 1- allegro moderato, 2- adagio 3- allegro" ;
+        <http://model.org/property4>   "Concertos" , "Concerto pour violon et orchestre no 4" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "VIIa : 4" ;
+        <http://model.org/property9>   "2017-05-29T21:08:14.611Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:14.615Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/6e8238d8-8c4f-30ee-a12c-1be7ad00e5d7>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Romeo et Juliette" ;
+        <http://model.org/property11>  "Orchestre symphonique" ;
+        <http://model.org/property15>  "Brno" ;
+        <http://model.org/property18>  "Op. 64" ;
+        <http://model.org/property19>  "64" ;
+        <http://model.org/property2>   "1935" , "Créé à Brno, en Tchécoslovaquie, en décembre 1938, avant d'être représenté, deux ans plus tard, au Théâtre Kirov de Léningrad." , "Composé en 1935, c'est le premier grand ballet de la période soviétique de Prokofiev. C'est aussi la première adaptation chorégraphique durable, dans l'histoire de la musique, d'une pièce de Shakespeare, dont les oeuvres constituaient à cette époque un des principaux centres d'intérêt de la culture soviétique." ;
+        <http://model.org/property25>  "Créé à Brno, en Tchécoslovaquie, en décembre 1938, avant d'être représenté, deux ans plus tard, au Théâtre Kirov de Léningrad" ;
+        <http://model.org/property4>   "Romeo i Zul'etta" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T21:08:22.518Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:22.517Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/22a2cf64-3778-33db-80b2-64a1fd735bec>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Suite no 2 de Romeo et Juliette" , "Romeo i Zul'etta (Suite n ° 2)" ;
+        <http://model.org/property11>  "Les bois par 3 + 1 saxophone ténor, 4 cors, 3 trompettes (dont 1 cornet à pistons), 3 trombones, 1 tuba, timbales et grande batterie, harpe, piano, cloches et cordes, 1 viole d'amour" ;
+        <http://model.org/property18>  "Op. 64 ter" ;
+        <http://model.org/property19>  "64 ter" ;
+        <http://model.org/property2>   "1936-1937" , "C'est dans l'attente de la création de son ballet \"Romeo et Juliette\" composé en 1935 que Prokofiev ecrit 2 suites. La suite no 2 comprend : 1- Montaigus et Capulets. 2- Juliette enfant. 3- Père Lorenzo : \"Romeo chez le père Lorenzo\". 4- Danse. 5- Romeo auprès de Juliette avant leur séparation. 6- Danse des jeunes filles des Antilles. 7- Romeo au tombeau de Juliette. Durée d'exécution : 28-29 minutes environ" ;
+        <http://model.org/property4>   "Romeo et Juliette. Suite no 2" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T21:08:21.815Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:21.816Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/6cccf53c-5540-38c9-beae-cb75798e0299>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonata in a major" , "Sonate no 12 D 664" ;
+        <http://model.org/property11>  "piano" ;
+        <http://model.org/property12>  "D. 664" , "D 664" ;
+        <http://model.org/property18>  "op. posth. 120" ;
+        <http://model.org/property19>  "120" ;
+        <http://model.org/property2>   "été 1819" , "Depuis la série de sonates de 1817, Schubert avait abordé le genre à trois reprises et n'avait laissé que des partitions inachevées. La Sonate en la majeur D. 664 se présente donc comme la première sonate achevée depuis la série de 1817. Avec une attaque sur une mélodie de lied et son accompagnement dès le début de l'Allegro moderato, Schubert s'écarte volontiers du profil habituel des premiers thèmes de sonates publiées par ses contemporains viennois. Dans l'Andante, il expose sur sept mesures le thème unique du mouvement en ré majeur dans une écriture toute personnelle où la mélodie trouve sa pleine réalité par le mouvement harmonique permanent réalisé à l'intérieur d'accords soutenus et répétés presque immobiles. Construit à partir d'un thème de danse, l'Allegro final présente des gammes rapides qui prennent possession de tout le clavier. Selon toute vraisemblance, elles sont destinées à mettre en valeur le jeu brillant de Josephine von Koller pour laquelle Schubert a composé cette partition. Elle comporte 3 mouvements : Allegro moderato ; Andante ; Allegro" ;
+        <http://model.org/property4>   "Sonate in A für Klavier" , "Sonates" , "Sonate pour piano" , "Sonate no 15 en la majeur" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "664"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:14.067Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:14.062Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/46410dc1-57dd-3efe-a91d-55e18c37294c>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "String Quartet" , "Quatuor à cordes no 2" , "Streichquartett" ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property10>  "D 32" ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property12>  "D.32" ;
+        <http://model.org/property2>   "Ce quatuor \"de jeunesse\" sans grande caractéristique a été composé à l'âge de 15 ans. Comprend quatre mouvements : 1- Presto. 2- Andante. 3- Menuetto : allegro. 4- Allegro con spirito. Durée d'exécution : 20 minutes environ" , "Septembre-octobre 1812" , "Création probable chez les Schubert. Première publique par le Quatuor Aeolian à la BBC le 23 décembre 1955." ;
+        <http://model.org/property25>  "Création probable chez les Schubert" ;
+        <http://model.org/property4>   "Quatuor à cordes" , "Quatuors" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "32"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:19.921Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:19.919Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/b04cf7dd-2ccd-3251-9364-69f682a449a9>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Concerto pour violoncelle et orchestre no 1" , "Concertos" , "Konzert für Violoncello und Orchester" , "Concerto pour violoncelle et orchestre no 1 en ut majeur" , "Cello concerto" ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Violoncelle, orchestre" ;
+        <http://model.org/property12>  "Hob VIIb 1" ;
+        <http://model.org/property16>  "Hob" ;
+        <http://model.org/property2>   "Considéré comme perdu, ce concerto fut retrouvé en 1961 dans le fonds Radenin du Musée National de Prague. Il est probable qu'il fut composé à l'intention de Joseph Weigl, violoncelliste de l'orchestre Esterhazy de 1761 à 1769. Comprend : 1- Moderato. 2- Adagio. 3- Allegro molto. Durée d'exécution : 24-27 minutes" , "entre 1765 et 1769" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "VIIb 1" ;
+        <http://model.org/property9>   "2017-05-29T21:08:13.532Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:13.538Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/5aad564e-0b51-3209-ba1e-cd5eab7c26c4>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sinfonie no 8" , "Symphonies" , "Symphony no 4 in c" ;
+        <http://model.org/property1>   "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Les bois par 3; 8 cors, 3 trompettes, 3 trombones, 1 tuba-contrebasse; timbales et batterie (cymbales); 3 harpes; cordes" ;
+        <http://model.org/property12>  "WAB 108" ;
+        <http://model.org/property14>  "Première édition : Berlin, 1892" ;
+        <http://model.org/property15>  "Londres en version complète" ;
+        <http://model.org/property2>   "1884-1887" , "C'est la symphonie la plus monumentale de l'auteur avec un effectif encore jamais atteint sauf chez Berlioz, et, pour la seule fois chez Bruckner des harpes. Comprend : 1- allegro moderato, 2- scherzo (allegro moderato), 3- adagio, 4- finale" , "Créée à Londres en version complète le 2 septembre 1973. Version révisée créée à Vienne, le 18 décembre 1892 sous la direction de Hans Richter. Première édition : Berlin, 1892" ;
+        <http://model.org/property25>  "Créée à Londres en version complète le 2 septembre 1973" ;
+        <http://model.org/property4>   "Symphonie no 8 en do mineur" , "Symphonie no 8" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "108"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:15.661Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:15.658Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/17fe9b28-ab4c-393a-832a-9bf10acef280>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property11>  "Piano et orchestre" ;
+        <http://model.org/property12>  "S 366" , "R 459" , "LW H13" ;
+        <http://model.org/property2>   "Première publication : Vienne, Spina, 1857" , "Cette transcription porte également le titre de \"Franz Schuberts grosse Fantasie" , "1851" ;
+        <http://model.org/property4>   "Transcription de Wanderer-Fantasie de Franz Schubert" , "Transcriptions" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "459"^^<http://www.w3.org/2001/XMLSchema#int> , "366"^^<http://www.w3.org/2001/XMLSchema#int> , "H13" ;
+        <http://model.org/property9>   "2017-05-29T21:08:24.912Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:24.909Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/bfff5d94-05ba-3c43-8841-1839111ec2f8>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza 2" , "Deuxième sequenza" ;
+        <http://model.org/property11>  "Harpe" ;
+        <http://model.org/property13>  "Francis Pierre" ;
+        <http://model.org/property15>  "Paris" ;
+        <http://model.org/property2>   "Créée en 1963 à Paris par Francis Pierre" , "1963" , "Note de l'auteur : \"Dans mes Sequenze, j'ai essayé de commenter le rapport entre le virtuose et son instrument et j'ai souvent exploré certains aspects techniques spécifiques afin de défier, comme dans la \"Sequenza II\" pour harpe, la notion conventionnelle de l'instrument. (...) la harpe possède également unautre visage, plus dur, fort et agressif. Dans la Sequenza II, j'ai voulu mettre en lumière plusieurs visages de l'instrument, les faisant parfois apparaître simultanément : à certains moments, la harpe doit rendre le son d'une forêt traversée par le vent\". Dédiée à Francis Pierre." ;
+        <http://model.org/property21>  "1963" ;
+        <http://model.org/property22>  "1963" ;
+        <http://model.org/property23>  "1963" ;
+        <http://model.org/property24>  "1963" ;
+        <http://model.org/property4>   "Sequenza II pour harpe" , "Sequenza II" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:11.787Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:11.784Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/2c346fb7-5c7e-3c31-84e0-f2fe2454c0ab>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza V pour trombone" , "Cinquième Sequenza" , "Sequenza 5" ;
+        <http://model.org/property11>  "Trombone" ;
+        <http://model.org/property14>  "Editeur : Universal Edition" ;
+        <http://model.org/property2>   "Faisant explicitement référence au célèbre clown Grock et à son métaphysique \"Warum ?\", cette Sequenza constituée de deux parties repose sur un processus de dissociation des comportements, au sens d'\"oeuvres que l'on peut écouter et voir comme des entités dramaturgiques\". Le compositeur y instaure un jeu entre la voix du soliste et son instrument utilisé avec la sourdine, d'où un renversement par la double tentative de \"vocalisation de l'instrument\" et d'\"instrumentalisation de la voix\". Les deux parties sont articulées autour du \"Why ?\" (qui ressemble à la sonorité de l'instrument) ; la partie A est plus un exposé alternant les jeux avec ou sans sourdine conduisant à l'identification du mot avec le jeu instrumental ; la partie B quant à elle correspond à un exposé plus dense mêlant Flatterzunge et glissandos jusqu'à la conjugaison finale du parlé et du joué. Dédiée à la mémoire du clown Grock (Adrien Wettach) et destinée à Stuart Dempster." , "1966" , "21 mars 1966 à New York pour la seconde partie ; juin 1966 à Londres pour l'intégrale, par Vinko Globokar. Editeur : Universal Edition." ;
+        <http://model.org/property4>   "Sequenza V" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:10.697Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:10.696Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:13.729Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:13.727Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f578c829-08f4-3c03-9b07-c5f961414dd7>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate pour clavecin ou pianoforte" , "Sonate pour clavecin" , "Sonates" ;
+        <http://model.org/property11>  "Clavier" ;
+        <http://model.org/property12>  "K 467" , "L 476" ;
+        <http://model.org/property16>  "L" ;
+        <http://model.org/property2>   "Première moitié du 18 ème siècle" , "Domenico Scarlatti a composé 555 sonates. Très peu ont été publiées de son vivant. Il est difficile de les dater et de déterminer à quel (s) instrument (s) elles sont destinées. Comme les deux faces d'une même médaille, les sonates k 466 et K 467 sont unies par la tonalité peu courante de fa mineur, un parcours tonal similaire, l'incorporation de triolets qui assouplissent le mouvement perpétuel des croches, et une thématique basée sur des gammes (à noter dans la K 467 le beau mouvement contraire de celles-ci entre les mains en valeurs rythmiques différentes). Allegrissimo. 3/4. L 476" ;
+        <http://model.org/property4>   "Sonata" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "476"^^<http://www.w3.org/2001/XMLSchema#int> , "467"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:15.137Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:15.133Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/06b720fa-accb-35b2-bb44-3bcb96d8b2f9>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Suite no 1 de Romeo et Juliette" , "Romeo i Zul'etta (Suite n ° 1)" ;
+        <http://model.org/property11>  "Les bois par 3 + 1 saxophone ténor, 4 cors, 3 trompettes (dont 1 cornet à pistons), 3 trombones, 1 tuba, timbales et grande batterie, harpe, piano, cloches et cordes" ;
+        <http://model.org/property18>  "Op. 64 bis" ;
+        <http://model.org/property19>  "64 bis" ;
+        <http://model.org/property2>   "C'est dans l'attente de la création de son ballet \"Romeo et Juliette\" composé en 1935 que Prokofiev ecrit 2 suites. La suite no 1 comprend : 1- Danse populaire. 2- Scène \"La rue s'éveille\". 3- Madrigal. 4- Menuet. 5- Masques. 6- Romeo et Juliette : scène du balcon. 7- Mort de Tybalt. Durée d'exécution : 27-28 minutes environ" , "1936" ;
+        <http://model.org/property4>   "Romeo et Juliette. Suite no 1" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T21:08:22.803Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:22.804Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/b2f051d5-c50a-3f54-b024-b8a9216e219d>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza 8" ;
+        <http://model.org/property11>  "Violon" ;
+        <http://model.org/property13>  "E. Granat" ;
+        <http://model.org/property2>   "Composé à la demande de Serena de Bellis. Note de l'auteur : \"Composer cette Sequenza a été pour moi comme payer une dette personnelle au violon, que je considère comme l'un des instruments les plus permanents et les plus complexes qui soient. Si presque toutes les autres Sequenze développent de façon extrême un choix très restreint de possibilités instrumentales et de comportements du soliste, la \"Sequenza VIII\" présente une image plus vaste et plushistorique de l'instrument. Elle s'appuie constamment sur deux notes (la et si) qui, comme dans une chaconne, servent de boussole dans le parcours plutôt diversifié et élaboré du morceau où la polyphonie n'est plus virtuelle, comme dans d'autres Sequenze, mais réelle. C'est pourquoi cette Sequenza se révèle, inévitablement, un hommage à ce sommet musical qu'est la \"chaconne\" de la \"Partita en ré mineur\" de Johann Sebastian Bach, dans laquelle coexistent des techniques instrumentales passées, présentes et futures.\" Dédié à Carlo Chiarappa." , "1976" , "Créée en 1976 aux Etats-Unis par E. Granat." ;
+        <http://model.org/property21>  "1976" ;
+        <http://model.org/property22>  "1976" ;
+        <http://model.org/property23>  "1976" ;
+        <http://model.org/property24>  "1976" ;
+        <http://model.org/property25>  "Créée en 1976 aux Etats-Unis par E. Granat" ;
+        <http://model.org/property4>   "Huitième Sequenza" , "Sequenza VIII" , "Sequenza VIII pour violon" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:12.928Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:12.929Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/51e4e83a-087a-3920-8632-949c4d9a533d>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Esprit rude/Esprit doux, II" ;
+        <http://model.org/property11>  "flûte, clarinette en si b, marimba" ;
+        <http://model.org/property14>  "Edition : Boosey & Hawkes" ;
+        <http://model.org/property15>  "Chicago" ;
+        <http://model.org/property2>   "Cette oeuvre a été créée à Chicago le 30 mars 1995. Edition : Boosey & Hawkes." , "L'oeuvre est dédiée à \"Pierre Boulez en célébration de son soixante-dixième anniversaire avec profonde et affectueuse amitié\". Le titre fait allusion à la prononciation de certains mots en grec classique. Durée d'exécution : 5 minutes environ." , "1994" ;
+        <http://model.org/property25>  "Cette oeuvre a été créée à Chicago le 30 mars 1995" ;
+        <http://model.org/property4>   "Esprit rude / Esprit doux, II" , "Rough breathing/Smooth breathing, II" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:08:23.803Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/1faf4dee-b547-39ec-b9d6-fc8b21ba201b>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonate pour violon et piano" , "Sonata in a minor" , "Sonate en la mineur pour violon et piano" ;
+        <http://model.org/property11>  "Violon et piano" ;
+        <http://model.org/property12>  "D 385" , "D. 385" ;
+        <http://model.org/property18>  "Op. posth. 137 no 2" ;
+        <http://model.org/property19>  "137" ;
+        <http://model.org/property2>   "mars 1816" , "Première édition des trois sonates Opus 137 : Diabelli, 1836" , "Cette sonate fait partie d'un groupe de trois sonates écrites en mars et avril 1816 et vraisemblablement destinées à une publication groupée et souvent désignées comme \"trois sonatines pour violon et piano\". Comprend : 1- allegro moderato, 2- andante, 3- menuetto, 4- allegro" ;
+        <http://model.org/property20>  "2" ;
+        <http://model.org/property4>   "Sonatine" , "Sonates" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "385"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:17.594Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:17.591Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/4da1aed9-2a8d-3828-8a02-d8f7177a5c47>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Pièces de clavecin. Livre 4. Ordre 25" , "Les ombres errantes" , "Vingt cinquième ordre" ;
+        <http://model.org/property1>   "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Clavecin" ;
+        <http://model.org/property2>   "vers 1730" , "Appartient au quatrième et dernier livre , publié en 1730, trois ans avant sa mort . Couperin publie en dix-sept ans quatre livres (1713, 1717, 1722 et 1730) rassemblant deux-cent-trente-trois pièces, groupées en vingt-sept \"Ordres\". Le quatrième livre est celui de Couperin vieillissant et souffrant et renferme les pièces les plus intérieures. Le 25ème ordre aborde les ultimes pages consacrées par le compositeur au clavecin. Le ton y est grave. Il délaisse désormais \"ce qui surprend\" pour ne s'intéresser plus qu'à \"ce qui touche\". L'ordre comprend : La Visionnaire (qui au XVIIème siècle ne renvoie pas à la notion de mystique mais plutôt de bizarre, extravagant) ; La Mistérieuse ; La Monflambert, La Muse victorieuse, Les Ombres errantes" ;
+        <http://model.org/property4>   "La visionnaire" , "La mistérieuse" , "Ordre no 25" , "La Monflambert" , "La muse victorieuse" , "Ordres" ;
+        <http://model.org/property6>   "Mi bémol majeur, Do majeur et mineur"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:26:06.951Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:07.006Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/22590f4c-a206-3f0f-b1fb-6a7019617630>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza VI pour alto" , "Sequenza VI" ;
+        <http://model.org/property11>  "Alto solo" ;
+        <http://model.org/property13>  "Walter Traempler" ;
+        <http://model.org/property2>   "1967" , "Dédiée à Serge Collot. Berio a qualifié cette Sequenza d'hommage aux Caprices de Paganini, elle est d'une tension physique extrême, avec un long tremolo intense, d'où sortira peu à peu la mélodie. Cette Sequenza est le point de départ de Chemin II pour alto et 9 instruments, et Chemin III, pour alto et orchestre." , "1967, New York, par Walter Traempler." ;
+        <http://model.org/property21>  "1967" ;
+        <http://model.org/property22>  "1967" ;
+        <http://model.org/property23>  "1967" ;
+        <http://model.org/property24>  "1967" ;
+        <http://model.org/property25>  "1967, New York, par Walter Traempler" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T14:26:10.008Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:26:10.010Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f4030ba7-9095-3432-b2ae-e38ced7865b6>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Concerto pour violoncelle et orchestre no 2" , "Cello concerto no 2" ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Violoncelle et orchestre : 2 hautbois, 2 cors et cordes" ;
+        <http://model.org/property12>  "Hob VIIb 2" ;
+        <http://model.org/property14>  "Edition chez André en 1806 sous le numéro d'opus 101" ;
+        <http://model.org/property16>  "Hob" ;
+        <http://model.org/property18>  "Op. 101" ;
+        <http://model.org/property19>  "101" ;
+        <http://model.org/property2>   "L'authenticité de ce concerto a longtemps été mise en doute, jusqu'à la redécouverte du manuscrit autographe de Haydn en 1953. Il a été composé pour le violoncelliste Anton Kraft. Comprend : 1- Allegro moderato. 2- Adagio. 3- Allegro. Durée d'exécution : 25-27 minutes environ" , "Edition chez André en 1806 sous le numéro d'opus 101." , "1783" ;
+        <http://model.org/property4>   "Concertos" , "Concerto pour violoncelle et orchestre no 2 en ré majeur" , "Konzert für Violoncello und Orchester" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property8>   "VIIb 2" ;
+        <http://model.org/property9>   "2017-05-29T21:08:21.563Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:21.562Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/3985ff3e-ffe7-3eb2-bc54-2baab994ef66>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Quatuors" , "Quatuor à cordes en la mineur" , "String Quartet" ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property13>  "le quatuor Hellmesberger" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property18>  "Op. 51 no 2" ;
+        <http://model.org/property19>  "51" ;
+        <http://model.org/property2>   "1873" , "La composition des deux quatuors de l'opus 51 s'est étendue sur vingt ans, aux dires du compositeur ; impressionné par le modéle beethovenien, Brahms cherchera longtemps à s'en soustraire. Ce n'est qu'en pleine maturité compositionnelle qu'il finalise ces quatuors. Le quatuor no 2 comme le no 1 est dédié à Theodor Billroth. Comprend : 1- allegro non troppo. 2- andante moderato. 3- quasi menuetto, moderato - allegretto vivace. 4- finale : allegro non assai. Durée d'exécution : 33 minutes environ" , "Créé à Vienne, le 3 décembre 1875, par le quatuor Hellmesberger." ;
+        <http://model.org/property20>  "2" ;
+        <http://model.org/property25>  "Créé à Vienne, le 3 décembre 1875, par le quatuor Hellmesberger" ;
+        <http://model.org/property4>   "Quatuor à cordes no 2" , "Streichquartett" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T21:08:14.302Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:14.303Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/42157d6c-af76-3fd9-8b2c-3cedd5af4f6b>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Nouvelles aventures" ;
+        <http://model.org/property11>  "Soprano, alto, baryton, flûte/piccolo, cor, percussion, piano/célesta, clavecin, violoncelle, contrebasse" ;
+        <http://model.org/property2>   "26 mai 1966, \"Das Neue Werk\", Hambourg, par Gertie Charlent (soprano), Marie-Thérèse Chan (contralto), William Pearson (baryton), et des membres de l'Orchestre de la radio d Hambourg (NDR) dirigés par Andrzej Markowski." , "Commande du Norddeutschen Rundfunks, Hamburg.Cette pièce renonce à l'utilisation du langage : les chanteurs ne disposent pas de texte mais disent de \"simples\" onomatopées. Elle fut composée au moement où le compositeur faisait partie du mouvement \"Fluxus\" et subissait l'influence de John Cage." , "1962-1965" ;
+        <http://model.org/property25>  "26 mai 1966, \"Das Neue Werk\", Hambourg, par Gertie Charlent (soprano), Marie-Thérèse Chan (contralto), William Pearson (baryton), et des membres de l'Orchestre de la radio d Hambourg (NDR) dirigés par Andrzej Markowski" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr , "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en ;
+        <http://model.org/property9>   "2017-05-29T21:08:13.119Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:13.121Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/bfce471e-9fc5-324e-b2e3-ad909b399b8f>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Quatuor à cordes en ré majeur" , "Streichquartett in D-Dur" , "String quartet in D major" ;
+        <http://model.org/property1>   "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property10>  "D 94" ;
+        <http://model.org/property11>  "2 violons, alto, violoncelle" ;
+        <http://model.org/property12>  "D. 94" ;
+        <http://model.org/property14>  "Publié en 1890" ;
+        <http://model.org/property2>   "1813-1814" , "Publié en 1890." , "4 Mouvements : Allegro, Andante con moto, Menuetto (Allegro), Presto. On ignore tout des circonstances de cette composition, oeuvre généralement considérée comme peu personnelle, \"sage et mineure\". Durée d'exécution : 19 minutes environ" ;
+        <http://model.org/property4>   "Quartet for 2 violins, viola and violoncello in D major" , "Quatuor à cordes no 7" , "Quatuor à cordes no 7 en ré majeur" , "Quatuors" ;
+        <http://model.org/property5>   "musique romantique"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en , "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr ;
+        <http://model.org/property8>   "94"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property9>   "2017-05-29T21:08:17.785Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:08:17.783Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

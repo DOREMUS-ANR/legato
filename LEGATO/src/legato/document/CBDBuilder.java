@@ -114,6 +114,7 @@ public class CBDBuilder {
 			RDFNode object = stmt.getObject();
 			if (object.isLiteral())
 				sb.append(stmt.getLiteral().getString()+" ");
+			//else sb.append(object.toString());
 		}
 		return sb.toString();
 	}

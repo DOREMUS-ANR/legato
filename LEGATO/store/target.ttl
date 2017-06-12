@@ -1,0 +1,731 @@
+<http://data.doremus.org/expression/e92c2c6c-b852-3ce1-9b78-a4f4d7bfe5ef>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property2>   "Créé par Carlo Chiarappa à La Rochelle" ;
+        <http://model.org/property25>  "1re exécution : 1977" ;
+        <http://model.org/property4>   "Sequenza VIII" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.045Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/37c40a84-42b4-33a2-aa91-ec33ca35924d>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Clavier" ;
+        <http://model.org/property12>  "K 69" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "69" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.332Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/cde2e408-9e12-396f-8417-c091ef84101c>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property1>   "5"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property12>  "D 68" ;
+        <http://model.org/property2>   "Ne comprend que le 1er mouvement et le final" , "Éd. : 1890" ;
+        <http://model.org/property4>   "Quatuors" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "68" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.077Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/43674e04-3a46-390c-92c1-dc603d9ad27b>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza III"@it ;
+        <http://model.org/property13>  "Cathy Berberian" ;
+        <http://model.org/property15>  "Brême, Radio" ;
+        <http://model.org/property2>   "Sur un texte de Markus Kutter" ;
+        <http://model.org/property25>  "1re exécution : Brême, Radio, 1966, par Cathy Berberian" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:47.901Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f9655560-b40a-3842-9032-0c46b35238aa>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Quatuors" ;
+        <http://model.org/property1>   "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property18>  "Op. 37" ;
+        <http://model.org/property19>  "37" ;
+        <http://model.org/property2>   "Commande d'Elizabeth Sprague Coolidge" , "Dédié à Elizabeth Sprague Coolidge et aux membres du Kolisch Streichquartett, qui créèrent l'oeuvre à Los Angeles, Royce Hall (University of California) le 9 janvier 1937" , "Éd. : 1939" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.389Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/6e4fb4ec-f7ca-30a9-b323-db65c9bb4db9>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property15>  "Hambourg" ;
+        <http://model.org/property2>   "Peut être couplé avec \"Aventures\" (1962)" , "Sur un texte phonétique dépourvu de sens, inventé par le compositeur" ;
+        <http://model.org/property25>  "1re représentation : Hambourg le 26 mai 1966" ;
+        <http://model.org/property4>   "Nouvelles aventures"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.367Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/cce87cdc-3df4-3eaa-8412-3d3a086a8d9f>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property2>   "Créé par Pascal Gallois" ;
+        <http://model.org/property25>  "1re exécution : 1995" ;
+        <http://model.org/property4>   "Sequenza XII" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.489Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/512fb2b9-c5f1-3334-a336-25af1afbbcd4>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property15>  "Hambourg" ;
+        <http://model.org/property2>   "Pièce inachevée, peut être couplée avec \"Nouvelles aventures\" (1965)" , "Sur un texte phonétique dépourvu de sens, inventé par le compositeur" ;
+        <http://model.org/property25>  "1re représentation : Hambourg le 4 avril 1963" ;
+        <http://model.org/property4>   "Aventures"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.348Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/649a3199-429a-36bb-a995-cb962090335e>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Concertos" ;
+        <http://model.org/property11>  "Violoncelle, orchestre" ;
+        <http://model.org/property2>   "Créé à Berlin par Siegfried Palm et l'Orchestre symphonique de la Radio de Berlin sous la dir. de Henryk Czyz" ;
+        <http://model.org/property25>  "1re exécution : 1967-04-19" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.220Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/1b94a4db-fe42-36b2-bf67-c99cf446aa78>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property13>  "le Rosé Streichquartett" ;
+        <http://model.org/property15>  "Vienne, Bösendorfer Saal" ;
+        <http://model.org/property18>  "Op. 7" ;
+        <http://model.org/property19>  "7" ;
+        <http://model.org/property25>  "1re exécution : Vienne, Bösendorfer Saal, le 5 février 1907, par le Rosé Streichquartett" ;
+        <http://model.org/property4>   "Quatuors"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.352Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/56a2dc02-6506-3de5-9142-53d17d629c9d>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonates"@fr ;
+        <http://model.org/property1>   "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property13>  "Pierre Boulez" ;
+        <http://model.org/property15>  "Darmstadt" ;
+        <http://model.org/property2>   "Date de révision : 1963" , "Comprend : \"Antiphonie\" ; \"Trope\" ; \"Constellation\" (ou \"Constellation-Miroir\") ; \"Strophe\" ; \"Séquence\"" ;
+        <http://model.org/property25>  "1re exécution : Darmstadt, 26 septembre 1957, par Pierre Boulez" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.135Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/80fa9157-874e-319f-b557-9535e4d4dedc>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonates" ;
+        <http://model.org/property11>  "Piano, violon" ;
+        <http://model.org/property12>  "D 385" ;
+        <http://model.org/property2>   "Éd. : 1836" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "385" ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.927Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/7f5e5fd2-27fa-3529-a859-9cd213df5991>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property1>   "11"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Clavecin" ;
+        <http://model.org/property2>   "Comprend : \"La Castelane\", \"L'étincelante ou la Bontems\", \"Les graces-naturéles\", \"La Zénobie\", \"Les fastes de la grande et anciénne Mxnxstrxndxsx\"" ;
+        <http://model.org/property4>   "Ordres"@fr ;
+        <http://model.org/property6>   "Do mineur et majeur"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.156Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/e3aa5705-e830-3f24-b9d0-fd0ff7245040>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Violon, orchestre à cordes" ;
+        <http://model.org/property12>  "Hob VIIa 4" ;
+        <http://model.org/property16>  "Hob" ;
+        <http://model.org/property4>   "Concertos" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "VIIa 4" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.267Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/9b65708b-cf8b-3f41-9169-03857cd71022>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property2>   "Créé parThomas Stevens à Los Angeles" ;
+        <http://model.org/property25>  "1re exécution : 1984" ;
+        <http://model.org/property4>   "Sequenza X" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.373Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/9be3da0e-a65e-3f8e-8f76-5ec63e9d7cf0>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuors"@fr ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property18>  "Op. 51, no 1" ;
+        <http://model.org/property19>  "51" ;
+        <http://model.org/property20>  "1" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.565Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/87bbd75d-94f3-323d-8b45-584e761aae9f>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property11>  "Hautbois" ;
+        <http://model.org/property4>   "Sequenza VIIa" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.550Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/0051d299-eed5-3d4f-8185-aca4c45fa754>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property2>   "Créé par Stuart Dempster à San Francisco" ;
+        <http://model.org/property25>  "1re exécution : 1966" ;
+        <http://model.org/property4>   "Sequenza V" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.783Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T14:24:48.004Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Romeo and Juliet"@en ;
+        <http://model.org/property18>  "Op. 64bis" ;
+        <http://model.org/property19>  "64bis" ;
+        <http://model.org/property2>   "Suite symphonique en 7 parties tirée de la musique de ballet de même titre (op. 64)" ;
+        <http://model.org/property4>   "Romeo i Zul'etta"@ru , "Romeo i Dzhul'etta"@ru , "Roméo et Juliette"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.502Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/0909c04c-3a2d-363c-b5a8-b8dc744fb466>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 604" ;
+        <http://model.org/property2>   "Exécuté parfois comme 2e mouvement de la sonate en fa dièse mineur D 571" ;
+        <http://model.org/property4>   "Andantes" , "Klavierstücke" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "604" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.012Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/2c1de388-3740-3e84-97ba-ed8cf4cdfe59>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property11>  "Violoncelle" ;
+        <http://model.org/property4>   "Sequenza XIV" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.574Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f8426064-f508-3c17-b33b-89818ac181a8>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Symphonies"@fr ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property12>  "WAB 102" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property2>   "Éd. (2e version) : 1892 (C. Hynais)" , "Existe en deux versions : 1re version (11 octobre 1871-11 septembre 1872 ; révisée en 1873 et 1876) ; 2e version (1877 ; révisée en 1892)" ;
+        <http://model.org/property25>  "1re exécution : Vienne, 26 octobre 1873 (1re version) ; Vienne, 25 novembre 1894 (2e version)" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "102" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.445Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Clarinette, piano" ;
+        <http://model.org/property18>  "Op. 120, no 1" ;
+        <http://model.org/property19>  "120" ;
+        <http://model.org/property20>  "1" ;
+        <http://model.org/property25>  "1re exécution : 11 janvier 1895 avec alto" , "1re exécution : 7 janvier 1895" ;
+        <http://model.org/property4>   "Sonates"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.486Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/82f14170-b16e-3918-8b11-60f3384f53b1>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sequenza II" ;
+        <http://model.org/property2>   "Créé par Francis Pierreà Darmstadt" ;
+        <http://model.org/property25>  "1re exécution : 1963" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.462Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Clarinette, piano" ;
+        <http://model.org/property15>  "Vienne" ;
+        <http://model.org/property18>  "Op. 120, no 2" ;
+        <http://model.org/property19>  "120" ;
+        <http://model.org/property2>   "La partie de clarinette peut se jouer à l'alto" ;
+        <http://model.org/property20>  "2" ;
+        <http://model.org/property25>  "1re exécution : Vienne, 7 janvier 1895" ;
+        <http://model.org/property4>   "Sonates"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.515Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f37824be-2fe3-3457-b953-7fca18501d60>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Lamento d'Arianna"@it , "Lasciatemi morire"@it ;
+        <http://model.org/property11>  "Voix (5)" ;
+        <http://model.org/property12>  "SV 107" ;
+        <http://model.org/property16>  "SV" ;
+        <http://model.org/property2>   "Texte d'Ottavio Rinuccini" , "Comprend : \"Lasciatemi morire\" (no 1) ; \"O Teseo, Teseo mio\" (no 2) ; \"Dove, dov'e la fede\" (no 3) ; \"Ahi che non pur risponde\" (no 4)" , "Il existe aussi une version pour soprano et basse continue (SV 22)" , "Seule partie conservée de la tragédie en 1 acte \"Arianna\" (1608), transformée en madrigal à 5 voix" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "107" ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.240Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/0d27238f-e62c-3380-9116-ae3fe604f938>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 845" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "845" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.173Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/a79ab5c1-0978-3b8b-8bb5-d272685b86e8>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuors" ;
+        <http://model.org/property1>   "4"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property12>  "D 46" ;
+        <http://model.org/property2>   "Éd. : 1890" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "46" ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.953Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c88cd977-2a34-307c-8e86-cb37c56ba2a8>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Fantaisies"@fr ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 760" ;
+        <http://model.org/property4>   "Wandererfantasie"@ge ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "760" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.116Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/80a20425-de7d-31a2-a257-91c3b4d5c86e>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property18>  "Op. 22" ;
+        <http://model.org/property19>  "22" ;
+        <http://model.org/property2>   "Comprend : Was Du mir bist ? (poème de Eleonore van der Straten) ; Mit Dir zu schweigen (poème de Karl Kobald) ; Welt ist stille eingeschlafen (poème de Karl Kobald)" ;
+        <http://model.org/property4>   "Drei Lieder" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.532Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/54d67920-2391-3b3a-aa92-d7350d4e7dca>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza VI" ;
+        <http://model.org/property2>   "Il existe une version révisée pour violoncelle" , "Créé par Serge Collot à New York" , "Date de révision : 1981" ;
+        <http://model.org/property25>  "1re exécution : 1967" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.477Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/8db3607e-b83a-35c4-8d28-258b2766e5d9>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuors" ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property12>  "D 32" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "32" ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.884Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/13f3519e-a0d2-36f5-a0ee-74fda6de840b>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 537" ;
+        <http://model.org/property2>   "Éd. : 1852" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "537" ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.974Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/3d8d5f93-3dc8-3c94-9175-aad7c368ebb1>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Clavier" ;
+        <http://model.org/property12>  "K 467" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "467" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.300Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/709f0103-4477-3304-9dbc-3910631a0794>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Romeo i Dzhul'etta"@ru , "Roméo et Juliette"@fr ;
+        <http://model.org/property13>  "Q. Arnoldi" ;
+        <http://model.org/property15>  "Brno" ;
+        <http://model.org/property18>  "Op. 64" ;
+        <http://model.org/property19>  "64" ;
+        <http://model.org/property2>   "Musique pour le ballet en 4 actes de même titre" , "Livret du compositeur et de Leonid Mihajlovič Lavrovskij et Adrian Ivanovič Piotrovskij d'après la pièce éponyme de William Shakespeare" , "10 pièces ont été transcrites pour piano par le compositeur (op. 75)" , "3 suites symphoniques ont été tirées de la musique de ballet par le compositeur (op. 64bis, 64ter et 101)" ;
+        <http://model.org/property25>  "1re représentation : Brno, 30 décembre 1938, sous la direction de Q. Arnoldi" ;
+        <http://model.org/property26>  "conducteur"@fr ;
+        <http://model.org/property4>   "Romeo i Zul'etta"@ru , "Romeo and Juliet"@en ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.387Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c66519dc-9b54-3081-99d4-57a10b773f84>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sequenza IV" ;
+        <http://model.org/property2>   "Créé à St Louis, Missouri par Jocy de Corvalho" ;
+        <http://model.org/property25>  "1re exécution : 1966" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:47.960Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2017-05-29T21:10:20.342Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/0c374e70-48d1-38c0-860d-e11c7c6b1cd8>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuors" ;
+        <http://model.org/property1>   "7"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property12>  "D 94" ;
+        <http://model.org/property2>   "Éd. : 1871" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "94" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.187Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/7728eae4-85f0-37b4-9b5d-ced437542de6>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property1>   "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property12>  "D 112" ;
+        <http://model.org/property4>   "Quatuors" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "112" ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.820Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/453d8f1c-6320-3658-9c52-9d90f3e7a164>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property15>  "Paris, Société nationale de musique" ;
+        <http://model.org/property18>  "Op. 118" ;
+        <http://model.org/property19>  "118" ;
+        <http://model.org/property2>   "Comprend : \"La mer est infinie\" (no 1) ; \"Je me suis embarqué\" (no 2) ; \"Diane Séléné\" (no 3) ; \"Vaisseaux, nous vous aurons aimés\" (no 4)" , "Cycle de 4 mélodies" ;
+        <http://model.org/property25>  "1re exécution : Paris, Société nationale de musique, 13 mai 1922" ;
+        <http://model.org/property28>  "Dédicace à Charles Panzéra"@fr ;
+        <http://model.org/property4>   "L'horizon chimérique"@fr ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.187Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/181114be-6867-3ff5-b9ab-e3fe0ec239c1>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property2>   "Créé par Teodoro Anzelotti" ;
+        <http://model.org/property25>  "1re exécution : 1995" ;
+        <http://model.org/property4>   "Sequenza XIII" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.504Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/49340bba-c07f-385f-a888-9740b3a3bb89>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Concertos"@fr ;
+        <http://model.org/property11>  "Violoncelle, orchestre" ;
+        <http://model.org/property12>  "Hob VIIb 1" ;
+        <http://model.org/property16>  "Hob" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "VIIb 1" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.240Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c78882f0-8787-3cdf-a9ba-a9e5807c8778>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Suite for small orchestra" ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Petit orchestre" ;
+        <http://model.org/property4>   "Suites" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.267Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/328e5cf5-b59f-3d0d-bfc1-aef405b2df30>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property2>   "Créé par Severino Gazzelloni à Darmstadt" ;
+        <http://model.org/property25>  "1re exécution : 1958" ;
+        <http://model.org/property4>   "Sequenza I" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:46.596Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/65fb2976-df6f-342c-bef2-3b15965fcae3>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Suites" ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Petit orchestre" ;
+        <http://model.org/property4>   "Suite for small orchestra" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.286Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/d4176405-36f8-3a01-a676-1b8fa75796c6>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Abschiedslieder" , "Lieder des Abschieds" ;
+        <http://model.org/property18>  "Op. 14" ;
+        <http://model.org/property19>  "14" ;
+        <http://model.org/property2>   "Dédié à Franz Schalk" , "Comprend : \"Sterbelied\"  (poème de Christina G. Rossetti trad. par Alfred Kerr) ; \"Dies eine kann mein Sehnen nimmer fassen\" (poème de Edith Ronsperger) ; \"Mond, so gehst du wieder auf\" (poème de Ernst Lothar) ; \"Gefasster Abschied\" (poème de Ernst Lothar)" , "Il existe une version orchestrée" ;
+        <http://model.org/property25>  "1re exécution : 1920-11-05" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.520Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c5d49df0-4c09-3699-9ad7-fb83e4f9f071>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Esprit rude, esprit doux" ;
+        <http://model.org/property11>  "Clarinette, flûte" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.580Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property18>  "Op. 64ter" ;
+        <http://model.org/property19>  "64ter" ;
+        <http://model.org/property2>   "Suite symphonique en 7 parties tirée de la musique de ballet de même titre (op. 64)" ;
+        <http://model.org/property4>   "Romeo i Zul'etta"@ru , "Romeo and Juliet"@en , "Roméo et Juliette"@fr , "Romeo i Dzhul'etta"@ru ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.404Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/a0d3fe42-a315-306c-9105-68751cd891e2>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonates" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 613" ;
+        <http://model.org/property2>   "Ne comprend que 2 mouvements fragmentaires" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "613" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.032Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/2a5ab206-6b66-3fb3-a0fd-e28d1d253834>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Sonates" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 784" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "784" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.135Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/d38cfdc0-0169-39cb-ba3e-dd7a1ab772ca>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonates" ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 279" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "279" ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.862Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/29db615d-a403-3baf-b128-24ff7e223620>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Concertos"@fr ;
+        <http://model.org/property11>  "Violoncelle, orchestre" ;
+        <http://model.org/property12>  "Hob VIIb 2" ;
+        <http://model.org/property16>  "Hob" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "VIIb 2" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.254Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/9339ce35-2286-3860-8b2b-0c1aba6ea29c>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonates"@fr ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property13>  "Yvette Grimaud" ;
+        <http://model.org/property15>  "Paris, École normale de musique, concert des éditeurs" ;
+        <http://model.org/property2>   "Éd. : 1950" ;
+        <http://model.org/property25>  "1re exécution : Paris, École normale de musique, concert des éditeurs, 29 avril 1950, par Yvette Grimaud" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.109Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/93fa7c7d-fc8e-36cf-873c-e93825041d22>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Quatuors"@fr ;
+        <http://model.org/property1>   "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property18>  "Op. 51, no 2" ;
+        <http://model.org/property19>  "51" ;
+        <http://model.org/property20>  "2" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.551Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/69ba6e4c-5fec-3b3f-8f80-669c784ee9fa>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Symphonies"@fr ;
+        <http://model.org/property1>   "8"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property12>  "WAB 108" ;
+        <http://model.org/property2>   "Existe en deux versions : 1re version (juillet 1884-10 août 1887) ; 2e version (octobre 1887-10 mars 1890)" , "Éd. (2e version) : Berlin, 1892 (J. Schalk et M. von Oberleithner)" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "108" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.460Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/5198886f-a8e3-3a9c-b4ef-0fbce43e192d>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Unvergänglichkeit"@ge ;
+        <http://model.org/property18>  "Op. 27" ;
+        <http://model.org/property19>  "27" ;
+        <http://model.org/property2>   "Cycle de mélodies" , "Sur des poèmes de Eleonore van der Straaten" , "Comprend : Unvergänglichkeit ; Das eilende Bächlein ; Das schlafende Kind ; Stärker als der Tod ; Unvergänglichkeit" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.597Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/e364eebc-ae5b-322d-8248-9d355a14e2aa>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property1>   "3"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property12>  "D 36" ;
+        <http://model.org/property2>   "Éd. : 1890" ;
+        <http://model.org/property4>   "Quatuors" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "36" ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.907Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/94f43c92-bf5c-3fc6-b155-f06a3a5c941b>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "CT 83-85" ;
+        <http://model.org/property28>  "Dédicace à Catherine Maberly"@fr ;
+        <http://model.org/property4>   "3 mazurkas"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "83-85" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.531Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/b851a5c7-686a-3fe2-a405-88a3c3bdb969>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property18>  "Op. 118, no 2" ;
+        <http://model.org/property19>  "118" ;
+        <http://model.org/property2>   "Tonalité : ré bémol majeur" , "Mélodie sur un poème de Jean de La Ville de Mirmont" ;
+        <http://model.org/property20>  "2" ;
+        <http://model.org/property4>   "Je me suis embarqué"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.424Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/9583f934-6aab-3a69-8d65-8052a7e1529d>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Lamento d'Arianna"@it ;
+        <http://model.org/property11>  "Soprano, basse continue" ;
+        <http://model.org/property12>  "SV 22" ;
+        <http://model.org/property16>  "SV" ;
+        <http://model.org/property2>   "Texte d'Ottavio Rinuccini" , "Seule partie conservée de la tragédie en 1 acte \"Arianna\" (1608)" , "Il existe une version pour 5 voix a cappella (SV 107)" , "Comprend : \"Lasciatemi morire\" ; \"O Teseo, Teseo mio\" ; \"Dove, dov'e la fede\" ; \"Ahi che non pur risponde\"" ;
+        <http://model.org/property4>   "Lasciatemi morire"@it ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "22" ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.330Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/4471776d-3d03-3448-9e24-157a04af25cb>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property1>   "6"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Cordes" ;
+        <http://model.org/property12>  "D 74" ;
+        <http://model.org/property2>   "Éd. : 1890" ;
+        <http://model.org/property4>   "Quatuors" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "74" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.097Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f5806739-406a-315b-a1d7-f65ab554a62d>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Duos"@fr ;
+        <http://model.org/property11>  "Violon, piano" ;
+        <http://model.org/property12>  "D 574" ;
+        <http://model.org/property2>   "Éd. : 1851 (op. 162)" ;
+        <http://model.org/property4>   "Sonates"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "574" ;
+        <http://model.org/property9>   "2017-05-29T21:10:20.994Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/01c51e47-e09b-36f7-be11-f5003f5acf6d>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Intende voci" ;
+        <http://model.org/property12>  "D 963" ;
+        <http://model.org/property2>   "Offertoire du vendredi après le 3e dimanche de Carême" ;
+        <http://model.org/property4>   "Offertoires" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "963" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.219Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/5e690f10-3e54-37ba-963b-e2658d7065f4>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Clavier" ;
+        <http://model.org/property12>  "K 386" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "386" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.283Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/c15700ff-0caf-3f46-8b5a-cfe4f07f5371>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Ordres"@fr ;
+        <http://model.org/property1>   "25"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Clavecin" ;
+        <http://model.org/property2>   "Comprend : \"La visionaire\", \"La mistérieuse\", \"La Monflambert\", \"La muse victorieuse\", \"Les ombres errantes\"" ;
+        <http://model.org/property6>   "Mi bémol majeur, do majeur et mineur"@fr ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.308Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/0c274188-05f0-3c39-af4a-394075b39a90>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Diane, Séléné"@fr ;
+        <http://model.org/property18>  "Op. 118, no 3" ;
+        <http://model.org/property19>  "118" ;
+        <http://model.org/property2>   "Tonalité : mi bémol majeur" , "Mélodie sur un poème de Jean de La Ville de Mirmont" ;
+        <http://model.org/property20>  "3" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.447Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/4a5bc432-e945-35c3-9c05-7e04204beeab>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sonates"@fr ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property13>  "Yvette Grimaud" ;
+        <http://model.org/property15>  "Paris, RTF" ;
+        <http://model.org/property2>   "Éd. : 1951" ;
+        <http://model.org/property25>  "1re exécution : Paris, RTF, 1946, par Yvette Grimaud" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.081Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/4cb4a49b-f7d1-394b-833d-d1c3fb683c91>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 959" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "959" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.203Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/8d4933fb-409e-30c7-b9f5-3ca3056833f3>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Sequenza XI" ;
+        <http://model.org/property11>  "Guitare" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.586Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/a4351488-44cf-3f32-9ff1-fcd2355d78a1>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property0>   "Concertos" ;
+        <http://model.org/property11>  "Violon, orchestre" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.561Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/3ed3d591-6346-3938-9bda-b3422af5f684>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Clavier" ;
+        <http://model.org/property12>  "K 481" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "481" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.316Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/e058a88a-d9c2-3505-be23-d214025cbbc1>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Esprit rude, esprit doux" ;
+        <http://model.org/property2>   "Dédié à Pierre Boulez pour son soixantièmeanniversaire" , "Créé à Baden-Baden par Lawrence Beauregard,  flûte et Alain Damiens, clarinette" ;
+        <http://model.org/property25>  "1re exécution : 1985-03-31" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.477Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/54a61ac0-f753-3b2f-af69-e218f016e838>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Symphonies"@fr ;
+        <http://model.org/property1>   "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property12>  "WAB 101" ;
+        <http://model.org/property15>  "Linz" ;
+        <http://model.org/property2>   "Éd. (version de Vienne) : 1893 (C. Hynais)" , "Existe en deux versions : version de Linz (janvier 1865-avril 1866 ; révisée en 1877, 1884 et 1889) ; version de Vienne (mars 1890-avril 1891)" ;
+        <http://model.org/property25>  "1re exécution : Linz, 9 mai 1868 ; Vienne, 13 décembre 1891" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "101" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.418Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/f3761a59-d523-32ca-bac6-d6c01b83fed5>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 840" ;
+        <http://model.org/property2>   "Éd. : 1861" , "Les deux derniers mouvements sont incomplets" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Resumption and conversion of the MARC record of the BnF"@en , "Reprise et conversion de la notice MARC de la BnF"@fr ;
+        <http://model.org/property8>   "840" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.154Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/bbde0f68-2c9b-34ee-bf82-123735feb518>
+        a                              <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> , <http://www.w3.org/ns/prov#Entity> ;
+        <http://model.org/property11>  "Piano" ;
+        <http://model.org/property12>  "D 664" ;
+        <http://model.org/property4>   "Sonates" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property8>   "664" ;
+        <http://model.org/property9>   "2017-05-29T21:10:21.057Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://data.doremus.org/expression/8edcbcd3-2fb5-30e7-8797-ff7935fd9175>
+        a                              <http://www.w3.org/ns/prov#Entity> , <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> ;
+        <http://model.org/property0>   "Ordres"@fr ;
+        <http://model.org/property1>   "13"^^<http://www.w3.org/2001/XMLSchema#int> ;
+        <http://model.org/property11>  "Clavecin" ;
+        <http://model.org/property2>   "Comprend : \"Les lis naissans\", \"Les rozeaux\", \"L'engageante\", \"Les folies françoises ou Les dominos\", \"L'âme-en-peine\"" ;
+        <http://model.org/property7>   "Reprise et conversion de la notice MARC de la BnF"@fr , "Resumption and conversion of the MARC record of the BnF"@en ;
+        <http://model.org/property9>   "2017-05-29T14:24:48.405Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .

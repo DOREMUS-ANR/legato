@@ -1,12 +1,15 @@
 package legato.utils;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map.Entry;
 import java.util.TreeMap;
 
+import org.apache.jena.atlas.iterator.Iter;
 import org.apache.jena.query.Query;
 import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
@@ -19,6 +22,9 @@ import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 
+import ca.pfv.spmf.algorithms.clustering.dbscan.AlgoDBSCAN;
+import ca.pfv.spmf.patterns.cluster.Cluster;
+import ca.pfv.spmf.patterns.cluster.DoubleArray;
 import legato.LEGATO;
 import legato.document.FileManager;
 import legato.rdf.ModelManager;
@@ -40,16 +46,19 @@ public class PropertyHandler {
 		Model srcModel = ModelManager.loadModel(srcPath);
 		Model tgtModel = ModelManager.loadModel(tgtPath);
 		
-		srcModel = ModelManager.rewrite(srcModel);
-	    tgtModel = ModelManager.rewrite(tgtModel);
+		Model s = ModelFactory.createDefaultModel();
+		Model t = ModelFactory.createDefaultModel();
+		
+		s = ModelManager.rewrite(srcModel, false);
+	    t = ModelManager.rewrite(tgtModel, false);
 	    
 	    Model mergedModel = ModelFactory.createDefaultModel();
-	    mergedModel.add(srcModel);
-		mergedModel.add(tgtModel);
+	    mergedModel.add(s);
+		mergedModel.add(t);
 		
 		List<Resource> properties = getDistinctProperties(mergedModel);
 		
-	//	System.out.println(legato.getPropList());
+		System.out.println(legato.getPropList());
 		
 		HashMap<String,String> propScoreList = new HashMap<String,String>();
 		
@@ -61,21 +70,50 @@ public class PropertyHandler {
 		TreeMap<String,String> mapTriee = new TreeMap<String,String>(comp);
 	    mapTriee.putAll(propScoreList);
 	    
-	  //  String heterProp = mapTriee.firstEntry().getKey();
-		Iterator iter = mapTriee.keySet().iterator();
-		List<String> propList = new ArrayList<String>();
-		int nb = 1;
-		while (iter.hasNext())		
-		{
-			String prop = (String) iter.next();
-			if (nb==1) {
-			//	System.out.println(prop);
-				propList.add(prop);
+	    System.out.println(mapTriee);
+	    
+	    StringBuilder sb = new StringBuilder();
+	    for (int i=0; i<mapTriee.entrySet().size(); i++)
+	    {
+	    	sb.append(Double.valueOf((String) mapTriee.values().toArray()[i])+ "\n");
+	    };
+	    FileManager.create("nom", sb.toString().trim());
+	    int minPts=1; 
+	    double epsilon = 5d; 
+	    AlgoDBSCAN algo = new AlgoDBSCAN();  
+	    List<Cluster> clusters = algo.runAlgorithm(legato.getPath()+"store"+File.separator+"nom.txt", minPts, epsilon, "\n"); 
+	    algo.printStatistics();
+	    
+	    double highMean =0;
+	    double[] heterCluster = null;
+	    for(Cluster cluster : clusters) { 
+	    	double[] arr =new double[cluster.getVectors().size()];
+	    	int i=0;
+	    	for(DoubleArray dataPoint : cluster.getVectors()) { 
+	    		arr[i++] = dataPoint.data[0];
+	    	} 
+	    	A a =new A(arr);
+	    	if (highMean<a.getMean()) {
+	    		highMean=a.getMean();
+	    		heterCluster = arr;
+	    	};
+	    } 
+	    List<String> propList = new ArrayList<String>();
+	    Iterator it = mapTriee.entrySet().iterator();
+	    while(it.hasNext()){
+	    	Entry<String,String> entry = (Entry<String,String>) it.next();
+	    	boolean f = false;
+	    	for (int i = 0; i < heterCluster.length; i++) {
+				if (String.valueOf(heterCluster[i]).equals(entry.getValue()))
+					propList.add(entry.getKey());;
 			}
-			nb = nb+1;
-		}
-	  //  System.out.println(heterProp);
+	    }
+	    
+	    System.out.println(propList); 
 		
+		srcModel = ModelManager.rewrite(srcModel, true);
+		System.out.println("source");
+		tgtModel = ModelManager.rewrite(tgtModel, true);
 		
 		Model srcFinalModel = ModelFactory.createDefaultModel();
 		srcModel.listStatements().toSet().forEach((stmt) -> {
@@ -88,10 +126,10 @@ public class PropertyHandler {
 		Model tgtFinalModel = ModelFactory.createDefaultModel();
 		tgtModel.listStatements().toSet().forEach((stmt) -> {
 			Property property = stmt.getPredicate();
-			if (!propList.contains(property.toString())){	
+			if (!propList.contains(property.toString())){
 				tgtFinalModel.add(stmt);
 			}
-		});
+		}); 
 		
 	//	FileManager.createRDFile(new File(legato.getPath()+"store"), "source", srcFinalModel, "TTL");
 	//	FileManager.createRDFile(new File(legato.getPath()+"store"), "target", tgtFinalModel, "TTL"); 

@@ -15,7 +15,7 @@ public class Clustering {
 	public static ClusterList getClusters(HashMap<String,double[]> docs) throws NumberFormatException, IOException
 	{
 		//double maxdistance = 0.415; //meilleur seuil sur DS_SM
-		double maxdistance = 0.4;
+		double maxdistance = 0.2;
 		DistanceFunction distanceFunction = new DistanceCorrelation();  
 		
 		HierarchicalClustering algo = new HierarchicalClustering();

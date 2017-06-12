@@ -95,51 +95,6 @@ public class KeysClassifier {
         return bestKey;
 		}
 	
-public static HashSet<String> getHeterKey (Model srcModel, File dirCluster) throws  IOException {
-		
-		legato = LEGATO.getInstance();
-		PropList propList = new PropList();
-		legato.setPropList(propList);
-		/*******************************************************************************************
-		 ** Place all Literals (in resources CBD) to a distance = 1
-		 * Reasons : 
-		 ***********+ SAKey considers blank nodes as "Strings"
-		 ***********+ SILK gives different results when comparing property values whose distance > 1
-		 *******************************************************************************************/	
-		
-		srcModel = ModelManager.rewrite(srcModel);
-		
-		/**********
-		 * Save the 2 models temporarily in 2 RDF files in "N-TRIPLES" (The only format accepted by SAKey)
-		 **********/
-		FileManager.createRDFile(dirCluster, "source", srcModel, "nt");
-		
-		/*******
-		 * The keys of the "source" and "target" datasets are saved in "srcKeys" and "tgtKeys" respectively
-		 *******/
-		KeyList srcKeys = new KeyList();
-		File srcFile = new File(dirCluster.getAbsolutePath()+File.separator+"source.nt");
-		srcKeys = Sakey.extractKeys(srcFile, srcKeys);
-		
-		/*********
-		 * Merge the 2 sets of keys
-		 *********/
-        KeyList mergedKeys = new KeyList();
-       
-        Iterator iter = srcKeys.iterator();
-        while (iter.hasNext())
-        {
-        	mergedKeys.add((Key) iter.next()); 
-        }
-		
-        /********
-         * Keys Ranking
-         ********/
-        HashSet<String> bestKey = SupportMergedKeys.rank(mergedKeys, srcFile, srcFile);
-		
-        return bestKey;
-		}
-	
 	public static List<Property> getCommonProperties(Model srcModel, Model tgtModel)
 	{
 		/****

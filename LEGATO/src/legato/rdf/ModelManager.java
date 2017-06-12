@@ -79,19 +79,19 @@ public class ModelManager {
 			Resource subject = stmt.getSubject();
 			Property prop = stmt.getPredicate();
 			RDFNode   object    = stmt.getObject();      
-			if (!object.isLiteral()){
-				Resource uriConcept = (Resource) object;
-				if (uriConcept.toString().contains("iaml/genre")){
-					for (String label : ConceptFinder.getLabel(ConceptFinder.genreVocabulary, uriConcept.toString())){
-						m.add(subject, prop, label);
-					}
-				}
-				else if (uriConcept.toString().contains("diabolo/genre")){
-					for (String label : ConceptFinder.getLabel(ConceptFinder.genreVocabularyDiabolo, uriConcept.toString())){
-						m.add(subject, prop, label);
-					}
-				}
-			}
+//			if (!object.isLiteral()){
+//				Resource uriConcept = (Resource) object;
+//				if (uriConcept.toString().contains("iaml/genre")){
+//					for (String label : ConceptFinder.getLabel(ConceptFinder.genreVocabulary, uriConcept.toString())){
+//						m.add(subject, prop, label);
+//					}
+//				}
+//				else if (uriConcept.toString().contains("diabolo/genre")){
+//					for (String label : ConceptFinder.getLabel(ConceptFinder.genreVocabularyDiabolo, uriConcept.toString())){
+//						m.add(subject, prop, label);
+//					}
+//				}
+//			}
 		}
 		return m;
 	}
@@ -99,7 +99,7 @@ public class ModelManager {
 	/**********
 	 ** Place all Literals (in resources CBD) to a distance = 1 
 	 **********/
-		public static Model rewrite (Model model) throws IOException
+		public static Model rewrite (Model model, boolean ok) throws IOException
 	{
 		LEGATO legato = LEGATO.getInstance();
 		Model finalModel = ModelFactory.createDefaultModel();  
@@ -108,8 +108,11 @@ public class ModelManager {
 		if (legato.hasType(resource) == true) //If the current resource belongs to a given "type"
 	    {
 				Model m = CBDBuilder.getCBD(model, resource);
-			//	m.add(CBDBuilder.getCBDDirectPredecessors(model, resource));
-			//	m.add(CBDBuilder.getCBDDirectSuccessors(model, resource));
+				if (ok==true)
+				{
+				m.add(CBDBuilder.getCBDDirectPredecessors(model, resource));
+			    m.add(CBDBuilder.getCBDDirectSuccessors(model, resource));
+				}
 				
 				try {
 					m.add(ModelManager.parseCBD(m));
@@ -175,6 +178,8 @@ public class ModelManager {
 					{
 						finalModel.createResource(resource.toString()).addProperty(RDF.type, object);
 					}
+//					else
+//						finalModel.createResource(resource.toString()).addProperty(prop, object);
 				});
 			} 
 		});
