@@ -1,6 +1,6 @@
 # <b> <i> Legato </i> : Disambiguating and Linking Heterogeneous Resources Across RDF Graphs </b>
 
-An automatic data linking tool developed by DOREMUS.
+An automatic data linking tool developed by [DOREMUS][3].
 
 <b> About <i> Legato </i> </b>
 ========
@@ -12,7 +12,7 @@ An automatic data linking tool developed by DOREMUS.
 
 <b> How to run <i> Legato </i> </b>
 ========
-For running <b> <i> Legato </i> </b> through the GUI, please select the source, target and alignement (if it is availble) files and then click on "run".
+For running <b> <i> Legato </i> </b> through the GUI, please run the "main.java" class in the "legato" package. Then, select the source, target and alignement (if it is availble) files and click on "run" for aligning and evaluating the produced links. If no alignement file exists, <b> <i> Legato </i> </b> matches the instances without evaluating the produced links.
 
 Benchmark datasets: [DOREMUS data][1] (real musical data)
 
@@ -27,3 +27,8 @@ JDK 8 or later
 [1]: https://github.com/DOREMUS-ANR/doremus-playground
 
 [2]: https://github.com/DOREMUS-ANR/doremus-playground/tree/master/DS_FP
+<<<<<<< HEAD
+
+[3]: http://www.doremus.org/
+=======
+>>>>>>> origin/master
