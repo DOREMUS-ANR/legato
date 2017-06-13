@@ -1,4 +1,4 @@
-# <b> <i> Legato </i> : Disambiguating and Linking Heterogeneous Entities Across RDF Graphs </b>
+# <b> <i> Legato </i> : Disambiguating and Linking Heterogeneous Resources Across RDF Graphs </b>
 
 An automatic data linking tool developed by DOREMUS.
 
