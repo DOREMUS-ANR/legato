@@ -27,8 +27,5 @@ JDK 8 or later
 [1]: https://github.com/DOREMUS-ANR/doremus-playground
 
 [2]: https://github.com/DOREMUS-ANR/doremus-playground/tree/master/DS_FP
-<<<<<<< HEAD
 
 [3]: http://www.doremus.org/
-=======
->>>>>>> origin/master
