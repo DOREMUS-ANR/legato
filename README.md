@@ -20,7 +20,7 @@ The figure, below, illustrates <b> <i> Legato </i> </b>  running on [FPT data][2
 
 ![GUI](img/gui.png)
 
-<b> Requierements </b>
+<b> Requirements </b>
 ========
 JDK 8 or later
 
