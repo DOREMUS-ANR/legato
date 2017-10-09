@@ -12,6 +12,7 @@ import java.util.List;
 import org.apache.jena.rdf.model.Model;
 
 import legato.LEGATO;
+import legato.gui.GUI;
 
 /**
  * @author Manel Achichi
@@ -40,9 +41,9 @@ public class FileManager {
 	
 	public static File getCreatedRDFile(String fileName, Model model) throws IOException{
 		LEGATO legato = LEGATO.getInstance();
-		FileWriter out = new FileWriter(legato.getPath()+"store"+File.separator+fileName+".ttl");
-		model.write( out, "TTL");
-		File file = new File(legato.getPath()+"store"+File.separator+fileName+".ttl");
+		FileWriter out = new FileWriter(legato.getPath()+"store"+File.separator+fileName+".rdf");
+		model.write( out, "RDF/XML");
+		File file = new File(legato.getPath()+"store"+File.separator+fileName+".rdf");
 		out.close();
 		return file;	
 	}

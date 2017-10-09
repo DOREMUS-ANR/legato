@@ -10,6 +10,7 @@ import java.util.List;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
+import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDF;
 
@@ -28,7 +29,7 @@ public class LEGATO {
 	private HashMap<String, String> srcURIs;
 	private HashMap<String, String> tgtDocs;
 	private HashMap<String, String> tgtURIs; 
-	private double threshold = 0.1;
+	private double threshold = 0.12;
 	private PropList propList; //List of new properties with their path (path = set of existing properties)
 	private File dir;
 	public String DIR_TO_INDEX;
@@ -87,6 +88,11 @@ public class LEGATO {
 		return is;
 	}
 	
+	public RDFNode getType (Resource resource, Model model)
+	{
+		return model.getResource(resource.toString()).getProperty(RDF.type).getObject();
+	}
+	
 	public PropList getPropList()
 	{
 		return propList;
@@ -126,7 +132,7 @@ public class LEGATO {
 	{
 		DocumentBuilder db = new DocumentBuilder();
 		
-		GUI.descriptionArea.append("\nResources type : "+classResources);
+	//	GUI.descriptionArea.append("\nResources type : "+classResources);
 		
 		long srcTime = System.currentTimeMillis()/1000;
 		srcDocs = db.getDocuments(src.toString(), classResources, "source");

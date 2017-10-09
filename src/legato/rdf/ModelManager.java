@@ -30,6 +30,7 @@ import org.apache.jena.vocabulary.RDF;
 
 import legato.LEGATO;
 import legato.document.CBDBuilder;
+import legato.gui.GUI;
 import legato.vocabularies.ConceptFinder;
 
 /**
@@ -52,7 +53,7 @@ public class ModelManager {
 			}
 			else if (ext.equals("ttl"))
 			{
-				model.read(in, null,"TTL");
+				model.read(in, null ,"TTL");
 			}
 			else if (ext.equals("rdf"))
 			{
@@ -79,7 +80,7 @@ public class ModelManager {
 			Resource subject = stmt.getSubject();
 			Property prop = stmt.getPredicate();
 			RDFNode   object    = stmt.getObject();      
-//			if (!object.isLiteral()){
+//			if (!object.isLiteral()){ //
 //				Resource uriConcept = (Resource) object;
 //				if (uriConcept.toString().contains("iaml/genre")){
 //					for (String label : ConceptFinder.getLabel(ConceptFinder.genreVocabulary, uriConcept.toString())){
@@ -91,7 +92,7 @@ public class ModelManager {
 //						m.add(subject, prop, label);
 //					}
 //				}
-//			}
+//			} //
 		}
 		return m;
 	}

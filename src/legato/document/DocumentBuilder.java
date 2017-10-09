@@ -11,8 +11,10 @@ import javax.xml.bind.DatatypeConverter;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
 
 import legato.LEGATO;
+import legato.gui.GUI;
 import legato.rdf.ModelManager;
 import legato.utils.StopWords;
 
@@ -26,12 +28,13 @@ public class DocumentBuilder {
 		/****
 		 * Load RDF model from the dataset 
 		 ****/
+		File f = new File(pathFile);
 		Model modelSource = ModelManager.loadModel(pathFile);
 		HashMap<String, String> documents = new HashMap<String, String>(); //1st String = the docName. 2d String = its content   
 		/****
 		 * Documents creation based on the CBD of each resource 
 		 ****/
-		CBDBuilder.getResources(modelSource, classResources).forEach((resource)->{
+		for (Resource resource : CBDBuilder.getResources(modelSource, classResources)){
 			Model model = ModelFactory.createDefaultModel();
 			model = CBDBuilder.getCBD(modelSource, resource);
 			Model modelCBD = ModelFactory.createDefaultModel();
@@ -43,6 +46,7 @@ public class DocumentBuilder {
 				 * Preprocessing before documents creation
 				 *****/
 				String docContent = StopWords.clean(CBDBuilder.getLiterals(modelCBD));
+				
 				if (!docContent.equals("")&&!docContent.equals(null)&&!docContent.equals("\n")&&!docContent.equals(" "))
 				{
 					if (dataset.equals("source"))
@@ -53,7 +57,7 @@ public class DocumentBuilder {
 					FileManager.create(docName, docContent, dataset);
 				}
 			} catch (IOException e) { e.printStackTrace(); }
-		});
+		}
 		return documents;
 	}
 	

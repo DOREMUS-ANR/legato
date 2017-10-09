@@ -1,12 +1,14 @@
 package legato.match;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.HashSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.ResourceFactory;
+import org.apache.jena.vocabulary.RDF;
 import org.semanticweb.owl.align.Alignment;
 import org.semanticweb.owl.align.Cell;
 
@@ -19,6 +21,7 @@ import legato.cluster.Cluster;
 import legato.cluster.ClusterList;
 import legato.cluster.Clustering;
 import legato.document.CBDBuilder;
+import legato.gui.GUI;
 import legato.indexer.DocVector;
 import legato.indexer.VectorGenerator;
 import legato.keys.KeysClassifier;
@@ -77,9 +80,9 @@ public class Matchifier {
 		    {
 	    		DoubleArray cs = new DoubleArray(clust1.getCentroid().elements);
 	    		 DoubleArray ct = new DoubleArray(clust2.getCentroid().elements);
-	    		 if (distanceFunction.calculateDistance(cs, ct)<0.4)
+	    	//	 if (distanceFunction.calculateDistance(cs, ct)<0.4)
 
-	    	//	 if (CosineSimilarity.cosineSimilarity(clust1.getCentroid(), clust2.getCentroid())>0.4) 
+	    		 if (CosineSimilarity.cosineSimilarity(clust1.getCentroid(), clust2.getCentroid())>0.4) 
 	    		 {
 	    			 if (clust1.size()>1 && clust2.size()>1) //If both clusters contain more than one instance
 	    			 {
@@ -160,6 +163,17 @@ public class Matchifier {
 	    	}
 	    	if ((tgtDoc != null) && simVal >=legato.getThreshold())
 	    	{
+	    	/*	Model srcModel = ModelManager.loadModel(legato.src.toString());
+	    		Model model1 = ModelFactory.createDefaultModel();
+	    		Resource rsrce1 = model1.createResource(legato.getSrcURIs().get(srcDoc.docName));
+	    		String str1 = legato.getType(rsrce1, srcModel).toString();
+	    		
+	    		Model tgtModel = ModelManager.loadModel(legato.tgt.toString());
+	    		Model model2 = ModelFactory.createDefaultModel();
+	    		Resource rsrce2 = model2.createResource(legato.getTgtURIs().get(tgtDoc));
+	    		String str2 = legato.getType(rsrce2, tgtModel).toString();
+	    				
+	    		if (str1.equals(str2)) */
 	    		mapList1.add(legato.getSrcURIs().get(srcDoc.docName), legato.getTgtURIs().get(tgtDoc), simVal);
 	    	}
 	     }
@@ -201,6 +215,35 @@ public class Matchifier {
 	    /*********
 		 ** Create and save the alignment file
 		 *********/
-	     Align.saveMappings(mapList);
+	    File dirr = new File(legato.getPath()+"store"+File.separator+"docs");
+	    delete(dirr);
+	    File dirind = new File(legato.getPath()+"store"+File.separator+"index");
+	    delete(dirind);
+	    File srcFile = new File(legato.getPath()+"store"+File.separator+"source.rdf");
+	    srcFile.deleteOnExit();
+	    File tgtFile = new File(legato.getPath()+"store"+File.separator+"target.rdf");
+	    tgtFile.deleteOnExit();
+	    File txtFile = new File(legato.getPath()+"store"+File.separator+"nom.txt");
+	    txtFile.deleteOnExit();
+	     
+	    Align.saveMappings(mapList);
+	}
+	
+	private static void delete(File file) throws IOException {
+		 
+		for (File childFile : file.listFiles()) {
+ 
+			if (childFile.isDirectory()) {
+				delete(childFile);
+			} else {
+				if (!childFile.delete()) {
+					throw new IOException();
+				}
+			}
+		}
+ 
+		if (!file.delete()) {
+			throw new IOException();
+		}
 	}
 }

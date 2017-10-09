@@ -7,6 +7,7 @@ import java.io.IOException;
 import java.util.HashSet;
 
 import legato.LEGATO;
+import legato.gui.GUI;
 
 public class StopWords
 {	
