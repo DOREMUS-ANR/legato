@@ -9,6 +9,12 @@ import java.util.UUID;
 
 import javax.xml.bind.DatatypeConverter;
 
+import org.apache.jena.query.Query;
+import org.apache.jena.query.QueryExecution;
+import org.apache.jena.query.QueryExecutionFactory;
+import org.apache.jena.query.QueryFactory;
+import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSet;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
@@ -57,6 +63,53 @@ public class DocumentBuilder {
 					FileManager.create(docName, docContent, dataset);
 				}
 			} catch (IOException e) { e.printStackTrace(); }
+		}
+		return documents;
+	}
+	
+	/************************************************************
+	 * Build documents for resources based on selected properties 
+	 ************************************************************/
+	public static HashMap<String, String> getDocuments (String pathFile, List<String> classResources, List<String> selectedProp, String dataset) throws IOException{
+		LEGATO legato = LEGATO.getInstance();
+		/****
+		 * Load RDF model from the dataset 
+		 ****/
+		File f = new File(pathFile);
+		Model modelSource = ModelManager.loadModel(pathFile);
+		HashMap<String, String> documents = new HashMap<String, String>(); //1st String = the docName. 2d String = its content   
+		/****
+		 * Documents creation based on the selected properties for each resource 
+		 ****/
+		for (Resource resource : CBDBuilder.getResources(modelSource, classResources)){
+			Model model = ModelFactory.createDefaultModel();
+			String sparqlQueryString = "SELECT DISTINCT ?p ?o {<"+resource +"> ?p ?o }";
+			Query query = QueryFactory.create(sparqlQueryString);
+			QueryExecution qexec = QueryExecutionFactory.create(query, modelSource);
+			ResultSet queryResults = qexec.execSelect();
+			while (queryResults.hasNext()) {
+				QuerySolution qs = queryResults.nextSolution();
+				Resource prop = qs.getResource("?p");
+				if (selectedProp.contains(prop.toString()))
+				{
+					model.createResource(resource).addProperty(model.createProperty(prop.toString()), qs.get("?o").toString());
+				}
+			}
+			qexec.close();
+			String docName = generateUUID(resource.getURI());
+			/*****
+			 * Preprocessing before documents creation
+			 *****/
+			String docContent = StopWords.clean(CBDBuilder.getLiterals(model));
+			if (!docContent.equals("")&&!docContent.equals(null)&&!docContent.equals("\n")&&!docContent.equals(" "))
+			{
+				if (dataset.equals("source"))
+					legato.setSrcUri(docName, resource.getURI());
+				else if (dataset.equals("target"))
+					legato.setTgtUri(docName, resource.getURI());
+				documents.put(docName, docContent); //Construct a document for each resource
+				FileManager.create(docName, docContent, dataset);
+			}
 		}
 		return documents;
 	}

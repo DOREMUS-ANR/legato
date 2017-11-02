@@ -40,6 +40,52 @@ import legato.vocabularies.ConceptFinder;
 public class ModelManager {
 	
 	/***************************************
+	 ***Get all properties from two models
+	 ***************************************/
+	public static List<Property> getAllPropFromModels(Model srcModel, Model tgtModel)
+	{
+		List<Property> propList = new ArrayList<Property>();
+		StmtIterator iter1 = srcModel.listStatements();
+		while (iter1.hasNext()){ 
+			Statement stmt      = iter1.nextStatement();  
+			Property prop = stmt.getPredicate();
+			if (!propList.contains(prop)) propList.add(prop);
+		}
+		StmtIterator iter2 = tgtModel.listStatements();
+		while (iter2.hasNext()){ 
+			Statement stmt      = iter2.nextStatement();  
+			Property prop = stmt.getPredicate();
+			if (!propList.contains(prop)) propList.add(prop);
+		}
+		return propList;
+	}
+	
+	/***************************************
+	 ***Get all classes from two models
+	 ***************************************/
+	public static List<Resource> getAllClassesFromModels(Model srcModel, Model tgtModel)
+	{
+		List<Resource> classList = new ArrayList<Resource>();
+		StmtIterator iter1 = srcModel.listStatements();
+		while (iter1.hasNext()){ 
+			Statement stmt      = iter1.nextStatement();  
+			Property prop = stmt.getPredicate();
+			RDFNode   object    = stmt.getObject();
+			if (prop.equals(RDF.type))
+				if (!classList.contains(object)) classList.add(object.asResource());
+		}
+		StmtIterator iter2 = tgtModel.listStatements();
+		while (iter2.hasNext()){ 
+			Statement stmt      = iter2.nextStatement();  
+			Property prop = stmt.getPredicate();
+			RDFNode   object    = stmt.getObject();
+			if (prop.equals(RDF.type))
+				if (!classList.contains(object)) classList.add(object.asResource());
+		}
+		return classList;
+	}
+	
+	/***************************************
 	 ***Load the RDF model from an RDF file
 	 ***************************************/
 	public static Model loadModel (String inputFile){	

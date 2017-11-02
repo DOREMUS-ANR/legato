@@ -25,11 +25,13 @@ public class LEGATO {
 
 	private static LEGATO legato = new LEGATO();
 	private List<String> classResources;
+	private List<String> selectedProperties;
 	private HashMap<String, String> srcDocs;
 	private HashMap<String, String> srcURIs;
 	private HashMap<String, String> tgtDocs;
 	private HashMap<String, String> tgtURIs; 
 	private double threshold = 0.12;
+	private long beginTime;
 	private PropList propList; //List of new properties with their path (path = set of existing properties)
 	private File dir;
 	public String DIR_TO_INDEX;
@@ -46,13 +48,6 @@ public class LEGATO {
 		{
 			dir = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath());
 			dir = dir.getParentFile();
-			classResources = new ArrayList<String>();
-		 //   classResources.add("http://www.tomtom.com/ontologies/traces#Trace");	
-		//	classResources.add("http://data.doremus.org/ontology/Self_Contained_Expression");
-			classResources.add("http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression");
-		//	classResources.add("http://www.bbc.co.uk/ontologies/creativework/Programme");
-		//	classResources.add("http://www.bbc.co.uk/ontologies/creativework/NewsItem");
-		//	classResources.add("http://www.bbc.co.uk/ontologies/creativework/BlogPost");
 		    srcURIs = new HashMap<String, String>();
 		    tgtURIs = new HashMap<String, String>();
 		}
@@ -73,6 +68,28 @@ public class LEGATO {
     {
     	return threshold;
     }
+	
+	public void addClasses (String text)
+	{
+		classResources = new ArrayList<String>();
+		if(!text.contains("\n")) this.classResources.add(text);
+		
+		else for (String type : text.split("\n")) 
+		{
+			this.classResources.add(type);
+		}
+	}
+	
+	public void addProperties (String text)
+	{
+		selectedProperties = new ArrayList<String>();
+		if(!text.contains("\n")) this.selectedProperties.add(text);
+		
+		else for (String property : text.split("\n")) 
+		{
+			this.selectedProperties.add(property);
+		}
+	}
 	
 	public boolean hasType (Resource resource)
 	{
@@ -132,21 +149,32 @@ public class LEGATO {
 	{
 		DocumentBuilder db = new DocumentBuilder();
 		
-	//	GUI.descriptionArea.append("\nResources type : "+classResources);
-		
-		long srcTime = System.currentTimeMillis()/1000;
+		if (GUI.getMatchValue().equals("automatic"))
+		{
 		srcDocs = db.getDocuments(src.toString(), classResources, "source");
-		srcTime = System.currentTimeMillis()/1000 - srcTime;
-		GUI.descriptionArea.append("\nSource dataset : "+srcDocs.size() +" resources");
-		GUI.descriptionArea.append("\nSource documents created in " + srcTime + " seconds");
+		GUI.resultsArea.append("\nSource dataset : "+srcDocs.size() +" resources");
 		
-		long tgtTime = System.currentTimeMillis()/1000;
-		tgtDocs = db.getDocuments(tgt.toString(), classResources, "target");
-		tgtTime = System.currentTimeMillis()/1000 - tgtTime;
-		GUI.descriptionArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
-		GUI.descriptionArea.append("\nTarget documents created in " + tgtTime + " seconds");
+		tgtDocs = db.getDocuments(tgt.toString(), classResources, "target"); 
+		GUI.resultsArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
+		}
 		
+		else if (GUI.getMatchValue().equals("manual"))
+		{
+			srcDocs = db.getDocuments(src.toString(), classResources, selectedProperties, "source");
+			GUI.resultsArea.append("\nSource dataset : "+srcDocs.size() +" resources");
+			
+			tgtDocs = db.getDocuments(tgt.toString(), classResources, selectedProperties, "target"); 
+			GUI.resultsArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
+		}
 		indexConfig();
+	}
+	
+	public void setBeginTime(long beginTime){
+		this.beginTime= beginTime;
+	}
+	
+	public long getBeginTime(){
+		return this.beginTime;
 	}
 	
 	public HashMap<String, String> getSRCdocs()

@@ -38,13 +38,14 @@ public class Align {
 		pw.println("</Alignment>");
 		pw.println("</rdf:RDF>");
 		pw.close();
+		GUI.resultsArea.append("\nRunning time = "+(System.currentTimeMillis()/1000 - legato.getBeginTime())+" seconds");
 		evaluateMappings();
 	}
 	
 	public static void evaluateMappings() throws AlignmentException
 	{
 		LEGATO legato = LEGATO.getInstance();
-		if (legato.getRefAlign() == null) GUI.descriptionArea.append("\nNo reference alignment file found !");
+		if (legato.getRefAlign() == null) GUI.resultsArea.append("\nNo reference alignment file found !");
 		else 
 		{
 			AlignmentParser parser = new AlignmentParser(0);
@@ -53,10 +54,10 @@ public class Align {
 			Properties p = new Properties();
 			Evaluator evaluator = new PRecEvaluator(refAlign, mapFile);
 			evaluator.eval(p);
-			GUI.descriptionArea.append("\nEvaluation results:");
-			GUI.descriptionArea.append("\nF-Measure = "+Math.floor(((PRecEvaluator)evaluator).getFmeasure()*100)/100);
-			GUI.descriptionArea.append("\nPrecision = "+Math.floor(((PRecEvaluator)evaluator).getPrecision()*100)/100);
-			GUI.descriptionArea.append("\nRecall = "+Math.floor(((PRecEvaluator)evaluator).getRecall()*100)/100);
+			GUI.resultsArea.append("\nEvaluation results:");
+			GUI.resultsArea.append("\nF-Measure = "+Math.floor(((PRecEvaluator)evaluator).getFmeasure()*100)/100);
+			GUI.resultsArea.append("\nPrecision = "+Math.floor(((PRecEvaluator)evaluator).getPrecision()*100)/100);
+			GUI.resultsArea.append("\nRecall = "+Math.floor(((PRecEvaluator)evaluator).getRecall()*100)/100);
 		}
 	}
 	
