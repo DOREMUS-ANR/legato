@@ -81,7 +81,7 @@ public class PropertyHandler {
 	    int minPts=1; 
 	    double epsilon = 5d; 
 	    AlgoDBSCAN algo = new AlgoDBSCAN();  
-	    List<Cluster> clusters = algo.runAlgorithm(legato.getPath()+"store"+File.separator+"nom.txt", minPts, epsilon, "\n"); 
+	    List<Cluster> clusters = algo.runAlgorithm(legato.getPath()+File.separator+"nom.txt", minPts, epsilon, "\n"); 
 	    algo.printStatistics();
 	    
 	    double highMean =0;

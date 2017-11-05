@@ -30,14 +30,35 @@ import org.apache.jena.vocabulary.RDF;
 
 import legato.LEGATO;
 import legato.document.CBDBuilder;
-import legato.gui.GUI;
-import legato.vocabularies.ConceptFinder;
 
 /**
  * @author Manel Achichi
  **/
 
 public class ModelManager {
+	
+	/***************************************
+	 ***Get a value of a given property for a resource
+	 ***************************************/
+	public static String getID (Model model, Resource rsrc, String prop)
+	{
+		String id = null;
+		StmtIterator iter = model.listStatements();
+		while (iter.hasNext()){ 
+			Statement stmt      = iter.nextStatement();  
+			Property property = stmt.getPredicate();
+			if (prop.equals(property)) 
+				{
+					RDFNode object = stmt.getObject();
+					Path path = OntTools.findShortestPath(model, rsrc, object, Filter.any); // A filter which accepts statements whose predicate matches one of a collection of predicates held by the filter object.
+					if (!(path==null))
+					{	
+						id = object.toString();
+					}
+				}
+		}
+		return id;
+	}
 	
 	/***************************************
 	 ***Get all properties from two models

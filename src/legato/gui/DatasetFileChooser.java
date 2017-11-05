@@ -14,7 +14,7 @@ public class DatasetFileChooser extends JPanel {
 	public DatasetFileChooser(JTextField textField) {
 		
 		super(new BorderLayout());
-		JFileChooser fileChooser = new JFileChooser(new File(LEGATO.getInstance().getPath() + "store/"));
+		JFileChooser fileChooser = new JFileChooser(new File(LEGATO.getInstance().getPath()));
 	
 		/*****
 		 * Filter on file extensions

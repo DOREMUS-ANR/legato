@@ -31,7 +31,7 @@ public class StopWords
 	public static HashSet<String> getStopWords() throws IOException
 	{
 		HashSet<String> stopWords = new HashSet<String>();
-			BufferedReader in = new BufferedReader(new FileReader(LEGATO.getInstance().getPath() +"store"+ File.separator + sw));
+			BufferedReader in = new BufferedReader(new FileReader(LEGATO.getInstance().getPath()+ File.separator + sw));
 			String word;
 			while((word = in.readLine()) != null)
 			{

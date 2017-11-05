@@ -21,8 +21,8 @@ public class Sakey {
 	public static KeyList extractKeys(File file, KeyList keys) throws IOException {
 		
 		LEGATO legato = LEGATO.getInstance();
-		ProcessBuilder pbSource = new ProcessBuilder("java", "-jar",legato.getPath()+File.separator+"store"+File.separator+"sakey.jar", file.toString(), "1");
-		pbSource.directory(new File(legato.getPath()+File.separator+"store"));
+		ProcessBuilder pbSource = new ProcessBuilder("java", "-jar",legato.getPath()+File.separator+"sakey.jar", file.toString(), "1");
+		pbSource.directory(new File(legato.getPath()+File.separator));
 		Process pSource = pbSource.start();
 		
 		/*******

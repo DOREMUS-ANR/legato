@@ -63,14 +63,14 @@ public class Matchifier {
 	     * For each pair --> apply RANkey and link instances based on the
 	     * best key. 
 	     ********/
-/*	    ClusterList srcClS = Clustering.getClusters(srcMap); //List of "Source" clusters
+	    ClusterList srcClS = Clustering.getClusters(srcMap); //List of "Source" clusters
 	    ClusterList tgtClS = Clustering.getClusters(tgtMap); //List of "target" clusters
 	    
 	    /********
 	     * RANKey
 	     ********/
-/*	    int pairNumber = 0;
-	    File dir = new File(legato.getPath()+"store"+File.separator+"clusters"); //All pairs of clusters will be contained in folder "clusters"
+	    int pairNumber = 0;
+	    File dir = new File(legato.getPath()+File.separator+"clusters"); //All pairs of clusters will be contained in folder "clusters"
 		dir.mkdirs();
 	    DistanceFunction distanceFunction = new DistanceCorrelation(); 
 	    
@@ -93,7 +93,7 @@ public class Matchifier {
 	    				 /*******
 	    				  * Retrieve RDF Model from the 2 clusters
 	    				  *******/
-/*	    				 Model srcModel = ModelManager.loadModel(legato.src.toString());
+	    				 Model srcModel = ModelManager.loadModel(legato.src.toString());
 	    				 Model model1 = ModelFactory.createDefaultModel();
 	    				 String[] resources = clust1.getIDs().split("\n");
 	    				 for (String rsrce : resources) 
@@ -115,13 +115,13 @@ public class Matchifier {
 	    				 /************
 	    				  * Execute RANKey 
 	    				  ************/
-/*	    				 HashSet<String> bestKey = KeysClassifier.getBestKey(model1, model2, dirClusters);
+	    				 HashSet<String> bestKey = KeysClassifier.getBestKey(model1, model2, dirClusters);
 	    				 if (!(bestKey==null))
 	    			{
 	    					 /************
 		    				  * Execute SILK 
 		    				  ************/
-/*	    					 SilkConfig.config(bestKey, dirClusters, dirClusters.toString()+File.separator+"source.nt", dirClusters.toString()+File.separator+"target.nt");
+	    					 SilkConfig.config(bestKey, dirClusters, dirClusters.toString()+File.separator+"source.nt", dirClusters.toString()+File.separator+"target.nt");
 	    					 SILK.link(dirClusters.toString());
 	    					 File file = new File(dirClusters.toString()+File.separator+"links.rdf");
 	    					 AlignmentParser aparser = new AlignmentParser(0);
@@ -181,7 +181,7 @@ public class Matchifier {
 	    /*************
 	     * Link repairing 
 	     ************/
-/*	    for(Map map1 : mapList1)
+	    for(Map map1 : mapList1)
 	    {
 	    	boolean exist = false;
 	    	for(Map map2 : mapList2)
@@ -215,18 +215,18 @@ public class Matchifier {
 	    /*********
 		 ** Create and save the alignment file
 		 *********/
-	    File dirr = new File(legato.getPath()+"store"+File.separator+"docs");
-	 //   delete(dirr);
-	    File dirind = new File(legato.getPath()+"store"+File.separator+"index");
-	//    delete(dirind);
-	    File srcFile = new File(legato.getPath()+"store"+File.separator+"source.rdf");
-	//    srcFile.deleteOnExit();
-	    File tgtFile = new File(legato.getPath()+"store"+File.separator+"target.rdf");
-	//    tgtFile.deleteOnExit();
-	    File txtFile = new File(legato.getPath()+"store"+File.separator+"nom.txt");
-	//    txtFile.deleteOnExit();
+	    File dirr = new File(legato.getPath()+File.separator+"docs");
+	    delete(dirr);
+	    File dirind = new File(legato.getPath()+File.separator+"index");
+	    delete(dirind);
+	    File srcFile = new File(legato.getPath()+File.separator+"source.rdf");
+	    srcFile.deleteOnExit();
+	    File tgtFile = new File(legato.getPath()+File.separator+"target.rdf");
+	    tgtFile.deleteOnExit();
+	    File txtFile = new File(legato.getPath()+File.separator+"nom.txt");
+	    txtFile.deleteOnExit();
 	     
-	    Align.saveMappings(mapList1);
+	    Align.saveMappings(mapList);
 	}
 	
 	private static void delete(File file) throws IOException {
@@ -236,7 +236,8 @@ public class Matchifier {
 			if (childFile.isDirectory()) {
 				delete(childFile);
 			} else {
-				if (!childFile.delete()) {
+			//	if (!childFile.delete()) {
+					if (!java.nio.file.Files.deleteIfExists(childFile.toPath())){
 					throw new IOException();
 				}
 			}

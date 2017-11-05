@@ -22,6 +22,7 @@ import org.apache.jena.rdf.model.Resource;
 import legato.LEGATO;
 import legato.gui.GUI;
 import legato.rdf.ModelManager;
+import legato.utils.Stemmer;
 import legato.utils.StopWords;
 
 public class DocumentBuilder {
@@ -29,7 +30,7 @@ public class DocumentBuilder {
 	/***********************************************
 	 * Build documents for resources in an RDF model 
 	 ***********************************************/
-	public static HashMap<String, String> getDocuments (String pathFile, List<String> classResources, String dataset){
+	public static HashMap<String, String> getDocuments (String pathFile, List<String> classResources, String dataset) throws Exception{
 		LEGATO legato = LEGATO.getInstance();
 		/****
 		 * Load RDF model from the dataset 
@@ -46,13 +47,13 @@ public class DocumentBuilder {
 			Model modelCBD = ModelFactory.createDefaultModel();
 			modelCBD.add(model);
 			try {			
-				//String docName= resource.toString().substring(resource.toString().lastIndexOf("/")+1, resource.toString().length()); //Last fragment of an URI
 				String docName = generateUUID(resource.getURI());
+				String id = ModelManager.getID(modelCBD, resource, "");
 				/*****
 				 * Preprocessing before documents creation
 				 *****/
 				String docContent = StopWords.clean(CBDBuilder.getLiterals(modelCBD));
-				
+			//	docContent = Stemmer.stem(docContent);
 				if (!docContent.equals("")&&!docContent.equals(null)&&!docContent.equals("\n")&&!docContent.equals(" "))
 				{
 					if (dataset.equals("source"))
@@ -70,7 +71,7 @@ public class DocumentBuilder {
 	/************************************************************
 	 * Build documents for resources based on selected properties 
 	 ************************************************************/
-	public static HashMap<String, String> getDocuments (String pathFile, List<String> classResources, List<String> selectedProp, String dataset) throws IOException{
+	public static HashMap<String, String> getDocuments (String pathFile, List<String> classResources, List<String> selectedProp, String dataset) throws Exception{
 		LEGATO legato = LEGATO.getInstance();
 		/****
 		 * Load RDF model from the dataset 
@@ -101,6 +102,7 @@ public class DocumentBuilder {
 			 * Preprocessing before documents creation
 			 *****/
 			String docContent = StopWords.clean(CBDBuilder.getLiterals(model));
+		//	docContent = Stemmer.stem(docContent);
 			if (!docContent.equals("")&&!docContent.equals(null)&&!docContent.equals("\n")&&!docContent.equals(" "))
 			{
 				if (dataset.equals("source"))

@@ -14,7 +14,7 @@ public class SILK {
 		File file = new File (dirCluster+File.separator+"configFile.xml");		
 		try {
 
-			Process process = Runtime.getRuntime().exec("java -DconfigFile="+file+" -jar "+legato.getPath()+"store"+File.separator+"silk.jar"); 
+			Process process = Runtime.getRuntime().exec("java -DconfigFile="+file+" -jar "+legato.getPath()+File.separator+"silk.jar"); 
 		    InputStream stderr = process.getErrorStream ();
 		    BufferedReader reader = new BufferedReader (new InputStreamReader(stderr));
 		    String line = reader.readLine();

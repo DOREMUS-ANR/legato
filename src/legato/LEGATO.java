@@ -1,11 +1,14 @@
 package legato;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.URI;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Properties;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -19,7 +22,6 @@ import legato.gui.GUI;
 import legato.indexer.Indexer;
 import legato.match.Matchifier;
 import legato.rdf.PropList;
-import legato.vocabularies.ConceptFinder;
 
 public class LEGATO {
 
@@ -33,6 +35,7 @@ public class LEGATO {
 	private double threshold = 0.12;
 	private long beginTime;
 	private PropList propList; //List of new properties with their path (path = set of existing properties)
+	public static Properties properties;
 	private File dir;
 	public String DIR_TO_INDEX;
 	public String INDEX_DIR;
@@ -46,8 +49,10 @@ public class LEGATO {
 	{
 		try
 		{
-			dir = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath());
-			dir = dir.getParentFile();
+			loadProperties();
+			dir = new File(properties.getProperty("storePath"));
+		//	dir = new File(Main.class.getProtectionDomain().getCodeSource().getLocation().getPath());
+		//	dir = dir.getParentFile();
 		    srcURIs = new HashMap<String, String>();
 		    tgtURIs = new HashMap<String, String>();
 		}
@@ -72,11 +77,11 @@ public class LEGATO {
 	public void addClasses (String text)
 	{
 		classResources = new ArrayList<String>();
-		if(!text.contains("\n")) this.classResources.add(text);
+		if(!text.contains("\n")) this.classResources.add(text.trim());
 		
 		else for (String type : text.split("\n")) 
 		{
-			this.classResources.add(type);
+			this.classResources.add(type.trim());
 		}
 	}
 	
@@ -148,7 +153,7 @@ public class LEGATO {
 	public void buildDocuments() throws Exception
 	{
 		DocumentBuilder db = new DocumentBuilder();
-		
+			
 		if (GUI.getMatchValue().equals("automatic"))
 		{
 		srcDocs = db.getDocuments(src.toString(), classResources, "source");
@@ -209,8 +214,8 @@ public class LEGATO {
 	
 	public void indexConfig() throws Exception
     {
-		DIR_TO_INDEX = getPath()+"store"+File.separator+"docs"; //"C:/Users/Manel/Music/matching/DS1/Docs/";
-		File dir = new File(getPath()+"store"+File.separator+"index");
+		DIR_TO_INDEX = getPath()+"docs"; //"C:/Users/Manel/Music/matching/DS1/Docs/";
+		File dir = new File(getPath()+"index");
 		if (!dir.exists()) dir.mkdirs();
 		INDEX_DIR = dir.getAbsolutePath();
 	    FIELD_CONTENT = "contents";
@@ -224,6 +229,15 @@ public class LEGATO {
 	    matchifier.match();
     }
 	
+	  private static void loadProperties() {
+		    properties = new Properties();
+		    try {
+		    	InputStream input = new FileInputStream("config.properties");
+		    	properties.load(input);
+		    	input.close();
+		    } catch (IOException ex) { ex.printStackTrace(); }
+	  }
+	  
 	public String getPath()
 	{
 		return dir.getAbsolutePath()+File.separator;

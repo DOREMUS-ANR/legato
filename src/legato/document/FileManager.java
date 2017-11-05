@@ -41,9 +41,9 @@ public class FileManager {
 	
 	public static File getCreatedRDFile(String fileName, Model model) throws IOException{
 		LEGATO legato = LEGATO.getInstance();
-		FileWriter out = new FileWriter(legato.getPath()+"store"+File.separator+fileName+".rdf");
+		FileWriter out = new FileWriter(legato.getPath()+File.separator+fileName+".rdf");
 		model.write( out, "RDF/XML");
-		File file = new File(legato.getPath()+"store"+File.separator+fileName+".rdf");
+		File file = new File(legato.getPath()+File.separator+fileName+".rdf");
 		out.close();
 		return file;	
 	}
@@ -52,7 +52,7 @@ public class FileManager {
 	 * Create a text file  
 	 *********************/
 	public static void create(String fileName, String content, String dataset) throws IOException{
-		File dir = new File(LEGATO.getInstance().getPath()+"store"+File.separator+"docs"+File.separator+dataset);
+		File dir = new File(LEGATO.getInstance().getPath()+File.separator+"docs"+File.separator+dataset);
 		if (!dir.exists()) dir.mkdirs();
 		PrintStream ps = new PrintStream(dir.toString()+File.separator+fileName+".txt");
 		ps.println(clean(content));
@@ -62,7 +62,7 @@ public class FileManager {
 	 * Create a text file  
 	 *********************/
 	public static void create(String fileName, String content) throws IOException{
-		File dir = new File(LEGATO.getInstance().getPath()+"store");
+		File dir = new File(LEGATO.getInstance().getPath());
 		PrintStream ps = new PrintStream(dir.toString()+File.separator+fileName+".txt");
 		ps.println(content);
 	}

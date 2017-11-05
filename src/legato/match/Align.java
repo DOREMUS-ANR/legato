@@ -23,7 +23,7 @@ public class Align {
 	 *********/
 	public static void saveMappings(MapList mapList) throws Exception {
 		LEGATO legato = LEGATO.getInstance();
-		FileWriter alignFile= new FileWriter (legato.getPath()+"store"+File.separator+"results.rdf");
+		FileWriter alignFile= new FileWriter (legato.getPath()+File.separator+"results.rdf");
 		BufferedWriter bw = new BufferedWriter (alignFile);
 		PrintWriter pw = new PrintWriter (bw);
 		pw.println("<?xml version='1.0' encoding='utf-8'?>");
@@ -50,7 +50,7 @@ public class Align {
 		{
 			AlignmentParser parser = new AlignmentParser(0);
 			Alignment refAlign = parser.parse((legato.refAlign).toURI());
-			Alignment mapFile = parser.parse( new File(legato.getPath()+"store"+File.separator+"results.rdf").toURI() );
+			Alignment mapFile = parser.parse( new File(legato.getPath()+File.separator+"results.rdf").toURI() );
 			Properties p = new Properties();
 			Evaluator evaluator = new PRecEvaluator(refAlign, mapFile);
 			evaluator.eval(p);

@@ -13,7 +13,6 @@ import javax.swing.text.DefaultEditorKit;
 import javax.swing.text.DefaultHighlighter;
 
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 
@@ -22,7 +21,6 @@ import legato.document.FileManager;
 import legato.rdf.ModelManager;
 import legato.rdf.PropList;
 import legato.utils.PropertyHandler;
-import legato.vocabularies.ConceptFinder;
 
 import java.awt.Color;
 import java.awt.Component;
