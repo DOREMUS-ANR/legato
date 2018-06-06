@@ -28,12 +28,20 @@ public class AllTerms {
         int pos = 0;
         for (int docId = 0; docId < totalNoOfDocumentInIndex; docId++) {
             Terms vector = indexReader.getTermVector(docId, LEGATO.getInstance().FIELD_CONTENT);
-            TermsEnum termsEnum = null;
-            termsEnum = vector.iterator(termsEnum);
-            BytesRef text = null;
-            while ((text = termsEnum.next()) != null) {
-                String term = text.utf8ToString();
-                allTerms.put(term, pos++);
+            //Verification de construction
+            try
+            {
+	            TermsEnum termsEnum = null;
+	            termsEnum = vector.iterator(termsEnum);
+	            BytesRef text = null;
+	            while ((text = termsEnum.next()) != null) {
+	                String term = text.utf8ToString();
+	                allTerms.put(term, pos++);
+	            }
+            }
+            catch(NullPointerException e)
+            {
+            	System.err.println("initAllTerms() - docId="+docId+" : vector=null !");
             }
         }       
         

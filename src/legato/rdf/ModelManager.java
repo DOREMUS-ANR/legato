@@ -3,6 +3,9 @@ package legato.rdf;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -27,7 +30,6 @@ import org.apache.jena.rdf.model.Statement;
 import org.apache.jena.rdf.model.StmtIterator;
 import org.apache.jena.util.iterator.Filter;
 import org.apache.jena.vocabulary.RDF;
-
 import legato.LEGATO;
 import legato.document.CBDBuilder;
 
@@ -35,6 +37,7 @@ import legato.document.CBDBuilder;
  * @author Manel Achichi
  **/
 
+@SuppressWarnings("deprecation")
 public class ModelManager {
 	
 	/***************************************
@@ -116,7 +119,9 @@ public class ModelManager {
 			String ext = FilenameUtils.getExtension(inputFile);
 			if (ext.equals("nt"))
 			{
-				model.read(in, null,"N-TRIPLES");
+
+				Reader r = new InputStreamReader(in, Charset.forName("UTF-8"));
+				model.read(r, null,"N-TRIPLES");
 			}
 			else if (ext.equals("ttl"))
 			{

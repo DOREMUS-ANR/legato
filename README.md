@@ -12,13 +12,17 @@ An automatic data linking tool developed by [DOREMUS][3].
 
 <b> How to run <i> Legato </i> </b>
 ========
-For running <b> <i> Legato </i> </b> through the GUI, please run the "main.java" class in the "legato" package. Then, select the source, target and alignement (if it is availble) files and click on "run" for aligning and evaluating the produced links. If no alignement file exists, <b> <i> Legato </i> </b> matches the instances without evaluating the produced links.
+For running <b> <i> Legato </i> </b> through the GUI, please run the "main.java" class in the "legato" package. Then, select the source, target and alignement (if it is availble) files. Then, you can choose between two treatment's modes :
+- Automatic allows to filter resources and comparate by some classes.
+- Manual allows to filter resources and comparate by classes and properties.
+When you have chosen the mode and features for filter, click on "run" for aligning and evaluating the produced links. If no alignement file exists, <b> <i> Legato </i> </b> matches the instances without evaluating the produced links.
+
 
 Benchmark datasets: [DOREMUS data][1] (real musical data)
 
 The figure, below, illustrates <b> <i> Legato </i> </b>  running on [FPT data][2] :
 
-![GUI](img/gui.png)
+![GUI](img/legato1.png)
 
 <b> Requirements </b>
 ========

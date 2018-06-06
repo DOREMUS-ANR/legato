@@ -52,30 +52,6 @@
     	<version>4.10.2</version>
 	</dependency>
 	
-	<dependency>
-		<groupId>org.semanticweb.owl</groupId>
-		<artifactId>align</artifactId>
-		<version>4.9</version>
-	</dependency>
-
-	<dependency>
-		<groupId>fr.inrialpes.exmo</groupId>
-		<artifactId>ontowrap</artifactId>
-		<version>4.9</version>
-	</dependency>
-
-	<dependency>
-		<groupId>fr.inrialpes.exmo.align</groupId>
-		<artifactId>procalign</artifactId>
-		<version>4.9</version>
-	</dependency>
-
-	<dependency>
-		<groupId>com.spmf</groupId>
-		<artifactId>spmf</artifactId>
-		<version>1.0</version>
-	</dependency>
-	
 	<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
 	<dependency>
     	<groupId>org.apache.commons</groupId>

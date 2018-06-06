@@ -29,18 +29,16 @@ public class CBDBuilder {
 	 *****************************************************/
 	public static List<Resource> getResources(Model model, List<String> classnames) {
 		List<Resource> results = new ArrayList<Resource>();
-		for (String classname : classnames)
-		{
-			String sparqlQueryString = "SELECT DISTINCT ?s { ?s a <"+classname+"> }";
-			Query query = QueryFactory.create(sparqlQueryString);
-			QueryExecution qexec = QueryExecutionFactory.create(query, model);
-			ResultSet queryResults = qexec.execSelect();
-			while (queryResults.hasNext()) {
-				QuerySolution qs = queryResults.nextSolution();
-				results.add(qs.getResource("?s"));
-			}
-			qexec.close();
+		String sparqlQueryString = "SELECT DISTINCT ?s { ?s ?o ?p }";
+		Query query = QueryFactory.create(sparqlQueryString);
+		QueryExecution qexec = QueryExecutionFactory.create(query, model);
+		ResultSet queryResults = qexec.execSelect();
+		while (queryResults.hasNext()) {
+			QuerySolution qs = queryResults.nextSolution();
+			results.add(qs.getResource("?s"));
 		}
+		qexec.close();
+		
 		return results;
 	}
 

@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.HashSet;
+
+import org.apache.jena.base.Sys;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
@@ -49,8 +51,10 @@ public class Matchifier {
 	    HashMap<String,double[]> srcMap = new HashMap<String, double[]>(); //List of "Source" TF-IDF vectors with their "docName"  
 	    HashMap<String,double[]> tgtMap = new HashMap<String, double[]>(); //List of "Target" TF-IDF vectors with their "docName"
 	    
+	    //int ind=0;
 	    for(DocVector doc: docVectors) //Identify "Source" and "Target" vectors
 	    {
+	    	//System.out.println(doc.getVector()+" - size : "+doc.getVector().length+" number "+ ++ind);
 	    	double[] vector = doc.getVector();
 	    	if (doc.parentFolder.equals("source"))
 	    		srcMap.put(doc.docName, vector);
@@ -215,6 +219,7 @@ public class Matchifier {
 	    /*********
 		 ** Create and save the alignment file
 		 *********/
+	   
 	    File dirr = new File(legato.getPath()+File.separator+"docs");
 	    delete(dirr);
 	    File dirind = new File(legato.getPath()+File.separator+"index");

@@ -156,11 +156,11 @@ public class LEGATO {
 			
 		if (GUI.getMatchValue().equals("automatic"))
 		{
-		srcDocs = db.getDocuments(src.toString(), classResources, "source");
-		GUI.resultsArea.append("\nSource dataset : "+srcDocs.size() +" resources");
+			srcDocs = db.getDocuments(src.toString(), classResources, "source");
+			GUI.resultsArea.append("\nSource dataset : "+srcDocs.size() +" resources");
 		
-		tgtDocs = db.getDocuments(tgt.toString(), classResources, "target"); 
-		GUI.resultsArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
+			tgtDocs = db.getDocuments(tgt.toString(), classResources, "target"); 
+			GUI.resultsArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
 		}
 		
 		else if (GUI.getMatchValue().equals("manual"))
