@@ -19,7 +19,7 @@ The field "threshold value" allows to define Legato's threshold in the Instance 
 When you have chosen the mode and features for filter, click on "run" for link generation and (optionally) evaluating the produced links. If no reference alignement file exists, <b> <i> Legato </i> </b> matches the instances without evaluating the produced links.
 
 
-Benchmark datasets: [DOREMUS data][1] (real musical data)
+Benchmark datasets: [DOREMUS data][1] (DOREMUS data about classical music).
 
 The figure, below, illustrates <b> <i> Legato </i> </b>  running on [FPT data][2] :
 
