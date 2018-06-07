@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Silk>
+<Prefixes>
+<Prefixes>
+<Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+<Prefix id="mus" namespace="http://data.doremus.org/ontology#" />
+<Prefix id="ecrm" namespace="http://erlangen-crm.org/current/" />
+<Prefix id="efrbroo" namespace="http://erlangen-crm.org/efrbroo/" />
+</Prefixes>
+<DataSources>
+<DataSource type="file" id="ontoA">
+<Param name="file" value="C:/Users/Manel/Videos/keys/source.ttl" />
+<Param name="format" value="TTL"/>
+</DataSource>
+<DataSource type="file" id="ontoB">
+<Param name="file" value="C:/Users/Manel/Videos/keys/target.ttl" />
+<Param name="format" value="TTL"/>
+</DataSource>
+</DataSources>
+<Interlinks>
+<Interlink id="oeuvres">
+<LinkType>owl:sameAs</LinkType>
+<SourceDataset dataSource="ontoA" var="a">
+<RestrictTo>
+          ?a a efrbroo:F22_Self-Contained_Expression .
+        </RestrictTo>
+</SourceDataset>
+<TargetDataset dataSource="ontoB" var="b">
+<RestrictTo>
+          ?a a efrbroo:F22_Self-Contained_Expression .
+        </RestrictTo>
+</TargetDataset>
+<LinkageRule>
+<Aggregate type="average">
+<Compare metric="levenshtein" threshold="1" required="true">
+<TransformInput function="tokenize">
+<Input path="?a/mus:U10_has_order_number" />
+</TransformInput>
+<TransformInput function="tokenize">
+<Input path="?b/mus:U10_has_order_number" />
+</TransformInput>
+</Compare>
+</Aggregate>
+<Filter limit="1" />
+</LinkageRule>
+<Outputs>
+<Output  type="file" minConfidence="0.8">
+<Param name="file" value="results.rdf" />
+<Param name="format" value="alignment" />
+</Output>
+<Output  type="file" maxConfidence="1.0">
+<Param name="file" value="verify.rdf" />
+<Param name="format" value="alignment" />
+</Output>
+</Outputs>
+</Interlink>
+</Interlinks>
+</Silk>

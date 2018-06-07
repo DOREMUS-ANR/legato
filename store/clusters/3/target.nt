@@ -1,0 +1,25 @@
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property7> "Resumption and conversion of the MARC record of the BnF"@en .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property9> "2017-05-29T21:10:21.515Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property18> "Op. 120, no 2" .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property7> "Reprise et conversion de la notice MARC de la BnF"@fr .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property19> "120" .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property20> "2" .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property4> "Sonates"@fr .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property15> "Vienne" .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property11> "Clarinette, piano" .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property2> "La partie de clarinette peut se jouer à l'alto" .
+<http://data.doremus.org/expression/baf4f312-0128-30cd-bbb6-415da9832c6b> <http://model.org/property25> "1re exécution : Vienne, 7 janvier 1895" .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property25> "1re exécution : 11 janvier 1895 avec alto" .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property20> "1" .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property25> "1re exécution : 7 janvier 1895" .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property18> "Op. 120, no 1" .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property4> "Sonates"@fr .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property7> "Resumption and conversion of the MARC record of the BnF"@en .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property11> "Clarinette, piano" .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property19> "120" .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property9> "2017-05-29T21:10:21.486Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/a68ee0b5-7e33-3981-8443-0c204ce8cceb> <http://model.org/property7> "Reprise et conversion de la notice MARC de la BnF"@fr .

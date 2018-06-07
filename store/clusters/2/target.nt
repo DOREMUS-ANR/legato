@@ -1,0 +1,24 @@
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property18> "Op. 64bis" .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property4> "Romeo i Zul'etta"@ru .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property7> "Resumption and conversion of the MARC record of the BnF"@en .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property4> "Romeo i Dzhul'etta"@ru .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property0> "Romeo and Juliet"@en .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property19> "64bis" .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property4> "Roméo et Juliette"@fr .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property7> "Reprise et conversion de la notice MARC de la BnF"@fr .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property2> "Suite symphonique en 7 parties tirée de la musique de ballet de même titre (op. 64)" .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/7317d654-d348-3005-bbdd-f287d9270a9e> <http://model.org/property9> "2017-05-29T21:10:21.502Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property4> "Romeo i Zul'etta"@ru .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property2> "Suite symphonique en 7 parties tirée de la musique de ballet de même titre (op. 64)" .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property19> "64ter" .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property7> "Reprise et conversion de la notice MARC de la BnF"@fr .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property4> "Romeo and Juliet"@en .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property9> "2017-05-29T21:10:21.404Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property4> "Roméo et Juliette"@fr .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property4> "Romeo i Dzhul'etta"@ru .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property7> "Resumption and conversion of the MARC record of the BnF"@en .
+<http://data.doremus.org/expression/5a5acda4-11cb-31d8-b1d5-0aa6f03f6d10> <http://model.org/property18> "Op. 64ter" .

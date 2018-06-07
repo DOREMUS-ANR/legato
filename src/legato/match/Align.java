@@ -54,7 +54,7 @@ public class Align {
 			Properties p = new Properties();
 			Evaluator evaluator = new PRecEvaluator(refAlign, mapFile);
 			evaluator.eval(p);
-			GUI.resultsArea.append("\nEvaluation results:");
+			GUI.resultsArea.append("\nEvaluation results (With threshold = "+legato.getThreshold()+"):");
 			GUI.resultsArea.append("\nF-Measure = "+Math.floor(((PRecEvaluator)evaluator).getFmeasure()*100)/100);
 			GUI.resultsArea.append("\nPrecision = "+Math.floor(((PRecEvaluator)evaluator).getPrecision()*100)/100);
 			GUI.resultsArea.append("\nRecall = "+Math.floor(((PRecEvaluator)evaluator).getRecall()*100)/100);

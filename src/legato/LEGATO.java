@@ -32,7 +32,7 @@ public class LEGATO {
 	private HashMap<String, String> srcURIs;
 	private HashMap<String, String> tgtDocs;
 	private HashMap<String, String> tgtURIs; 
-	private double threshold = 0.12;
+	private double threshold = 0.4;
 	private long beginTime;
 	private PropList propList; //List of new properties with their path (path = set of existing properties)
 	public static Properties properties;
@@ -73,6 +73,11 @@ public class LEGATO {
     {
     	return threshold;
     }
+	
+	public void setThreshold(double trsh)
+	{
+		threshold = trsh;
+	}
 	
 	public void addClasses (String text)
 	{

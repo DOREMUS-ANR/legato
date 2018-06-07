@@ -15,6 +15,7 @@ An automatic data linking tool developed by [DOREMUS][3].
 For running <b> <i> Legato </i> </b> through the GUI, please run the "main.java" class in the "legato" package. Then, select the source, target and alignement (if it is availble) files. Then, you can choose between two treatment's modes :
 - Automatic allows to filter resources and comparate by some classes.
 - Manual allows to filter resources and comparate by classes and properties.
+The field text "threshold value" allows to define the legato's threshold. Legato will align only resources with a precision higher than the threshold value.
 When you have chosen the mode and features for filter, click on "run" for aligning and evaluating the produced links. If no alignement file exists, <b> <i> Legato </i> </b> matches the instances without evaluating the produced links.
 
 

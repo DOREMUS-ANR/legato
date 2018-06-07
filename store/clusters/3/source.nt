@@ -1,0 +1,40 @@
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property2> "1894" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property11> "Clarinette, piano" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property18> "Op.120 no 1" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property20> "1" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property25> "Créée à Vienne, les 8 et 11 janvier 1895 avec la sonate no 2 pour clarinette et piano" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property9> "2017-05-29T21:08:15.459Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property2> "Créée à Vienne, les 8 et 11 janvier 1895 avec la sonate no 2 pour clarinette et piano." .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property19> "120" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property4> "Sonate no 1 pour clarinette et piano" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property4> "Clarinet and pianoforte sonata" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property5> "musique romantique"@fr .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property4> "Sonates" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property7> "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property2> "Les deux sonates pour clarinette et piano, destinées au virtuose Richard Mühlfeld, comme le trio et le quintette précédents, sont les dernières oeuvres de musique de chambre de Brahms. Elles ont été composées parallèlement, et sont très semblables par leur esthétique : mêmes brieveté et concentration des mouvements, intimité de l'expression, refus de toute virtuosité. La sonate en fa mineur se compose de 4 mouvements : 1- Allegro appassionato. 2- Andante un poco adagio. 3- Allegretto grazioso. 4- Vivace. Durée d'exécution : 23 minutes environ" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property9> "2017-05-29T21:08:15.458Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property7> "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property15> "Vienne" .
+<http://data.doremus.org/expression/bcf4bf8e-324f-3ee1-96a1-2c6a9bb96826> <http://model.org/property0> "Sonate pour clarinette et piano no 1" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/prov#Entity> .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://erlangen-crm.org/efrbroo/F22_Self-Contained_Expression> .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property7> "Resumption and conversion of the MARC record of the Philharmonie de Paris"@en .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property18> "Op.120 no 2" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property11> "Clarinette, piano" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property25> "Créée à Vienne, les 8 et 11 janvier 1895 avec la sonate no 1 pour clarinette et piano" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property9> "2017-05-29T21:08:24.241Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property0> "Sonate no 2 pour clarinette et piano en mi bémol majeur" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property4> "Sonate pour clarinette et piano no 2" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property4> "Sonates" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property7> "Reprise et conversion de la notice MARC de la Philharmonie de Paris"@fr .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property4> "Clarinet and pianoforte sonata" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property9> "2017-05-29T21:08:24.240Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property2> "1894" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property15> "Vienne" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property5> "musique romantique"@fr .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property20> "2" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property2> "Les deux sonates pour clarinette et piano, destinées au virtuose Richard Mühlfeld, comme le trio et le quintette précédents, sont les dernières oeuvres de musique de chambre de Brahms. Elles ont été composées parallèlement, et sont très semblables par leur esthétique : mêmes brieveté et concentration des mouvements, intimité de l'expression, refus de toute virtuosité. La sonate en mi bémol majeur se compose de 3 mouvements : 1- Allegro amabile. 2- Allegro appassionato. 3- Andante con moto. Durée d'exécution : 21 minutes environ" .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property2> "Créée à Vienne, les 8 et 11 janvier 1895 avec la sonate no 1 pour clarinette et piano." .
+<http://data.doremus.org/expression/06a736bd-0eb2-3b9b-ae5a-0f29a987f590> <http://model.org/property19> "120" .

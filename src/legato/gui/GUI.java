@@ -45,6 +45,7 @@ import java.util.List;
 import java.awt.event.ActionEvent;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
+import javax.swing.JSlider;
 
 public class GUI {
 
@@ -60,6 +61,7 @@ public class GUI {
     private static String classForDelete;
     private static JRadioButton rdbtnManuel;
     private static JRadioButton rdbtnAutomatic;
+    private static JTextField threshold;
     private static String matching;
     
     /**
@@ -76,7 +78,7 @@ public class GUI {
 		try {
 			frame = new JFrame();
 			frame.setTitle("LEGATO");
-			frame.setSize(890, 900);
+			frame.setSize(890, 970);
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			
 			Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
@@ -89,7 +91,7 @@ public class GUI {
 			JPanel panel_1 = new JPanel();
 			panel_1.setFont(new Font("Tahoma", Font.PLAIN, 11));
 			panel_1.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Results", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 70, 213)));
-			panel_1.setBounds(25, 677, 828, 151);
+			panel_1.setBounds(25, 747, 828, 151);
 			panel_1.setLayout(null);
 			
 			resultsArea = new JTextArea();
@@ -101,7 +103,7 @@ public class GUI {
 			JPanel panel_2 = new JPanel();
 			panel_2.setFont(new Font("Tahoma", Font.PLAIN, 11));
 			panel_2.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Properties", TitledBorder.LEADING, TitledBorder.TOP, null, new Color(0, 70, 213)));
-			panel_2.setBounds(15, 298, 838, 384);
+			panel_2.setBounds(15, 358, 838, 384);
 			panel_2.setLayout(null);
 			
 			inputProp = new JTextArea();
@@ -197,7 +199,7 @@ public class GUI {
 			JPanel panel_3 = new JPanel();
 			panel_3.setBorder(new TitledBorder(UIManager.getBorder("TitledBorder.border"), "Classes", TitledBorder.LEADING, TitledBorder.TOP, null, Color.BLUE));
 			panel_3.setToolTipText("");
-			panel_3.setBounds(15, 172, 838, 123);
+			panel_3.setBounds(15, 232, 838, 123);
 			frame.getContentPane().add(panel_3);
 			panel_3.setLayout(null);
 			
@@ -296,6 +298,8 @@ public class GUI {
 					long beginTime = System.currentTimeMillis()/1000;
 					LEGATO legato = LEGATO.getInstance();
 					legato.setBeginTime(beginTime);
+					if(threshold.getText()!=null)
+						legato.setThreshold(Double.parseDouble(threshold.getText()));
 					
 					legato.addClasses(outputClasses.getText().trim());
 					if (!alignmentField.getText().isEmpty()) legato.setRefAlign(new File(alignmentField.getText()));
@@ -425,6 +429,32 @@ public class GUI {
 			});
 			rdbtnAutomatic.setBounds(323, 147, 155, 29);
 			frame.getContentPane().add(rdbtnAutomatic);
+			
+			//TODO threshold
+			/*
+			threshold = new JSlider();
+			threshold.setMaximum(100);
+			threshold.setMinimum(0);
+			threshold.setPaintTicks(true);
+		    threshold.setPaintLabels(true);
+		    threshold.setMinorTickSpacing(10);
+		    threshold.setMajorTickSpacing(20);
+		    */
+		    /*
+		    threshold.addChangeListener(new changeListener() {
+		    	
+		    });*/
+			
+			JLabel lblthreshold = new JLabel("threshold value :");
+			lblthreshold.setBounds(350, 192, 125, 20);
+			frame.getContentPane().add(lblthreshold);
+			
+			threshold = new JTextField();
+			threshold.setColumns(10);
+			threshold.setText("0.5");
+			
+		    threshold.setBounds(455,192,50,20);
+		    frame.getContentPane().add(threshold);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
