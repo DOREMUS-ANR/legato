@@ -10,9 +10,28 @@ An automatic data linking tool developed by [DOREMUS][3].
 3. **Indexing and Instance matching**: We apply standard NLP techniques to index the instance profiles by using a term frequency vector model. The threshold value of Legato applies to the similarity computed at this stage. Low thresholds are recommended to ensure high recall (default 0.2). 
 4. **Link repairing**: A post-processing step to repair erroneous links generated in the matching step by clustering highly similar instances together and applying a key-identification adn ranking algorthims.
 
-<b> How to run <i> Legato </i> </b>
+<b> How to build <i> Legato </i> </b>
 ========
-For running <b> <i> Legato </i> </b> through the GUI, please run the "main.java" class in the "legato" package. Then, select the source, the target and a reference alignement (if availble). Then, you can choose between two treatment's modes:
+### Using Maven
+The first time you build this project, run the following command to generate Maven dependencies:
+```
+mvn initialize
+```
+Then, everytime you want to build:
+```
+mvn clean package
+```
+To run:
+```
+mvn exec:java
+```
+
+### Manually
+For running <b> <i> Legato </i> </b> through the GUI, please run the "main.java" class in the "legato" package.
+
+<b> How to use <i> Legato </i> </b>
+========
+Select the source, the target and a reference alignement (if availble). Then, you can choose between two treatment's modes:
 - Automatic allows to filter resources by fixing only the classes to compare.
 - Manual allows to filter resources by classe and comparate by a set of selected properties.
 The field "threshold value" allows to define Legato's threshold in the Instance matching step. Legato will consider only resources with a similarity higher than the threshold value.
