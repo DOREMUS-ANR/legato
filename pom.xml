@@ -18,6 +18,134 @@
           <target>1.8</target>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>1.6.0</version>
+        <executions>
+          <execution>
+          <goals>
+            <goal>java</goal>
+          </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <mainClass>legato.Main</mainClass>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.1.1</version>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>2.4</version>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>legato.Main</mainClass>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>libs/</classpathPrefix>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-install-plugin</artifactId>
+        <version>2.5.2</version>
+        <executions>
+          <!-- SPMF -->
+          <execution>
+            <id>install-spmf</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>install-file</goal>
+            </goals>
+            <configuration>
+              <file>lib/spmf.jar</file>
+              <groupId>ca.pfv.spmf</groupId>
+              <artifactId>SPMF</artifactId>
+              <version>1.0</version>
+              <packaging>jar</packaging>
+            </configuration>
+          </execution>
+
+          <!-- align -->
+          <execution>
+            <id>install-align</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>install-file</goal>
+            </goals>
+            <configuration>
+              <file>lib/align.jar</file>
+              <groupId>org.semanticweb.owl</groupId>
+              <artifactId>align</artifactId>
+              <version>1.0</version>
+              <packaging>jar</packaging>
+            </configuration>
+          </execution>
+
+          <!-- alignsvc -->
+          <execution>
+            <id>install-alignsvc</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>install-file</goal>
+            </goals>
+            <configuration>
+              <file>lib/alignsvc.jar</file>
+              <groupId>org.semanticweb.owl</groupId>
+              <artifactId>alignsvc</artifactId>
+              <version>1.0</version>
+              <packaging>jar</packaging>
+            </configuration>
+          </execution>
+
+          <!-- ontowrap -->
+          <execution>
+            <id>install-ontowrap</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>install-file</goal>
+            </goals>
+            <configuration>
+              <file>lib/ontowrap.jar</file>
+              <groupId>org.semanticweb.owl</groupId>
+              <artifactId>ontowrap</artifactId>
+              <version>1.0</version>
+              <packaging>jar</packaging>
+            </configuration>
+          </execution>
+
+          <!-- proc-align -->
+          <execution>
+            <id>install-proc-align</id>
+            <phase>initialize</phase>
+            <goals>
+              <goal>install-file</goal>
+            </goals>
+            <configuration>
+              <file>lib/procalign.jar</file>
+              <groupId>org.semanticweb.owl</groupId>
+              <artifactId>proc-align</artifactId>
+              <version>1.0</version>
+              <packaging>jar</packaging>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
     </plugins>
   </build>
   
@@ -118,6 +246,41 @@
     	<version>2.6</version>
 	</dependency>
 	
+
+	<!-- lib/spmf.jar -->
+	<dependency>
+	<groupId>ca.pfv.spmf</groupId>
+	<artifactId>SPMF</artifactId>
+	<version>1.0</version>
+	</dependency>
+
+	<!-- lib/align.jar -->
+	<dependency>
+	<groupId>org.semanticweb.owl</groupId>
+	<artifactId>align</artifactId>
+	<version>1.0</version>
+	</dependency>
+
+	<!-- lib/alignsvc.jar -->
+	<dependency>
+	<groupId>org.semanticweb.owl</groupId>
+	<artifactId>alignsvc</artifactId>
+	<version>1.0</version>
+	</dependency>
+
+	<!-- lib/ontowrap.jar -->
+	<dependency>
+	<groupId>org.semanticweb.owl</groupId>
+	<artifactId>ontowrap</artifactId>
+	<version>1.0</version>
+	</dependency>
+
+	<!-- lib/procalign.jar -->
+	<dependency>
+	<groupId>org.semanticweb.owl</groupId>
+	<artifactId>proc-align</artifactId>
+	<version>1.0</version>
+	</dependency>
 
   </dependencies>
 

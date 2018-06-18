@@ -42,7 +42,7 @@ public class VectorGenerator {
         for (int docId = 0; docId < totalNoOfDocumentInIndex; docId++) {
             Terms vector = indexReader.getTermVector(docId, LEGATO.getInstance().FIELD_CONTENT);
             TermsEnum termsEnum = null;
-            //Verification integrité de vector
+            //Verification integritÃ© de vector
             try
             {
             	termsEnum = vector.iterator(termsEnum);
