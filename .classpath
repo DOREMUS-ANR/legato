@@ -21,10 +21,10 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="target/Libraries/align.jar"/>
-	<classpathentry kind="lib" path="target/Libraries/alignsvc.jar"/>
-	<classpathentry kind="lib" path="target/Libraries/ontowrap.jar"/>
-	<classpathentry kind="lib" path="target/Libraries/procalign.jar"/>
-	<classpathentry kind="lib" path="target/Libraries/spmf.jar"/>
+	<classpathentry kind="lib" path="lib/align.jar"/>
+	<classpathentry kind="lib" path="lib/alignsvc.jar"/>
+	<classpathentry kind="lib" path="lib/ontowrap.jar"/>
+	<classpathentry kind="lib" path="lib/procalign.jar"/>
+	<classpathentry kind="lib" path="lib/spmf.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
