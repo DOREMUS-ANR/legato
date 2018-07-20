@@ -38,8 +38,16 @@ public class Align {
 		pw.println("</Alignment>");
 		pw.println("</rdf:RDF>");
 		pw.close();
-		GUI.resultsArea.append("\nRunning time = "+(System.currentTimeMillis()/1000 - legato.getBeginTime())+" seconds");
-		evaluateMappings();
+		try
+		{
+			GUI.resultsArea.append("\nRunning time = "+(System.currentTimeMillis()/1000 - legato.getBeginTime())+" seconds");
+			evaluateMappings();
+		}
+		catch(NullPointerException e) //If you run LEGATO without GUI
+		{
+			System.err.println("\nRunning time = "+(System.currentTimeMillis()/1000 - legato.getBeginTime())+" seconds");
+		}
+		
 	}
 	
 	public static void evaluateMappings() throws AlignmentException

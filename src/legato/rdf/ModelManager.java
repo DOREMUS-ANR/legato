@@ -117,19 +117,20 @@ public class ModelManager {
 		try{
 			InputStream in =new FileInputStream(inputFile);
 			String ext = FilenameUtils.getExtension(inputFile);
+			Reader r = new InputStreamReader(in, Charset.forName("UTF-8"));
 			if (ext.equals("nt"))
 			{
-
-				Reader r = new InputStreamReader(in, Charset.forName("UTF-8"));
 				model.read(r, null,"N-TRIPLES");
 			}
 			else if (ext.equals("ttl"))
 			{
-				model.read(in, null ,"TTL");
+				model.read(r, null,"TTL");
+				//model.read(in, null ,"TTL");
 			}
 			else if (ext.equals("rdf"))
 			{
-				model.read(in, null,"RDF/XML");
+				model.read(r,null,"RDF/XML");
+				//model.read(in, null,"RDF/XML");
 			}
 			else if (ext.equals("owl"))
 			{
@@ -186,11 +187,11 @@ public class ModelManager {
 				m.add(CBDBuilder.getCBDDirectPredecessors(model, resource));
 			    m.add(CBDBuilder.getCBDDirectSuccessors(model, resource));
 				}
-				
+				/*
 				try {
 					m.add(ModelManager.parseCBD(m));
 				} catch (IOException e1) {e1.printStackTrace();}
-				
+				*/
 				m.listStatements().toSet().forEach((stmt) -> { 
 					Resource sub = stmt.getSubject();
 					Property prop = stmt.getPredicate();
@@ -251,8 +252,9 @@ public class ModelManager {
 					{
 						finalModel.createResource(resource.toString()).addProperty(RDF.type, object);
 					}
-//					else
-//						finalModel.createResource(resource.toString()).addProperty(prop, object);
+					/*
+					else
+						finalModel.createResource(resource.toString()).addProperty(prop, object);*/
 				});
 			} 
 		});

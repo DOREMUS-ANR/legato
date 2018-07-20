@@ -34,6 +34,7 @@ public class Map {
 	{
 		boolean exist = false;
 		if (this.getSourceURI().equals(sURI)) exist = true;
+		if (this.getSourceURI() == sURI) exist = true;
 		return exist;
 	}
 	

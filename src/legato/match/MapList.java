@@ -29,7 +29,11 @@ public class MapList implements Iterable<Map> {
 		boolean exist = false;
 		for (Map map: mapList)
 		{
-			if (map.contains(sURI)) exist = true;
+			try
+			{
+				if (map.contains(sURI)) exist = true;
+			}
+			catch(NullPointerException e) {};
 		}
 		return exist;
 	}
@@ -54,6 +58,28 @@ public class MapList implements Iterable<Map> {
 			if (map.contains(sURI)) tURI = map.getTargetURI();
 		}
 		return tURI;
+	}
+	
+	public Double getSim(String sURI)
+	{
+		Double sim=null;
+		for(Map map:mapList)
+		{
+			if(map.contains(sURI)) sim = map.getSimValue();
+		}
+		return sim;
+	}
+	
+	public void replaceBysURI(String sURI, String tURI, Double sim)
+	{
+		for(Map map:mapList)
+		{
+			if(map.contains(sURI))
+			{
+				map.tURI=tURI;
+				map.sim=sim;
+			}
+		}
 	}
 	
 	@Override

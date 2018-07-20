@@ -39,6 +39,7 @@ public class Sakey {
 		/*******
 		 *  Parse the generated keys
 		 *******/
+		try {
 		if(!builder.toString().contains("0-almost keys:[]"))
         {
 			String[] tab1 = builder.toString().split("0-almost keys:");
@@ -52,6 +53,9 @@ public class Sakey {
 				keys.add(key);
 			}
         }
+		}
+		catch(ArrayIndexOutOfBoundsException e)
+		{System.out.println("Sakey class - Error during the parsing of "+builder.toString());}
 		return keys;
 
 	}

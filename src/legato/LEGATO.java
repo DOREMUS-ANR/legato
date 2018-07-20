@@ -20,6 +20,7 @@ import org.apache.jena.vocabulary.RDF;
 import legato.document.DocumentBuilder;
 import legato.gui.GUI;
 import legato.indexer.Indexer;
+import legato.match.MapList;
 import legato.match.Matchifier;
 import legato.rdf.PropList;
 
@@ -32,7 +33,7 @@ public class LEGATO {
 	private HashMap<String, String> srcURIs;
 	private HashMap<String, String> tgtDocs;
 	private HashMap<String, String> tgtURIs; 
-	private double threshold = 0.4;
+	private double threshold = 0.2;
 	private long beginTime;
 	private PropList propList; //List of new properties with their path (path = set of existing properties)
 	public static Properties properties;
@@ -44,6 +45,7 @@ public class LEGATO {
 	public String ABS_PATH;
 	public String PARENT_FOLDER;
 	public File src, tgt, refAlign;
+	public boolean defaultMode = true; //true = automatic, false = manual || When LEGATO's GUI not used
 	
 	private LEGATO ()
 	{
@@ -155,28 +157,44 @@ public class LEGATO {
 		return refAlign;
 	}
 	
-	public void buildDocuments() throws Exception
+	public MapList buildDocuments() throws Exception
 	{
 		DocumentBuilder db = new DocumentBuilder();
-			
-		if (GUI.getMatchValue().equals("automatic"))
+		try
 		{
-			srcDocs = db.getDocuments(src.toString(), classResources, "source");
-			GUI.resultsArea.append("\nSource dataset : "+srcDocs.size() +" resources");
-		
-			tgtDocs = db.getDocuments(tgt.toString(), classResources, "target"); 
-			GUI.resultsArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
-		}
-		
-		else if (GUI.getMatchValue().equals("manual"))
-		{
-			srcDocs = db.getDocuments(src.toString(), classResources, selectedProperties, "source");
-			GUI.resultsArea.append("\nSource dataset : "+srcDocs.size() +" resources");
+			if (GUI.getMatchValue().equals("automatic"))
+			{
+				srcDocs = db.getDocuments(src.toString(), classResources, "source");
+				GUI.resultsArea.append("\nSource dataset : "+srcDocs.size() +" resources");
 			
-			tgtDocs = db.getDocuments(tgt.toString(), classResources, selectedProperties, "target"); 
-			GUI.resultsArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
+				tgtDocs = db.getDocuments(tgt.toString(), classResources, "target"); 
+				GUI.resultsArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
+			}
+			
+			else if (GUI.getMatchValue().equals("manual"))
+			{
+				srcDocs = db.getDocuments(src.toString(), classResources, selectedProperties, "source");
+				GUI.resultsArea.append("\nSource dataset : "+srcDocs.size() +" resources");
+				
+				tgtDocs = db.getDocuments(tgt.toString(), classResources, selectedProperties, "target"); 
+				GUI.resultsArea.append("\nTarget dataset : "+tgtDocs.size() +" resources");
+			}
 		}
-		indexConfig();
+		catch(NullPointerException e)	//If you run LEGATO without GUI
+		{
+			System.err.println("GUI not used ! Automatic mode applied !");
+			if(defaultMode)
+			{
+				srcDocs = db.getDocuments(src.toString(), classResources, "source");
+				tgtDocs = db.getDocuments(tgt.toString(), classResources, "target");
+			}
+			else
+			{
+				srcDocs = db.getDocuments(src.toString(), classResources, selectedProperties, "source");
+				tgtDocs = db.getDocuments(tgt.toString(), classResources, selectedProperties, "target");
+			}
+		}
+		return indexConfig();
 	}
 	
 	public void setBeginTime(long beginTime){
@@ -217,7 +235,7 @@ public class LEGATO {
 		return tgtURIs;
 	}
 	
-	public void indexConfig() throws Exception
+	public MapList indexConfig() throws Exception
     {
 		DIR_TO_INDEX = getPath()+"docs"; //"C:/Users/Manel/Music/matching/DS1/Docs/";
 		File dir = new File(getPath()+"index");
@@ -231,7 +249,7 @@ public class LEGATO {
 	    Indexer index = new Indexer();
 	    index.indexFiles();
 	    Matchifier matchifier = new Matchifier();
-	    matchifier.match();
+	    return matchifier.match();
     }
 	
 	  private static void loadProperties() {
@@ -246,6 +264,11 @@ public class LEGATO {
 	public String getPath()
 	{
 		return dir.getAbsolutePath()+File.separator;
+	}
+	
+	public void setPath(String pathname)
+	{
+		dir = new File(pathname);
 	}
 	
 	public void openGUI()

@@ -5,15 +5,12 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.HashSet;
 
-import org.apache.jena.base.Sys;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.rdf.model.ResourceFactory;
-import org.apache.jena.vocabulary.RDF;
 import org.semanticweb.owl.align.Alignment;
 import org.semanticweb.owl.align.Cell;
-
 import ca.pfv.spmf.algorithms.clustering.distanceFunctions.DistanceCorrelation;
 import ca.pfv.spmf.algorithms.clustering.distanceFunctions.DistanceFunction;
 import ca.pfv.spmf.patterns.cluster.DoubleArray;
@@ -23,7 +20,6 @@ import legato.cluster.Cluster;
 import legato.cluster.ClusterList;
 import legato.cluster.Clustering;
 import legato.document.CBDBuilder;
-import legato.gui.GUI;
 import legato.indexer.DocVector;
 import legato.indexer.VectorGenerator;
 import legato.keys.KeysClassifier;
@@ -34,7 +30,7 @@ import legato.rdf.ModelManager;
 
 public class Matchifier {
 
-	public void match() throws Exception
+	public MapList match() throws Exception
 	{
 		
 		LEGATO legato = LEGATO.getInstance();
@@ -55,11 +51,19 @@ public class Matchifier {
 	    for(DocVector doc: docVectors) //Identify "Source" and "Target" vectors
 	    {
 	    	//System.out.println(doc.getVector()+" - size : "+doc.getVector().length+" number "+ ++ind);
-	    	double[] vector = doc.getVector();
-	    	if (doc.parentFolder.equals("source"))
-	    		srcMap.put(doc.docName, vector);
-	    	else if (doc.parentFolder.equals("target"))
-	    		tgtMap.put(doc.docName, vector);
+	    	
+	    	try
+	    	{
+	    		double[] vector = doc.getVector();
+	    		if (doc.parentFolder.equals("source"))
+		    		srcMap.put(doc.docName, vector);
+		    	else if (doc.parentFolder.equals("target"))
+		    		tgtMap.put(doc.docName, vector);
+	    	}
+	    	catch(NullPointerException e)
+	    	{
+	    		System.err.println("null vectors");
+	    	}
 	    }
 	    
 	    /********
@@ -156,13 +160,20 @@ public class Matchifier {
 	        double simVal = 0;
 	    	for (int j = 0; j < docVectors.length; j++) 
 	    	{
-	    		if ((srcDoc.parentFolder.equals("source"))&&(docVectors[j].parentFolder.equals("target"))) 
+	    		try
 	    		{
-	    			if ((tgtDoc==null)||(CosineSimilarity.cosineSimilarity(srcDoc, docVectors[j])>simVal))
-	    			{
-	    				tgtDoc = docVectors[j].docName;
-	    				simVal = CosineSimilarity.cosineSimilarity(srcDoc, docVectors[j]);
-	    			}
+		    		if ((srcDoc.parentFolder.equals("source"))&&(docVectors[j].parentFolder.equals("target"))) 
+		    		{
+		    			if ((tgtDoc==null)||(CosineSimilarity.cosineSimilarity(srcDoc, docVectors[j])>simVal))
+		    			{
+		    				tgtDoc = docVectors[j].docName;
+		    				simVal = CosineSimilarity.cosineSimilarity(srcDoc, docVectors[j]);
+		    			}
+		    		}
+	    		}
+	    		catch(NullPointerException e)
+	    		{
+	    			System.err.println("Null vectors");
 	    		}
 	    	}
 	    	if ((tgtDoc != null) && simVal >=legato.getThreshold())
@@ -216,40 +227,99 @@ public class Matchifier {
 	    		mapList.add(map2);
 	    	}
 	    }
+	   
+	   	/*********
+		 ** Delete doublons of alignment
+		 *********/
+	   mapList = deleteDoublons(mapList);
 	    /*********
 		 ** Create and save the alignment file
 		 *********/
+	   suppressAll();
 	   
-	    File dirr = new File(legato.getPath()+File.separator+"docs");
-	    delete(dirr);
-	    File dirind = new File(legato.getPath()+File.separator+"index");
-	    delete(dirind);
-	    File srcFile = new File(legato.getPath()+File.separator+"source.rdf");
-	    srcFile.deleteOnExit();
-	    File tgtFile = new File(legato.getPath()+File.separator+"target.rdf");
-	    tgtFile.deleteOnExit();
-	    File txtFile = new File(legato.getPath()+File.separator+"nom.txt");
-	    txtFile.deleteOnExit();
-	     
-	    Align.saveMappings(mapList);
+	   Align.saveMappings(mapList);
+	   
+	   return mapList;
+	}
+	
+	public static MapList deleteDoublons(MapList mapList)
+	{
+		System.out.println("Reperage des doublons !");
+		MapList mapFinal = new MapList();
+		boolean find=false;
+		for(int i=0;i<mapList.size();i++)
+		{
+			//System.out.println("Ressource "+mapList.get(i).getSourceURI());
+			if(!mapFinal.contains(mapList.get(i).getSourceURI()))
+			{
+				//System.out.println("\tPasse sans doublons");
+				find=false;
+				for(int j=0;j<mapFinal.size();j++)
+				{
+					if(mapFinal.get(j).getTargetURI()==mapList.get(i).getTargetURI())
+					{
+						System.out.println("Ressource "+mapList.get(i).getSourceURI()+" est un doublon !");
+						if(mapFinal.get(j).getSimValue().doubleValue() < mapList.get(i).getSimValue().doubleValue())
+						{
+							mapFinal.replaceBysURI(mapFinal.get(j).getSourceURI(), mapList.get(i).getTargetURI(), mapList.get(i).getSimValue());
+							find=true;
+						}
+					}
+				}
+				if(!find)
+					mapFinal.add(mapList.get(i));
+			}
+			else
+			{
+				//System.out.println("\tEst un doublon !");
+				System.out.println("Ressource "+mapList.get(i).getSourceURI()+" est en doublon !");
+				if(mapFinal.getSim(mapList.get(i).getSourceURI()).doubleValue() < mapList.get(i).getSimValue().doubleValue())
+					mapFinal.replaceBysURI(mapList.get(i).getSourceURI(), mapList.get(i).getTargetURI(), mapList.get(i).getSimValue());
+			}
+		}
+		return mapFinal;
+	}
+	
+	public static void suppressAll() throws IOException
+	{
+		LEGATO legato = LEGATO.getInstance();
+		
+		File dirr = new File(legato.getPath()+File.separator+"docs");
+		delete(dirr);
+		File dirind = new File(legato.getPath()+File.separator+"index");
+		delete(dirind);
+		File srcFile = new File(legato.getPath()+File.separator+"source.rdf");
+		srcFile.deleteOnExit();
+		File tgtFile = new File(legato.getPath()+File.separator+"target.rdf");
+		tgtFile.deleteOnExit();
+		File txtFile = new File(legato.getPath()+File.separator+"nom.txt");
+		txtFile.deleteOnExit();
 	}
 	
 	private static void delete(File file) throws IOException {
-		 
-		for (File childFile : file.listFiles()) {
- 
-			if (childFile.isDirectory()) {
-				delete(childFile);
-			} else {
-			//	if (!childFile.delete()) {
-					if (!java.nio.file.Files.deleteIfExists(childFile.toPath())){
-					throw new IOException();
+		
+		if(file.exists())
+		{
+			for(File childFile : file.listFiles())
+			{
+				try
+				{
+					if(childFile.isDirectory())
+						delete(childFile);
+					else
+					{
+						if(!childFile.delete())
+							java.nio.file.Files.deleteIfExists(childFile.toPath());
+					}
 				}
+				catch(IOException e)
+				{System.err.println("File "+childFile+" cannot be deleted !");}
 			}
+			file.delete();
 		}
- 
-		if (!file.delete()) {
-			throw new IOException();
+		else
+		{
+			System.err.println("File "+file+" don't exist !");
 		}
 	}
 }
