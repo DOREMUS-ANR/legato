@@ -21,7 +21,7 @@ When you have chosen the mode and features for filter, click on "run" for link g
 
 Benchmark datasets: [DOREMUS data][1] (DOREMUS data about classical music).
 
-The figure, below, illustrates <b> <i> Legato </i> </b>  running on [FPT data][2] :
+The figure, below, illustrates the interfce of <b> <i> Legato </i> </b> :
 
 ![GUI](img/legato1.png)
 
